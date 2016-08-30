@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kastrcn&#39;s blog</title>
+  <subtitle>　</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://zhaotian.info/"/>
+  <updated>2016-08-30T14:10:33.830Z</updated>
+  <id>http://zhaotian.info/</id>
+  
+  <author>
+    <name>Kastrcn</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>To start a day</title>
+    <link href="http://zhaotian.info/2016/08/30/oneday/"/>
+    <id>http://zhaotian.info/2016/08/30/oneday/</id>
+    <published>2016-08-30T13:56:07.597Z</published>
+    <updated>2016-08-30T14:10:33.830Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="just-do-IT"><a href="#just-do-IT" class="headerlink" title="just do IT!"></a>just do IT!</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;just-do-IT&quot;&gt;&lt;a href=&quot;#just-do
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
