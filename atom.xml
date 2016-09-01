@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaotian.info/"/>
-  <updated>2016-09-01T02:59:10.938Z</updated>
+  <updated>2016-09-01T03:01:55.791Z</updated>
   <id>http://zhaotian.info/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://zhaotian.info/2016/08/31/GIT/gitbase/"/>
     <id>http://zhaotian.info/2016/08/31/GIT/gitbase/</id>
     <published>2016-08-31T04:57:34.370Z</published>
-    <updated>2016-09-01T02:59:10.938Z</updated>
+    <updated>2016-09-01T03:01:55.791Z</updated>
     
     <content type="html"><![CDATA[<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd  项目目录</div><div class="line">$ git init</div></pre></td></tr></table></figure>
 <p><img src="http://ocszc90a3.bkt.clouddn.com/init.png" alt="初始化"></p>
-<h3 id="查看本地仓库状态"><a href="#查看本地仓库状态" class="headerlink" title="查看本地仓库状态"></a>查看本地仓库状态</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git status</div></pre></td></tr></table></figure>
+<h2 id="查看本地仓库状态"><a href="#查看本地仓库状态" class="headerlink" title="查看本地仓库状态"></a>查看本地仓库状态</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git status</div></pre></td></tr></table></figure>
 <p><img src="http://ocszc90a3.bkt.clouddn.com/status.png" alt="status"></p>
 <h2 id="添加文件本地所有文件"><a href="#添加文件本地所有文件" class="headerlink" title="添加文件本地所有文件"></a>添加文件本地所有文件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git add .</div></pre></td></tr></table></figure>
 <p><img src="http://ocszc90a3.bkt.clouddn.com/git%20add.png" alt="a1d"></p>
@@ -41,7 +41,7 @@
 <p><img src="http://ocszc90a3.bkt.clouddn.com/branchea.png" alt="add"></p>
 <h2 id="拉取"><a href="#拉取" class="headerlink" title="拉取"></a>拉取</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git push</div></pre></td></tr></table></figure>
 <h2 id="克隆"><a href="#克隆" class="headerlink" title="克隆"></a>克隆</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone https://github.com/kastrcn/XXX.git</div></pre></td></tr></table></figure>
-<h3 id="查看当前版本"><a href="#查看当前版本" class="headerlink" title="查看当前版本"></a>查看当前版本</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git --version</div></pre></td></tr></table></figure>
+<p>##查看当前版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git --version</div></pre></td></tr></table></figure></p>
 <p><img src="http://ocszc90a3.bkt.clouddn.com/version.png" alt="add"></p>
 ]]></content>
     
