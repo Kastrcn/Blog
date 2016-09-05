@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaotian.info/"/>
-  <updated>2016-09-04T08:29:24.976Z</updated>
+  <updated>2016-09-05T03:01:34.280Z</updated>
   <id>http://zhaotian.info/</id>
   
   <author>
@@ -14,6 +14,75 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://zhaotian.info/2016/09/05/CSS/lessbase/"/>
+    <id>http://zhaotian.info/2016/09/05/CSS/lessbase/</id>
+    <published>2016-09-05T03:01:34.219Z</published>
+    <updated>2016-09-05T03:01:34.280Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Variables"><a href="#Variables" class="headerlink" title="Variables"></a>Variables</h3><p>method  code</p>
+<p>@ Variables=value;</p>
+<p>class{</p>
+<p>​    Variables:value;</p>
+<p>}</p>
+<p>less code</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="variable">@bgc:</span> <span class="number">#5B83AD</span>;</div><div class="line"><span class="selector-tag">body</span>&#123;</div><div class="line">  <span class="attribute">background-color</span>: <span class="variable">@bgc</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">  <span class="attribute">background-color</span>: <span class="number">#5B83AD</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="嵌套规则"><a href="#嵌套规则" class="headerlink" title="嵌套规则"></a>嵌套规则</h2><h3 id="块嵌套"><a href="#块嵌套" class="headerlink" title="块嵌套"></a>块嵌套</h3><p>method code</p>
+<p>.class{</p>
+<p>​    width:100px;</p>
+<p>}</p>
+<p>#id{</p>
+<p>​    .class</p>
+<p>}</p>
+<p>less code</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.header</span>&#123;</div><div class="line">	<span class="attribute">width</span>: <span class="number">100px</span>;</div><div class="line">&#125;</div><div class="line"><span class="selector-id">#top</span>&#123;</div><div class="line">	<span class="selector-class">.header</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.header</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">100px</span>;</div><div class="line">&#125;</div><div class="line"><span class="selector-id">#top</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">100px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="amp-嵌套"><a href="#amp-嵌套" class="headerlink" title="&amp;嵌套"></a>&amp;嵌套</h3><p>method code</p>
+<p>.class{</p>
+<p>​    &amp;:virtual class{</p>
+<p>​          Variables:value;</p>
+<p>​    }</p>
+<p>}</p>
+<p>less code</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.class</span>&#123;</div><div class="line">	<span class="selector-tag">&amp;</span><span class="selector-pseudo">:hover</span>&#123;</div><div class="line">		<span class="attribute">color</span>:red;</div><div class="line">	&#125;;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.class</span><span class="selector-pseudo">:hover</span> &#123;</div><div class="line">  <span class="attribute">color</span>: red;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="Mixin"><a href="#Mixin" class="headerlink" title="Mixin"></a>Mixin</h2><p>method code</p>
+<p>.method(@Variables:default){</p>
+<p>​    Variables:@Variables;</p>
+<p>}</p>
+<p>less code</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/* 定义一个类 */</span></div><div class="line"><span class="selector-class">.roundedCorners</span>(<span class="variable">@radius</span>: <span class="number">5px</span>) &#123;</div><div class="line">  <span class="attribute">-moz-border-radius</span>: <span class="variable">@radius</span>;</div><div class="line">  <span class="attribute">-webkit-border-radius</span>: <span class="variable">@radius</span>;</div><div class="line">  <span class="attribute">border-radius</span>: <span class="variable">@radius</span>;</div><div class="line">&#125;</div><div class="line"><span class="comment">/* 定义的类应用到另个一个类中 */</span></div><div class="line">＃<span class="selector-tag">header</span> &#123;</div><div class="line">  <span class="selector-class">.roundedCorners</span>;</div><div class="line">&#125;</div><div class="line"><span class="selector-id">#footer</span> &#123;</div><div class="line">  <span class="selector-class">.roundedCorners</span>(<span class="number">10px</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/* 定义一个类 */</span></div><div class="line"><span class="comment">/* 定义的类应用到另个一个类中 */</span></div><div class="line">＃<span class="selector-tag">header</span> &#123;</div><div class="line">  <span class="attribute">-moz-border-radius</span>: <span class="number">5px</span>;</div><div class="line">  <span class="attribute">-webkit-border-radius</span>: <span class="number">5px</span>;</div><div class="line">  <span class="attribute">border-radius</span>: <span class="number">5px</span>;</div><div class="line">&#125;</div><div class="line"><span class="selector-id">#footer</span> &#123;</div><div class="line">  <span class="attribute">-moz-border-radius</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">-webkit-border-radius</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">border-radius</span>: <span class="number">10px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="Import"><a href="#Import" class="headerlink" title="Import"></a>Import</h2><blockquote>
+<p>我们可以在开发阶段将样式放到多个文件中，最后通过@import 的方式合并</p>
+</blockquote>
+<p>method  code</p>
+<p>@import url(‘*.less’);</p>
+<p>less code</p>
+<p> _css.less</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">import</span> url(<span class="string">'_bgc.less'</span>);</div><div class="line"><span class="selector-tag">body</span>&#123;</div><div class="line">  <span class="attribute">background-color</span>: @bgc;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>_bgc.less</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">@bgc:</span> <span class="number">#5B83AD</span>;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">  <span class="attribute">background-color</span>: <span class="number">#5B83AD</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Variables&quot;&gt;&lt;a href=&quot;#Variables&quot; class=&quot;headerlink&quot; title=&quot;Variables&quot;&gt;&lt;/a&gt;Variables&lt;/h3&gt;&lt;p&gt;method  code&lt;/p&gt;
+&lt;p&gt;@ Variables=value;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Font 果圆</title>
