@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>CSS3 基本用法 | Kastrcn&#39;s blog | 　</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="theme-color" content="#3F51B5">
+  
+  
+  <meta name="keywords" content="">
+  <meta name="description" content="css简介css3现状
+浏览器支持程度差，需要添加私有前缀
+移动端支持优于PC端
+不断改进中
+应用相对广泛
+
+如何对待
+坚持渐进增强原则
+考虑用户群体
+遵照产品的方案
+听Boss的
+
+准备工作统一环境
+Chrome浏览器 version 46+
+Firefox浏览器 firefox 42+
+
+基础选择器
+E[attr] 表示存在attr属性即可；
+E[attr=val] 表示属性值完全等于val">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSS3 基本用法">
+<meta property="og:url" content="http://zhaotian.info/2016/09/07/CSS/CSS3/index.html">
+<meta property="og:site_name" content="Kastrcn's blog">
+<meta property="og:description" content="css简介css3现状
+浏览器支持程度差，需要添加私有前缀
+移动端支持优于PC端
+不断改进中
+应用相对广泛
+
+如何对待
+坚持渐进增强原则
+考虑用户群体
+遵照产品的方案
+听Boss的
+
+准备工作统一环境
+Chrome浏览器 version 46+
+Firefox浏览器 firefox 42+
+
+基础选择器
+E[attr] 表示存在attr属性即可；
+E[attr=val] 表示属性值完全等于val">
+<meta property="og:image" content="http://bimg.zhaotian.info/css/css3/%E5%9C%86%E8%A7%92.jpg">
+<meta property="og:image" content="http://bimg.zhaotian.info/css/css3/%E7%9B%92%E6%A8%A1%E5%9E%8B.png">
+<meta property="og:image" content="http://bimg.zhaotian.info/css/css3/%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98.png">
+<meta property="og:updated_time" content="2016-09-29T14:34:25.325Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CSS3 基本用法">
+<meta name="twitter:description" content="css简介css3现状
+浏览器支持程度差，需要添加私有前缀
+移动端支持优于PC端
+不断改进中
+应用相对广泛
+
+如何对待
+坚持渐进增强原则
+考虑用户群体
+遵照产品的方案
+听Boss的
+
+准备工作统一环境
+Chrome浏览器 version 46+
+Firefox浏览器 firefox 42+
+
+基础选择器
+E[attr] 表示存在attr属性即可；
+E[attr=val] 表示属性值完全等于val">
+<meta name="twitter:image" content="http://bimg.zhaotian.info/css/css3/%E5%9C%86%E8%A7%92.jpg">
+  
+    <link rel="alternative" href="/atom.xml" title="Kastrcn&#39;s blog" type="application/atom+xml">
+  
+  <meta name="summary" content="programmer&#39;s blog">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="loading" class="active"></div>
+
+  <nav id="menu" class="hide" >
+   <div class="inner flex-row-vertical">
+  <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+      <i class="icon icon-lg icon-close"></i>
+  </a>
+  <div class="brand-wrap">
+    <div class="brand">
+      <a href="/" class="avatar"><img src="/img/logo.jpg"></a>
+      <hgroup class="introduce">
+        <h5 class="nickname">Kastrcn</h5>
+        <a href="mailto:kastrcn@outlook.com" title="kastrcn@outlook.com" class="mail">kastrcn@outlook.com</a>
+      </hgroup>
+    </div>
+  </div>
+  <ul class="nav flex-col">
+    
+        <li class="waves-block waves-effect">
+          <a href="/"  >
+            <i class="icon icon-lg icon-home"></i>
+            Home
+          </a>
+        </li>
+    
+        <li class="waves-block waves-effect">
+          <a href="/archives"  >
+            <i class="icon icon-lg icon-archives"></i>
+            Archives
+          </a>
+        </li>
+    
+        <li class="waves-block waves-effect">
+          <a href="https://github.com/kastrcn" target="_blank" >
+            <i class="icon icon-lg icon-github"></i>
+            Github
+          </a>
+        </li>
+    
+        <li class="waves-block waves-effect">
+          <a href="http://weibo.com/u/3829532705" target="_blank" >
+            <i class="icon icon-lg icon-weibo"></i>
+            Weibo
+          </a>
+        </li>
+    
+  </ul>
+
+  <footer class="footer">
+  <p><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a></p>
+  <p>Kastrcn&#39;s blog &copy; 2016</p>
+  <p>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme
+  <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></p>
+  <a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-2x icon-rss-square"></i></a>
+</footer>
+
+</div>
+
+  </nav>
+  <main id="main">
+    <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">CSS3 基本用法</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input " autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-share">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header">
+  <div class="container">
+    <h1 class="author">CSS3 基本用法</h1>
+    <h5 class="subtitle">
+        
+            <time datetime="2016-09-07T11:18:38.250Z" itemprop="datePublished" class="page-time">
+  2016-09-07
+</time>
+
+
+        
+    </h5>
+  </div>
+</header>
+
+    <div class="container body-wrap">
+      <article id="post-CSS/CSS3" 
+  class="article article-type-post" itemprop="blogPost">
+    <div class="post-meta flex-row">
+        
+    </div>
+    <div class="post-body">
+        <aside class="post-widget" id="post-widget">
+
+            
+            <div class="post-share" id="post-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+            
+
+            
+            <nav class="post-toc-wrap" id="post-toc">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#css"><span class="post-toc-text">css</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#简介"><span class="post-toc-text">简介</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#css3现状"><span class="post-toc-text">css3现状</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#如何对待"><span class="post-toc-text">如何对待</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#准备工作"><span class="post-toc-text">准备工作</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#统一环境"><span class="post-toc-text">统一环境</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#基础"><span class="post-toc-text">基础</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#选择器"><span class="post-toc-text">选择器</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#伪类选择器"><span class="post-toc-text">伪类选择器</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#伪元素选择器"><span class="post-toc-text">伪元素选择器</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#颜色"><span class="post-toc-text">颜色</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#文本"><span class="post-toc-text">文本</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#文字阴影"><span class="post-toc-text">文字阴影</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#文本换行"><span class="post-toc-text">文本换行</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#边框"><span class="post-toc-text">边框</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#边框圆角"><span class="post-toc-text">边框圆角</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#边框阴影"><span class="post-toc-text">边框阴影</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#盒模型"><span class="post-toc-text">盒模型</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#背景"><span class="post-toc-text">背景</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#渐变"><span class="post-toc-text">渐变</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#线性渐变"><span class="post-toc-text">线性渐变</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#径向渐变"><span class="post-toc-text">径向渐变</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#布局"><span class="post-toc-text">布局</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#伸缩布局"><span class="post-toc-text">伸缩布局</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#主轴方向-flex-direction"><span class="post-toc-text">主轴方向  flex-direction</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#主轴方向对齐-justify-content"><span class="post-toc-text">主轴方向对齐 justify-content</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#侧轴方向对齐-align-items"><span class="post-toc-text">侧轴方向对齐 align-items</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#换行-flex-wrap"><span class="post-toc-text">换行 flex-wrap</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#堆栈排列-flex-wrap-wrap-设置-align-content"><span class="post-toc-text">堆栈排列  flex-wrap: wrap 设置  align-content</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#flex-flow-flex-direction和flex-wrap的简写形式"><span class="post-toc-text">flex-flow flex-direction和flex-wrap的简写形式</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#控制子元素伸缩比例-定义flex-值"><span class="post-toc-text">控制子元素伸缩比例  定义flex 值</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#修改自身align-self-覆盖父元素设置的algin-items"><span class="post-toc-text">修改自身align-self 覆盖父元素设置的algin-items</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#排序规则-order"><span class="post-toc-text">排序规则 order</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#过渡"><span class="post-toc-text">过渡</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#动画"><span class="post-toc-text">动画</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#转换"><span class="post-toc-text">转换</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#旋转-rotate"><span class="post-toc-text">旋转(rotate)</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#基础旋转"><span class="post-toc-text">基础旋转</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#沿轴旋转"><span class="post-toc-text">沿轴旋转</span></a></li></ol></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#缩放-scale"><span class="post-toc-text">缩放(scale)</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#倾斜-skew"><span class="post-toc-text">倾斜 (skew)</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#移动-translate"><span class="post-toc-text">移动 (translate )</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#转换位置"><span class="post-toc-text">转换位置</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#媒体查询"><span class="post-toc-text">媒体查询</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#link-方式"><span class="post-toc-text">link 方式</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#css方式"><span class="post-toc-text">css方式</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#web字体"><span class="post-toc-text">web字体</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#字体格式"><span class="post-toc-text">字体格式</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#TureTpe-ttf-格式"><span class="post-toc-text">TureTpe(.ttf)格式</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#OpenType-otf-格式"><span class="post-toc-text">OpenType(.otf)格式</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Web-Open-Font-Format-woff-格式"><span class="post-toc-text">Web Open Font Format(.woff)格式</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Embedded-OpenType-eot-格式"><span class="post-toc-text">Embedded OpenType(.eot)格式</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#SVG-svg-格式"><span class="post-toc-text">SVG(.svg)格式</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#web图标"><span class="post-toc-text">web图标</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#兼容性"><span class="post-toc-text">兼容性</span></a></li></ol></li></ol>
+            </nav>
+            
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" id="post-content" itemprop="postContent">
+            <h1 id="css"><a href="#css" class="headerlink" title="css"></a>css</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><h3 id="css3现状"><a href="#css3现状" class="headerlink" title="css3现状"></a>css3现状</h3><ol>
+<li>浏览器支持程度差，需要添加私有前缀</li>
+<li>移动端支持优于PC端</li>
+<li>不断改进中</li>
+<li>应用相对广泛</li>
+</ol>
+<h3 id="如何对待"><a href="#如何对待" class="headerlink" title="如何对待"></a>如何对待</h3><ol>
+<li>坚持渐进增强原则</li>
+<li>考虑用户群体</li>
+<li>遵照产品的方案</li>
+<li>听Boss的</li>
+</ol>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="统一环境"><a href="#统一环境" class="headerlink" title="统一环境"></a>统一环境</h3><ol>
+<li>Chrome浏览器 version 46+</li>
+<li>Firefox浏览器 firefox 42+</li>
+</ol>
+<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h3><ol>
+<li>E[attr] 表示存在attr属性即可；</li>
+<li>E[attr=val] 表示属性值完全等于val</li>
+<li>E[attr~=val] 表示的一个单独的属性值 这个属性值是以空格分隔的</li>
+<li>E[attr|=val] 表示的要么一个单独的属性值 要么这个属性值是以“-”分隔的</li>
+<li>E[attr*=val] 表示的属性值里包含val字符并且在“任意”位置</li>
+<li>E[attr^=val] 表示的属性值里包含val字符并且在“开始”位置</li>
+</ol>
+<ol>
+<li>E[attr$=val] 表示的属性值里包含val字符并且在“结束”位置</li>
+</ol>
+<h3 id="伪类选择器"><a href="#伪类选择器" class="headerlink" title="伪类选择器"></a>伪类选择器</h3><blockquote>
+<p>重点理解E是用来参考确定其父元素的，nth-child(n) 对应根据E元素确定的父元素的所有子元素，nth-of-type(n) 的不同之处在于其对应的是只有E元素，会忽略其子元素。（此处要配合案例加强理解）</p>
+</blockquote>
+<ol>
+<li><p>E:nth-child(n) 第n个子元素，计算方法是E元素的全部兄弟元素</p>
+</li>
+<li><p>E:nth-of-type(n) 第n个子元素，计算方法只是E元素，会忽略其子元素的存在</p>
+</li>
+<li><p>E:nth-last-child(n) 同E:nth-child(n) 计算顺序相反。</p>
+</li>
+<li><p>E:nth-last-of-type(n) 同E:nth-of-type(n) 计算顺序相反。</p>
+<blockquote>
+<p>关于n的取值范围：</p>
+<ul>
+<li>n遵循线性变化，其取值1、2、3、4、… </li>
+</ul>
+<ul>
+<li>当n做为一个独立值时，n取值为n&gt;=1，例如nth-child(n)</li>
+<li>当n做一个系数时，n取值为n&gt;=0者n&lt;0，例如nth-child(2n+1)、nth-child(-n+5) 处需要理解2n+1或者-n+5做为一个整体不能小于1；</li>
+</ul>
+</blockquote>
+</li>
+<li><p>E:only-child 表示当前以E确定的父元素，除E之外并无其它子元素（独生子）；</p>
+</li>
+<li><p>E:only-of-type 表示当前以E确定的父元素， 除E之外不能包含其它和E同类型的子元素；</p>
+</li>
+<li><p>E:target 结合锚点进行使用，处于当前锚点的元素会被选中；</p>
+</li>
+<li><p>E:empty 选中没有任何子节点的E元素；</p>
+</li>
+</ol>
+<h3 id="伪元素选择器"><a href="#伪元素选择器" class="headerlink" title="伪元素选择器"></a>伪元素选择器</h3><blockquote>
+<p>“:” 与 “::” 区别在于区分伪类和伪元素    </p>
+</blockquote>
+<ol>
+<li>E::selection 可改变选中文本的样式</li>
+<li>E::placeholder 可改变placeholder默认样式，这个存在明显的兼容问题，比如::-webkit-input-placeholder，具体参考手册进行对比。</li>
+<li>E:after、E:before 在旧版本里是伪类，在新版本里是伪元素，新版本下E:after、E:before会被自动识别为E::after、E::before，按伪元素来对待。</li>
+</ol>
+<h3 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h3><blockquote>
+<p>新增了RGBA、HSLA模式，其中的A 表示透明度通道，即可以设置颜色值的透明度，相较opacity，不具有继承性，即不会影响子元素的透明度。</p>
+<p>Red、Green、Blue、Alpha即RGBA</p>
+<p>Hue、Saturation、Lightness、Alpha即HSLA</p>
+</blockquote>
+<ul>
+<li>R、G、B 取值范围0~255</li>
+<li>H 取值范围0~360，0/360表示黑色、120表示绿色、240表示蓝色</li>
+<li>S 取值范围0%~100%</li>
+<li>L 取值范围0%~100%</li>
+<li>A 取值范围0~1</li>
+</ul>
+<p>关于透明度</p>
+<ol>
+<li>opacity子元素会继承父元素的透明度，在实际开发中会带来干扰；</li>
+<li>transparent 设置透明度时完全类似于“玻璃”一样的透明；</li>
+</ol>
+<h3 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h3><h4 id="文字阴影"><a href="#文字阴影" class="headerlink" title="文字阴影"></a>文字阴影</h4><p>偏移量、模糊度、颜色（可设透明度）</p>
+<p>text-shadow:左右 上下 模糊度 颜色</p>
+<h4 id="文本换行"><a href="#文本换行" class="headerlink" title="文本换行"></a>文本换行</h4><ul>
+<li>normal    默认。空白会被浏览器忽略。<ul>
+<li>pre空白会被浏览器保留。其行为方式类似 HTML 中的 <pre> 标签。</pre></li>
+<li>nowrap文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。</li>
+<li>pre-wrap保留空白符序列，但是正常地进行换行。</li>
+<li>pre-line合并空白符序列，但是保留换行符。</li>
+<li>inherit规定应该从父元素继承 white-space 属性的值。</li>
+</ul>
+</li>
+</ul>
+<h3 id="边框"><a href="#边框" class="headerlink" title="边框"></a>边框</h3><h4 id="边框圆角"><a href="#边框圆角" class="headerlink" title="边框圆角"></a>边框圆角</h4><blockquote>
+<p>可分别设置长、短半径，以“/”进行分隔，遵循“1，2，3，4”规则，“/”前面的1~4个用来设置横轴半径（分别对应横轴1、2、3、4位置 ），“/”后面1~4个参数用来设置纵轴半径（分别对应纵轴1、2、3、4位置 ）</p>
+</blockquote>
+<ul>
+<li>表格运用圆角需要要 border-collapse: separate;</li>
+<li>当圆角半径小于或等于边框宽度时，元素内角是直角</li>
+</ul>
+<p><img src="http://bimg.zhaotian.info/css/css3/%E5%9C%86%E8%A7%92.jpg" alt="圆角"></p>
+<h4 id="边框阴影"><a href="#边框阴影" class="headerlink" title="边框阴影"></a>边框阴影</h4><blockquote>
+<p>可以设置多重边框阴影，实现更好的效果，增强立体感</p>
+</blockquote>
+<ul>
+<li>水平偏移量正值向右 负值向左 垂直正值向下 负值向上。模糊度是不能为负</li>
+<li>关于模糊度：从一个颜色值在一定距离内进行一个渐变至透明的过程。</li>
+<li>移量和扩展也是数学运算的，即正负会相互抵消。</li>
+<li>偏移量和模糊度是可以相加计算，偏移量负号只代表方向。</li>
+<li>设置边框阴影不会影响盒子的布局，即不会影响其兄弟元素的布局。</li>
+<li>spread可以与blur、h-shadow、v-shadow相互抵消，blur不可为负值</li>
+</ul>
+<h4 id="盒模型"><a href="#盒模型" class="headerlink" title="盒模型"></a>盒模型</h4><blockquote>
+<p>IE盒模型只会出现在IE5版本和IE6+的怪异模式中。</p>
+<p>CSS3中可以通过box-sizing 来指定盒模型，即可指定为content-box、border-box;</p>
+</blockquote>
+<ol>
+<li>IE模型下 width = padding + content + border;</li>
+<li>W3C盒模型下 width = content</li>
+<li>box-sizing: border-box  width = border + padding + content</li>
+<li>box-sizing: content-box  width = content</li>
+</ol>
+<p><img src="http://bimg.zhaotian.info/css/css3/%E7%9B%92%E6%A8%A1%E5%9E%8B.png" alt="盒子模型"></p>
+<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><blockquote>
+<p>背景在CSS3中也得到很大程度的增强，比如背景图片尺寸、背景裁切区域、背景定位参照点、多重背景等。</p>
+</blockquote>
+<p>cover会使“最大”边，进行缩放，另一边同比缩放，铺满容器，超出部分会溢出。</p>
+<p>contain 会使“最小”边，进行缩放，另一边同比缩放，不一定铺满容器，会完整显示图片。</p>
+<p>background-size 与 background-clip无关</p>
+<p>background-size 与 background-origin 保持一致</p>
+<h3 id="渐变"><a href="#渐变" class="headerlink" title="渐变"></a>渐变</h3><blockquote>
+<p>渐变是CSS3当中比较丰富多彩的一个特性，通过渐变我们可以实现许多炫丽的效果，有效的减少图片的使用数量，并且具有很强的适应性和可扩展性</p>
+</blockquote>
+<h4 id="线性渐变"><a href="#线性渐变" class="headerlink" title="线性渐变"></a>线性渐变</h4><p>线性渐变指沿着某条直线朝一个方向产生渐变效果。</p>
+<p>关于颜色起止，可以设置多个色值的渐变，并且可以分别设置渐变的距离</p>
+<p>方向、起始颜色、终止色；</p>
+<p><img src="http://bimg.zhaotian.info/css/css3/%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98.png" alt="线性渐变"></p>
+<h4 id="径向渐变"><a href="#径向渐变" class="headerlink" title="径向渐变"></a>径向渐变</h4><p>径向渐变指从一个中心点开始沿着四周产生渐变效果</p>
+<ul>
+<li>辐射范围:其半径可以不等即可以是椭圆</li>
+<li>中心点:中心位置参照的是盒子的左上角</li>
+</ul>
+<ul>
+<li>颜色起止</li>
+</ul>
+<h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h3><h4 id="伸缩布局"><a href="#伸缩布局" class="headerlink" title="伸缩布局"></a>伸缩布局</h4><h5 id="主轴方向-flex-direction"><a href="#主轴方向-flex-direction" class="headerlink" title="主轴方向  flex-direction"></a>主轴方向  flex-direction</h5><p>正水平:flex-direction</p>
+<p>正竖直:column</p>
+<p>倒水平:row-reverse</p>
+<p>倒竖直:column-reverse</p>
+<h5 id="主轴方向对齐-justify-content"><a href="#主轴方向对齐-justify-content" class="headerlink" title="主轴方向对齐 justify-content"></a>主轴方向对齐 justify-content</h5><p>开始收缩:flex-start</p>
+<p>结尾收缩:flex-end</p>
+<p>中心搜索:center</p>
+<p>均匀收缩:space-around</p>
+<p>对齐收缩:space-between</p>
+<h5 id="侧轴方向对齐-align-items"><a href="#侧轴方向对齐-align-items" class="headerlink" title="侧轴方向对齐 align-items"></a>侧轴方向对齐 align-items</h5><p>上对齐:flex-start</p>
+<p>居中:center</p>
+<p>下对齐:flex-end</p>
+<p>基线对齐:baseline</p>
+<p>张开对齐:stretch</p>
+<h5 id="换行-flex-wrap"><a href="#换行-flex-wrap" class="headerlink" title="换行 flex-wrap"></a>换行 flex-wrap</h5><p>换行 wrap</p>
+<p>不换行 nowrap</p>
+<h5 id="堆栈排列-flex-wrap-wrap-设置-align-content"><a href="#堆栈排列-flex-wrap-wrap-设置-align-content" class="headerlink" title="堆栈排列  flex-wrap: wrap 设置  align-content"></a>堆栈排列  flex-wrap: wrap 设置  align-content</h5><p>顶部对齐:flex-start</p>
+<p>底部对齐:flex-end</p>
+<p>居中对齐:center</p>
+<p>均匀对齐:space-around</p>
+<p>对齐搜索:space-between</p>
+<p>张开对齐:stretch</p>
+<h5 id="flex-flow-flex-direction和flex-wrap的简写形式"><a href="#flex-flow-flex-direction和flex-wrap的简写形式" class="headerlink" title="flex-flow flex-direction和flex-wrap的简写形式"></a>flex-flow flex-direction和flex-wrap的简写形式</h5><h5 id="控制子元素伸缩比例-定义flex-值"><a href="#控制子元素伸缩比例-定义flex-值" class="headerlink" title="控制子元素伸缩比例  定义flex 值"></a>控制子元素伸缩比例  定义flex 值</h5><p>display: flex;</p>
+<p>flex:$;</p>
+<h5 id="修改自身align-self-覆盖父元素设置的algin-items"><a href="#修改自身align-self-覆盖父元素设置的algin-items" class="headerlink" title="修改自身align-self 覆盖父元素设置的algin-items"></a>修改自身align-self 覆盖父元素设置的algin-items</h5><p>上对齐:flex-start</p>
+<p>居中:center</p>
+<p>下对齐:flex-end</p>
+<p>基线对齐:baseline</p>
+<p>张开对齐:stretch</p>
+<h5 id="排序规则-order"><a href="#排序规则-order" class="headerlink" title="排序规则 order"></a>排序规则 order</h5><p>指定order值 从小&gt;&gt;大;</p>
+<h3 id="过渡"><a href="#过渡" class="headerlink" title="过渡"></a>过渡</h3><blockquote>
+<p>​    过渡是CSS3中具有颠覆性的特征之一，可以实现元素不同状态间的平滑过渡（补间动画），经常用来制作动画效果。</p>
+<p>贝塞尔曲线限定了过渡的轨迹。</p>
+<p>帧动画：通过一帧一帧的关键画面按照固定顺序和速度播放。如电影胶片</p>
+<p>补间动画：自动完成从起始状到终止状的的过度。</p>
+</blockquote>
+<p>设置过渡属性 :transition-property</p>
+<p>设置过渡时间:transition-duration</p>
+<p>设置过渡速度:transition-timing-function</p>
+<p>设置过渡延时:transition-delay</p>
+<h3 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h3><p>动画名称</p>
+<p>​    animation-name:名字</p>
+<p>动画持续时间</p>
+<p>​    animation-duration:1s</p>
+<p>动画结束后的状态</p>
+<p>​    animation-fill-mode:forwards</p>
+<p>无限次播放</p>
+<p>​    animation-iteration-count: infinite;</p>
+<p>动画延时</p>
+<p>​    animation-delay: 1s</p>
+<p>动画暂停</p>
+<p>​    animation-play-state: paused;</p>
+<p>动画反方向</p>
+<p>​    animation-direction: alternate;</p>
+<p>动画速度</p>
+<p>​    animation-timing-function: linear;</p>
+<h3 id="转换"><a href="#转换" class="headerlink" title="转换"></a>转换</h3><h4 id="旋转-rotate"><a href="#旋转-rotate" class="headerlink" title="旋转(rotate)"></a>旋转(rotate)</h4><h5 id="基础旋转"><a href="#基础旋转" class="headerlink" title="基础旋转"></a>基础旋转</h5><p>通过 rotate() 方法，元素可以实现旋转效果，允许负值，元素将逆时针旋转。</p>
+<p>transform: rotate(45deg)、transform: rotate(-90deg)</p>
+<h5 id="沿轴旋转"><a href="#沿轴旋转" class="headerlink" title="沿轴旋转"></a>沿轴旋转</h5><p>通过 rotateX()、rotateY()、 rotateZ()可以实现X、Y、Z轴上的旋转</p>
+<p>transform: rotateX(45deg)、</p>
+<p>transform: rotateY(90deg)、</p>
+<p>transform: rotateX(45deg)</p>
+<h4 id="缩放-scale"><a href="#缩放-scale" class="headerlink" title="缩放(scale)"></a>缩放(scale)</h4><p>通过 scale() 方法，可以更改元素的尺寸，可以分别调整x和y两个方向的大小</p>
+<p>transform: scale(x, y) x或y可以是小数</p>
+<h4 id="倾斜-skew"><a href="#倾斜-skew" class="headerlink" title="倾斜 (skew)"></a>倾斜 (skew)</h4><p>transform: skew(45deg);</p>
+<h4 id="移动-translate"><a href="#移动-translate" class="headerlink" title="移动 (translate )"></a>移动 (translate )</h4><p>通过 translate() 方法，可以使元素从其当前位置移动，通过设置水平(x轴)和垂直(y轴)距离实现</p>
+<p>transform: translate(x, y)</p>
+<h4 id="转换位置"><a href="#转换位置" class="headerlink" title="转换位置"></a>转换位置</h4><p>指定origin的位置进行旋转</p>
+<p>transform-origin:left  left/right  top/bottom;</p>
+<h3 id="媒体查询"><a href="#媒体查询" class="headerlink" title="媒体查询"></a>媒体查询</h3><h4 id="link-方式"><a href="#link-方式" class="headerlink" title="link 方式"></a>link 方式</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;link rel="stylesheet" media="screen and (max-width:600px)" href="./css/blue.css"&gt;</div><div class="line">&lt;link rel="stylesheet" media="screen and (min-width:900px)" href="./css/red.css"&gt;</div><div class="line">&lt;link rel="stylesheet" media="screen and (min-width:1200px)" href="./css/yellow.css"&gt;</div></pre></td></tr></table></figure>
+<h4 id="css方式"><a href="#css方式" class="headerlink" title="css方式"></a>css方式</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">&lt;style&gt;</div><div class="line">	@media screen and (max-width:600px) &#123;</div><div class="line">		body &#123;</div><div class="line">			background-color: blue;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	@media screen and (min-width:900px) &#123;</div><div class="line">		body &#123;</div><div class="line">			background-color: red;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	@media screen and (min-width:1200px) &#123;</div><div class="line">		body &#123;</div><div class="line">			background-color: yellow;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure>
+<h2 id="web字体"><a href="#web字体" class="headerlink" title="web字体"></a>web字体</h2><blockquote>
+<p>​    开发人员可以为自已的网页指定特殊的字体，无需考虑用户电脑上是否安装了此特殊字体，从此把特殊字体处理成图片的时代便成为了过去。</p>
+<p>​    支持程度比较好，甚至IE低版本浏览器也能支持。</p>
+</blockquote>
+<h3 id="字体格式"><a href="#字体格式" class="headerlink" title="字体格式"></a>字体格式</h3><h4 id="TureTpe-ttf-格式"><a href="#TureTpe-ttf-格式" class="headerlink" title="TureTpe(.ttf)格式"></a>TureTpe(.ttf)格式</h4><p>​    .ttf字体是Windows和Mac的最常见的字体，是一种RAW格式，支持这种字体的浏览器有IE9+、Firefox3.5+、Chrome4+、Safari3+、Opera10+、iOS Mobile、Safari4.2+；</p>
+<h4 id="OpenType-otf-格式"><a href="#OpenType-otf-格式" class="headerlink" title="OpenType(.otf)格式"></a>OpenType(.otf)格式</h4><p>​    .otf字体被认为是一种原始的字体格式，其内置在TureType的基础上，支持这种字体的浏览器有Firefox3.5+、Chrome4.0+、Safari3.1+、Opera10.0+、iOS Mobile、Safari4.2+；</p>
+<h4 id="Web-Open-Font-Format-woff-格式"><a href="#Web-Open-Font-Format-woff-格式" class="headerlink" title="Web Open Font Format(.woff)格式"></a>Web Open Font Format(.woff)格式</h4><p>​    woff字体是Web字体中最佳格式，他是一个开放的TrueType/OpenType的压缩版本，同时也支持元数据包的分离，支持这种字体的浏览器有IE9+、Firefox3.5+、Chrome6+、Safari3.6+、Opera11.1+；</p>
+<h4 id="Embedded-OpenType-eot-格式"><a href="#Embedded-OpenType-eot-格式" class="headerlink" title="Embedded OpenType(.eot)格式"></a>Embedded OpenType(.eot)格式</h4><p>​    .eot字体是IE专用字体，可以从TrueType创建此格式字体，支持这种字体的浏览器有IE4+；</p>
+<h4 id="SVG-svg-格式"><a href="#SVG-svg-格式" class="headerlink" title="SVG(.svg)格式"></a>SVG(.svg)格式</h4><p>​    .svg字体是基于SVG字体渲染的一种格式，支持这种字体的浏览器有Chrome4+、Safari3.1+、Opera10.0+、iOS Mobile Safari3.2+；</p>
+<h3 id="web图标"><a href="#web图标" class="headerlink" title="web图标"></a>web图标</h3><blockquote>
+<p>常见的是把网页常用的一些小的图标，借助工具帮我们生成一个字体库，然后就可以像使用文字一样使用图标了。</p>
+</blockquote>
+<p>优点</p>
+<ol>
+<li>将所有图标打包成字体库，减少请求</li>
+<li>具有矢量性，可保证清晰度</li>
+<li>使用灵活，便于维护</li>
+</ol>
+<p>拓展</p>
+<p>Font Awesome 使用介绍</p>
+<p>​    <a href="http://fontawesome.dashgame.com/" target="_blank" rel="external">http://fontawesome.dashgame.com/</a></p>
+<p>定制自已的字体图标库</p>
+<p>​    <a href="http://iconfont.cn/" target="_blank" rel="external">http://iconfont.cn/</a></p>
+<p>​    <a href="https://icomoon.io/" target="_blank" rel="external">https://icomoon.io/</a></p>
+<p>SVG</p>
+<p>​    <a href="http://www.iconsvg.com/" target="_blank" rel="external">http://www.iconsvg.com/</a></p>
+<h2 id="兼容性"><a href="#兼容性" class="headerlink" title="兼容性"></a>兼容性</h2><p>通过<a href="http://caniuse.com/" target="_blank" rel="external">http://caniuse.com/</a> 可查询CSS3各特性的支持程度，一般兼容性处理的常见方法是为属性添加私有前缀，如不能解决，应避免使用，无需刻意去处理CSS3的兼容性问题。</p>
+
+            <blockquote>
+                <p>
+                本文地址：
+                <a href="http://zhaotian.info/2016/09/07/CSS/CSS3/" target="_blank" rel="external">http://zhaotian.info/2016/09/07/CSS/CSS3/</a>
+                </p>
+                <footer><cite><a href="http://zhaotian.info">@Kastrcn's blog</a></cite></footer>
+            </blockquote>
+            </div>
+            
+<nav class="post-nav">
+  
+    <div class="waves-block waves-effect prev fl">
+      <a href="/2016/09/09/CSS/css tool/sassbase/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">Sass 基础</h4>
+      </a>
+    </div>
+  
+
+  
+    <div class="waves-block waves-effect next fr">
+      <a href="/2016/09/05/CSS/css tool/lessbase/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">Less 基础</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+            
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="CSS/CSS3" data-title="CSS3 基本用法" data-url="http://zhaotian.info/2016/09/07/CSS/CSS3/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"zhaotian"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+        </div>
+    </div>
+</article>
+    </div>
+  </main>
+<div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+<script>
+var BLOG_SHARE = {
+    title: "CSS3 基本用法",
+    pic: "/img/logo.jpg",
+    summary: document.getElementsByName('summary')[0].content,
+    url: "http://zhaotian.info/2016/09/07/CSS/CSS3/index.html"
+};
+</script>
+<div class="global-share" id="global-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+<script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<script type="text/template" id="search-tpl">
+<li class="item">
+    <a href="/{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</script>
+
+<script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

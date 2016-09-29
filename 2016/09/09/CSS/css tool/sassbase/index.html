@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Sass 基础 | Kastrcn&#39;s blog | 　</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="theme-color" content="#3F51B5">
+  
+  
+  <meta name="keywords" content="">
+  <meta name="description" content="注释sass code
+123/*块注释*///行注释
+css code
+12/*块注释*/
+变量method code
+$变量:值
+类{
+​    属性:$变量;
+}
+sass code
+1234$bgc: #5B83AD;body&amp;#123;  background-color: $bgc;&amp;#125;
+css code
+123body &amp;#123;  background-color: #5">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sass 基础">
+<meta property="og:url" content="http://zhaotian.info/2016/09/09/CSS/css tool/sassbase/index.html">
+<meta property="og:site_name" content="Kastrcn's blog">
+<meta property="og:description" content="注释sass code
+123/*块注释*///行注释
+css code
+12/*块注释*/
+变量method code
+$变量:值
+类{
+​    属性:$变量;
+}
+sass code
+1234$bgc: #5B83AD;body&amp;#123;  background-color: $bgc;&amp;#125;
+css code
+123body &amp;#123;  background-color: #5">
+<meta property="og:updated_time" content="2016-09-27T09:02:10.313Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sass 基础">
+<meta name="twitter:description" content="注释sass code
+123/*块注释*///行注释
+css code
+12/*块注释*/
+变量method code
+$变量:值
+类{
+​    属性:$变量;
+}
+sass code
+1234$bgc: #5B83AD;body&amp;#123;  background-color: $bgc;&amp;#125;
+css code
+123body &amp;#123;  background-color: #5">
+  
+    <link rel="alternative" href="/atom.xml" title="Kastrcn&#39;s blog" type="application/atom+xml">
+  
+  <meta name="summary" content="programmer&#39;s blog">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="loading" class="active"></div>
+
+  <nav id="menu" class="hide" >
+   <div class="inner flex-row-vertical">
+  <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+      <i class="icon icon-lg icon-close"></i>
+  </a>
+  <div class="brand-wrap">
+    <div class="brand">
+      <a href="/" class="avatar"><img src="/img/logo.jpg"></a>
+      <hgroup class="introduce">
+        <h5 class="nickname">Kastrcn</h5>
+        <a href="mailto:kastrcn@outlook.com" title="kastrcn@outlook.com" class="mail">kastrcn@outlook.com</a>
+      </hgroup>
+    </div>
+  </div>
+  <ul class="nav flex-col">
+    
+        <li class="waves-block waves-effect">
+          <a href="/"  >
+            <i class="icon icon-lg icon-home"></i>
+            Home
+          </a>
+        </li>
+    
+        <li class="waves-block waves-effect">
+          <a href="/archives"  >
+            <i class="icon icon-lg icon-archives"></i>
+            Archives
+          </a>
+        </li>
+    
+        <li class="waves-block waves-effect">
+          <a href="https://github.com/kastrcn" target="_blank" >
+            <i class="icon icon-lg icon-github"></i>
+            Github
+          </a>
+        </li>
+    
+        <li class="waves-block waves-effect">
+          <a href="http://weibo.com/u/3829532705" target="_blank" >
+            <i class="icon icon-lg icon-weibo"></i>
+            Weibo
+          </a>
+        </li>
+    
+  </ul>
+
+  <footer class="footer">
+  <p><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a></p>
+  <p>Kastrcn&#39;s blog &copy; 2016</p>
+  <p>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme
+  <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></p>
+  <a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-2x icon-rss-square"></i></a>
+</footer>
+
+</div>
+
+  </nav>
+  <main id="main">
+    <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">Sass 基础</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input " autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-share">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header">
+  <div class="container">
+    <h1 class="author">Sass 基础</h1>
+    <h5 class="subtitle">
+        
+            <time datetime="2016-09-09T06:58:16.592Z" itemprop="datePublished" class="page-time">
+  2016-09-09
+</time>
+
+
+        
+    </h5>
+  </div>
+</header>
+
+    <div class="container body-wrap">
+      <article id="post-CSS/css tool/sassbase" 
+  class="article article-type-post" itemprop="blogPost">
+    <div class="post-meta flex-row">
+        
+    </div>
+    <div class="post-body">
+        <aside class="post-widget" id="post-widget">
+
+            
+            <div class="post-share" id="post-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+            
+
+            
+            <nav class="post-toc-wrap" id="post-toc">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#注释"><span class="post-toc-text">注释</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#变量"><span class="post-toc-text">变量</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#计算"><span class="post-toc-text">计算</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#嵌套"><span class="post-toc-text">嵌套</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#继承"><span class="post-toc-text">继承</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Mixin"><span class="post-toc-text">Mixin</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#插入文件"><span class="post-toc-text">插入文件</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#逻辑运算"><span class="post-toc-text">逻辑运算</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#if"><span class="post-toc-text">@if</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#for"><span class="post-toc-text">@for</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#each"><span class="post-toc-text">@each</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#while"><span class="post-toc-text">@while</span></a></li></ol></li></ol>
+            </nav>
+            
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" id="post-content" itemprop="postContent">
+            <h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">/*块注释</div><div class="line">*/</div><div class="line">//行注释</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/*块注释</span></div><div class="line">*/</div></pre></td></tr></table></figure>
+<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><p>method code</p>
+<p>$变量:值</p>
+<p>类{</p>
+<p>​    属性:$变量;</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$bgc: #5B83AD;</div><div class="line">body&#123;</div><div class="line">  background-color: $bgc;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">  <span class="attribute">background-color</span>: <span class="number">#5B83AD</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><p>method code</p>
+<p>$变量: 值;</p>
+<p>类{</p>
+<p>​    top: $var*10%;</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$var: 10;</div><div class="line">body&#123;</div><div class="line">	top:$var*10%;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">  <span class="attribute">top</span>: <span class="number">100%</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="嵌套"><a href="#嵌套" class="headerlink" title="嵌套"></a>嵌套</h2><p>method code</p>
+<p>类{</p>
+<p>​    类{</p>
+<p>​    属性:参数;    </p>
+<p>​    }</p>
+<p>​    类{</p>
+<p>​        &amp;:伪类{</p>
+<p>​            属性:参数</p>
+<p>​        }</p>
+<p>​    }</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">div&#123;</div><div class="line">	h1&#123;</div><div class="line">		color:red;</div><div class="line">	&#125;</div><div class="line">	a&#123;</div><div class="line">		&amp;:hover&#123;</div><div class="line">			color: green;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">div</span> <span class="selector-tag">h1</span> &#123;</div><div class="line">  <span class="attribute">color</span>: red;</div><div class="line">&#125;</div><div class="line"><span class="selector-tag">div</span> <span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</div><div class="line">  <span class="attribute">color</span>: green;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><p>method code</p>
+<p>类{</p>
+<p>​    属性:参数;</p>
+<p>}</p>
+<p>类2{</p>
+<p>​    @extend:类;</p>
+<p>​    属性:参数;</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">.class1&#123;</div><div class="line">	color:red;</div><div class="line">&#125;</div><div class="line">.calss2&#123;</div><div class="line">	@extend .class1;</div><div class="line">	font-size:120%;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.class1</span>, <span class="selector-class">.calss2</span> &#123;</div><div class="line">  <span class="attribute">color</span>: red;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.calss2</span> &#123;</div><div class="line">  <span class="attribute">font-size</span>: <span class="number">120%</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="Mixin"><a href="#Mixin" class="headerlink" title="Mixin"></a>Mixin</h2><p>method code</p>
+<p>@变量 名称{</p>
+<p>​    属性:参数;</p>
+<p>}</p>
+<p>@变量 名称($变量:默认值){</p>
+<p>​    属性:参数;</p>
+<p>​    属性:$变量;</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">@mixin top&#123;</div><div class="line">	margin-top:10px;</div><div class="line">&#125;</div><div class="line">@mixin left($value:10px)&#123;</div><div class="line">	float:left;</div><div class="line">	margin-left:$value;</div><div class="line">&#125;</div><div class="line">div&#123;</div><div class="line">	@include top;</div><div class="line">&#125;</div><div class="line">div&#123;</div><div class="line">	@include left(20px);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">div</span> &#123;</div><div class="line">  <span class="attribute">margin-top</span>: <span class="number">10px</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">div</span> &#123;</div><div class="line">  <span class="attribute">float</span>: left;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">20px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="插入文件"><a href="#插入文件" class="headerlink" title="插入文件"></a>插入文件</h2><p>method code</p>
+<p>@import “插入的文件.scss”;</p>
+<p>sass code</p>
+<p>_css.sass</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">@import &quot;_button.scss&quot;;</div><div class="line">div&#123;</div><div class="line">	float:right;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>_button.scss</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">button&#123;</div><div class="line">	background-color: #fff;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">button</span> &#123;</div><div class="line">  <span class="attribute">background-color</span>: <span class="number">#fff</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">div</span> &#123;</div><div class="line">  <span class="attribute">float</span>: right;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="逻辑运算"><a href="#逻辑运算" class="headerlink" title="逻辑运算"></a>逻辑运算</h2><h3 id="if"><a href="#if" class="headerlink" title="@if"></a>@if</h3><p>method code</p>
+<p>@if 逻辑判断 显示结果</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">p&#123;</div><div class="line"> @if 1+1==2&#123; border:1px solid;&#125;</div><div class="line"> @if 5&lt;3&#123; border:1px solid;&#125;</div><div class="line"> @if null&#123; border:3px solid;&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">p</span> &#123;</div><div class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid; &#125;</div></pre></td></tr></table></figure>
+<h3 id="for"><a href="#for" class="headerlink" title="@for"></a>@for</h3><p>method code</p>
+<p>@for 变量 form 开始值 through 结束值{</p>
+<p>​    循环显示内容 .类-变量</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">@for $i from 1 through 5&#123;</div><div class="line">	.item-#&#123;$i&#125; &#123;width: 2em * $i;&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.item-1</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">2em</span>; &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.item-2</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">4em</span>; &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.item-3</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">6em</span>; &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.item-4</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">8em</span>; &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.item-5</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">10em</span>; &#125;</div></pre></td></tr></table></figure>
+<h3 id="each"><a href="#each" class="headerlink" title="@each"></a>@each</h3><p>method code    </p>
+<p>@each 变量 in 值,值,值{</p>
+<p>​    .#{变量}-icon{ 变量}</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">@each $animal in puma, sea-slug, egret, salamander &#123;</div><div class="line">  .#&#123;$animal&#125;-icon &#123;</div><div class="line">    background-image: url(&apos;/images/#&#123;$animal&#125;.png&apos;);</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.puma-icon</span> &#123;</div><div class="line">  <span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">"/images/puma.png"</span>); &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.sea-slug-icon</span> &#123;</div><div class="line">  <span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">"/images/sea-slug.png"</span>); &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.egret-icon</span> &#123;</div><div class="line">  <span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">"/images/egret.png"</span>); &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.salamander-icon</span> &#123;</div><div class="line">  <span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">"/images/salamander.png"</span>); &#125;</div></pre></td></tr></table></figure>
+<h3 id="while"><a href="#while" class="headerlink" title="@while"></a>@while</h3><p>method code</p>
+<p>@while 判断{</p>
+<p>​    .item-#{$i} {属性}</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$i: 4;</div><div class="line">@while $i &gt; 0 &#123;</div><div class="line">  .item-#&#123;$i&#125; &#123; width: 2em * $i; &#125;</div><div class="line">  $i: $i - 2;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.item-4</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">8em</span>; &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.item-2</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">4em</span>; &#125;</div></pre></td></tr></table></figure>
+
+            <blockquote>
+                <p>
+                本文地址：
+                <a href="http://zhaotian.info/2016/09/09/CSS/css tool/sassbase/" target="_blank" rel="external">http://zhaotian.info/2016/09/09/CSS/css tool/sassbase/</a>
+                </p>
+                <footer><cite><a href="http://zhaotian.info">@Kastrcn's blog</a></cite></footer>
+            </blockquote>
+            </div>
+            
+<nav class="post-nav">
+  
+    <div class="waves-block waves-effect prev fl">
+      <a href="/2016/09/09/CSS/CSSbase/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">CSS  基本用法</h4>
+      </a>
+    </div>
+  
+
+  
+    <div class="waves-block waves-effect next fr">
+      <a href="/2016/09/07/CSS/CSS3/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">CSS3 基本用法</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+            
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="CSS/css tool/sassbase" data-title="Sass 基础" data-url="http://zhaotian.info/2016/09/09/CSS/css tool/sassbase/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"zhaotian"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+        </div>
+    </div>
+</article>
+    </div>
+  </main>
+<div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+<script>
+var BLOG_SHARE = {
+    title: "Sass 基础",
+    pic: "/img/logo.jpg",
+    summary: document.getElementsByName('summary')[0].content,
+    url: "http://zhaotian.info/2016/09/09/CSS/css tool/sassbase/index.html"
+};
+</script>
+<div class="global-share" id="global-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+<script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<script type="text/template" id="search-tpl">
+<li class="item">
+    <a href="/{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</script>
+
+<script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
