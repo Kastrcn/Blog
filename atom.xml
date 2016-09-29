@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaotian.info/"/>
-  <updated>2016-09-05T03:01:34.280Z</updated>
+  <updated>2016-09-29T15:55:32.271Z</updated>
   <id>http://zhaotian.info/</id>
   
   <author>
@@ -16,11 +16,858 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://zhaotian.info/2016/09/05/CSS/lessbase/"/>
-    <id>http://zhaotian.info/2016/09/05/CSS/lessbase/</id>
+    <title>HTML5</title>
+    <link href="http://zhaotian.info/2016/09/28/HTML/HTML/HTML5/"/>
+    <id>http://zhaotian.info/2016/09/28/HTML/HTML/HTML5/</id>
+    <published>2016-09-28T05:21:46.728Z</published>
+    <updated>2016-09-29T15:55:32.271Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="HTML5"><a href="#HTML5" class="headerlink" title="HTML5"></a>HTML5</h1><p>HTML5 ≈ HTML↑ + CSS↑ + JavaScript API↑</p>
+<p>广义上：新一代开发Web富客户端应用程序整体解决方案</p>
+<p>Structure → Style → Interactive</p>
+<p>之前交互用flash</p>
+<p>让Web开发重新回归富客户端的时代</p>
+<h2 id="HTML5-的应用场景"><a href="#HTML5-的应用场景" class="headerlink" title="HTML5 的应用场景"></a>HTML5 的应用场景</h2><ul>
+<li>极具表现力的网页<ul>
+<li>案例非常多</li>
+</ul>
+</li>
+<li>网页应用程序<ul>
+<li>PC端：iCloud、百度脑图、Office 365···</li>
+<li>APP端：淘宝、京东、美团···</li>
+<li>WeChat端：淘宝、京东、美团···</li>
+</ul>
+</li>
+<li>混合式本地应用<ul>
+<li>PC端：网易云音乐、有道词典···</li>
+<li>APP端：淘宝、京东、美团···</li>
+</ul>
+</li>
+<li>简单的游戏</li>
+</ul>
+<h2 id="HTML-分类"><a href="#HTML-分类" class="headerlink" title="HTML 分类"></a>HTML 分类</h2><h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><ul>
+<li>标签<ul>
+<li>更语义化标签</li>
+<li>应用程序标签</li>
+</ul>
+</li>
+<li>属性<ul>
+<li>链接关系描述</li>
+<li>结构数据标记</li>
+<li>ARIA</li>
+<li>自定义属性</li>
+</ul>
+</li>
+<li>智能表单<ul>
+<li>新的表单类型</li>
+<li>虚拟键盘适配</li>
+</ul>
+</li>
+<li>网页多媒体<ul>
+<li>音频</li>
+<li>视频</li>
+<li>字幕</li>
+</ul>
+</li>
+<li>Canvas<ul>
+<li>2D</li>
+<li>3D (WebGL)</li>
+</ul>
+</li>
+<li>SVG</li>
+</ul>
+<h3 id="JavaScript-API"><a href="#JavaScript-API" class="headerlink" title="JavaScript API"></a>JavaScript API</h3><ul>
+<li>核心平台提升<ul>
+<li>新的选择器</li>
+<li>Element.classList</li>
+<li>访问历史API</li>
+<li>全屏API</li>
+</ul>
+</li>
+<li>网页存储<ul>
+<li>Application Cache</li>
+<li>localStorage</li>
+<li>sessionStorage</li>
+<li>WebSQL</li>
+<li>IndexedDB</li>
+</ul>
+</li>
+<li>设备信息访问<ul>
+<li>网络状态</li>
+<li>硬件访问</li>
+<li>设备方向</li>
+<li>地理围栏</li>
+</ul>
+</li>
+<li>拖放操作<ul>
+<li>网页内拖放</li>
+<li>桌面拖入</li>
+<li>桌面拖出</li>
+</ul>
+</li>
+<li>文件<ul>
+<li>文件系统API</li>
+<li>FileReader</li>
+</ul>
+</li>
+<li>网络访问<ul>
+<li>XMLHttpRequest</li>
+<li>fetch</li>
+<li>WebSocket</li>
+</ul>
+</li>
+<li>多线程</li>
+<li>桌面通知</li>
+</ul>
+<h3 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h3><ul>
+<li>New Selector</li>
+<li>Web Fonts</li>
+<li>Text Styles</li>
+<li>Opacity</li>
+<li>HSL Color</li>
+<li>Rounded Corners</li>
+<li>Gradients</li>
+<li>Shadows</li>
+<li>Background Enhancements</li>
+<li>Border Image</li>
+<li>Flexible Box Model</li>
+<li>Transforms</li>
+<li>Transitions</li>
+<li>Animations</li>
+</ul>
+<h2 id="HTML-1"><a href="#HTML-1" class="headerlink" title="HTML"></a>HTML</h2><blockquote>
+<p>HTML的职责是描述一块内容是什么（或其意义）</p>
+<p>而不是它长的什么样子，它的外观应该由CSS来决定。</p>
+</blockquote>
+<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><p>更具有语义化的标签</p>
+<p><img src="http://bimg.zhaotian.info/html/html5/HTML%20before.png" alt="before"></p>
+<p><img src="http://bimg.zhaotian.info/html/html5/HTML5Now.png" alt="now"></p>
+<h3 id="应用程序标签"><a href="#应用程序标签" class="headerlink" title="应用程序标签"></a>应用程序标签</h3><p>DataList(数据列表)</p>
+<p>Progress(进度条)</p>
+<p>Meter(数值显示器)</p>
+<p>Menu(右键菜单) （Firefox Only）</p>
+<p>Details(明细) （Opera, Chrome, and in Safari 6）</p>
+<p><a href="demo/html/02-application-tags.html">View Demo</a></p>
+<h3 id="语义化标签"><a href="#语义化标签" class="headerlink" title="语义化标签"></a>语义化标签</h3><blockquote>
+<h4 id="为什么要有语义化标签"><a href="#为什么要有语义化标签" class="headerlink" title="为什么要有语义化标签?"></a>为什么要有语义化标签?</h4><p>能够便于开发者阅读和写出更优雅的代码，代码如诗</p>
+<p>同时让浏览器或是网络爬虫可以很好地解析，从而更好分析其中的内容</p>
+<p>更好地搜索引擎优化</p>
+</blockquote>
+<h4 id="用来描述指定链接与当前文档的关系，便于机器理解文档结构"><a href="#用来描述指定链接与当前文档的关系，便于机器理解文档结构" class="headerlink" title="用来描述指定链接与当前文档的关系，便于机器理解文档结构"></a>用来描述指定链接与当前文档的关系，便于机器理解文档结构</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"alternate"</span> <span class="attr">type</span>=<span class="string">"application/rss+xml"</span> <span class="attr">href</span>=<span class="string">"http://myblog.com/feed"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"shortcut icon"</span> <span class="attr">href</span>=<span class="string">"favicon.ico"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"pingback"</span> <span class="attr">href</span>=<span class="string">"http://myblog.com/xmlrpc.php"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"prefetch"</span> <span class="attr">href</span>=<span class="string">"http://myblog.com/main.php"</span>&gt;</span></div><div class="line">...</div><div class="line"></div><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">rel</span>=<span class="string">"archives"</span> <span class="attr">href</span>=<span class="string">"http://myblog.com/archives"</span>&gt;</span>old posts<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">rel</span>=<span class="string">"external"</span> <span class="attr">href</span>=<span class="string">"http://notmysite.com"</span>&gt;</span>tutorial<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">rel</span>=<span class="string">"license"</span> <span class="attr">href</span>=<span class="string">"http://www.apache.org/licenses/LICENSE-2.0"</span>&gt;</span>license<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">rel</span>=<span class="string">"nofollow"</span> <span class="attr">href</span>=<span class="string">"http://notmysite.com/sample"</span>&gt;</span>wannabe<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">rel</span>=<span class="string">"tag"</span> <span class="attr">href</span>=<span class="string">"http://myblog.com/category/games"</span>&gt;</span>games posts<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">...</div></pre></td></tr></table></figure>
+<h4 id="常见的链接关系表"><a href="#常见的链接关系表" class="headerlink" title="常见的链接关系表"></a>常见的链接关系表</h4><table>
+<thead>
+<tr>
+<th>alternate</th>
+<th>文档的可选版本（例如打印页、翻译页或镜像）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stylesheet</td>
+<td>文档的外部样式表</td>
+</tr>
+<tr>
+<td>start</td>
+<td>集合中的第一个文档</td>
+</tr>
+<tr>
+<td>next</td>
+<td>集合中的下一个文档</td>
+</tr>
+<tr>
+<td>prev</td>
+<td>集合中的前一个文档</td>
+</tr>
+<tr>
+<td>contents</td>
+<td>文档目录</td>
+</tr>
+<tr>
+<td>index</td>
+<td>文档索引</td>
+</tr>
+<tr>
+<td>glossary</td>
+<td>文档中所用字词的术语表或解释</td>
+</tr>
+<tr>
+<td>copyright</td>
+<td>包含版权信息的文档</td>
+</tr>
+<tr>
+<td>chapter</td>
+<td>文档的章</td>
+</tr>
+<tr>
+<td>section</td>
+<td>文档的节</td>
+</tr>
+<tr>
+<td>subsection</td>
+<td>文档的子段</td>
+</tr>
+<tr>
+<td>appendix</td>
+<td>文档附录</td>
+</tr>
+<tr>
+<td>help</td>
+<td>帮助文档</td>
+</tr>
+<tr>
+<td>bookmark</td>
+<td>相关文档</td>
+</tr>
+<tr>
+<td>nofollow</td>
+<td>用于指定 Google 搜索引擎不要跟踪链接</td>
+</tr>
+<tr>
+<td>licence</td>
+<td>一般用于文献，表示许可证的含义</td>
+</tr>
+<tr>
+<td>tag</td>
+<td>标签集合</td>
+</tr>
+<tr>
+<td>friend</td>
+<td>友情链接</td>
+</tr>
+</tbody>
+</table>
+<h3 id="结构数据标记-很高级的东西，只有Google支持"><a href="#结构数据标记-很高级的东西，只有Google支持" class="headerlink" title="结构数据标记(很高级的东西，只有Google支持)"></a>结构数据标记(很高级的东西，只有Google支持)</h3><p><img src="http://bimg.zhaotian.info/html/html5/%E7%BB%93%E6%9E%84%E6%95%B0%E6%8D%AE%E6%A0%87%E8%AE%B0.png" alt="结构数据标记"></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">itemscope</span> <span class="attr">itemtype</span>=<span class="string">"http://example.com/hello"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>我叫<span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">"主人"</span>&gt;</span>汪磊<span class="tag">&lt;/<span class="name">span</span>&gt;</span>。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line">    我养了一条叫</div><div class="line">    <span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">"狗名"</span>&gt;</span>旺财<span class="tag">&lt;/<span class="name">span</span>&gt;</span>的</div><div class="line">    <span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">"品种"</span>&gt;</span>金毛<span class="tag">&lt;/<span class="name">span</span>&gt;</span>犬。</div><div class="line">  <span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="ARIA-属性-Accessible-Rich-Internet-Application-无障碍富互联网应用程序"><a href="#ARIA-属性-Accessible-Rich-Internet-Application-无障碍富互联网应用程序" class="headerlink" title="ARIA 属性(Accessible Rich Internet Application (无障碍富互联网应用程序))"></a>ARIA 属性(Accessible Rich Internet Application (无障碍富互联网应用程序))</h3><blockquote>
+<p>主要针对于屏幕阅读设备(e.g. NVDA)，更快更好地理解网页</p>
+<p>不仅仅是为了盲人用户，更多语义化</p>
+</blockquote>
+<h3 id="自定义属性-data"><a href="#自定义属性-data" class="headerlink" title="自定义属性 data-*"></a>自定义属性 data-*</h3><blockquote>
+<p>通过DOM存储与DOM对象强相关的数据</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">id</span>=<span class="string">"users"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-id</span>=<span class="string">"1"</span> <span class="attr">data-age</span>=<span class="string">"18"</span> <span class="attr">data-gender</span>=<span class="string">"true"</span>&gt;</span>张三<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-id</span>=<span class="string">"2"</span> <span class="attr">data-age</span>=<span class="string">"18"</span> <span class="attr">data-gender</span>=<span class="string">"false"</span>&gt;</span>李四<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-id</span>=<span class="string">"3"</span> <span class="attr">data-age</span>=<span class="string">"18"</span> <span class="attr">data-gender</span>=<span class="string">"true"</span>&gt;</span>王二<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div><div class="line"> <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="xml"></span></div><div class="line">    var ul = document.getElementById('users');</div><div class="line"></div><div class="line">    for (var i = 0; i <span class="tag">&lt; <span class="attr">ul.children.length</span>; <span class="attr">i</span>++) &#123;</span></div><div class="line">      <span class="attr">var</span> <span class="attr">li</span> = <span class="string">ul.children[i];</span></div><div class="line">      // <span class="attr">JS</span> 添加<span class="attr">data</span>属性</div><div class="line">      <span class="attr">li.setAttribute</span>('<span class="attr">data-name</span>', <span class="attr">li.innerText</span>);</div><div class="line">      <span class="attr">li.children</span>[<span class="attr">0</span>]<span class="attr">.innerText</span> = <span class="string">''</span>;</div><div class="line">      <span class="attr">for</span> (<span class="attr">var</span> <span class="attr">key</span> <span class="attr">in</span> <span class="attr">li.dataset</span>) &#123;</div><div class="line">        <span class="attr">li.children</span>[<span class="attr">0</span>]<span class="attr">.innerText</span> += <span class="string">key</span> + '<span class="attr">:</span>' + <span class="attr">li.dataset</span>[<span class="attr">key</span>] + '\<span class="attr">n</span>';</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="智能表单"><a href="#智能表单" class="headerlink" title="智能表单"></a>智能表单</h3><blockquote>
+<p>网页开发过程中可以针对需求使用特定的智能表单类型</p>
+</blockquote>
+<h4 id="新加表单"><a href="#新加表单" class="headerlink" title="新加表单"></a>新加表单</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">required</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"email"</span> <span class="attr">value</span>=<span class="string">"some@email.com"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"date"</span> <span class="attr">min</span>=<span class="string">"2010-08-14"</span> <span class="attr">max</span>=<span class="string">"2011-08-14"</span> <span class="attr">value</span>=<span class="string">"2010-08-14"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"range"</span> <span class="attr">min</span>=<span class="string">"0"</span> <span class="attr">max</span>=<span class="string">"50"</span> <span class="attr">value</span>=<span class="string">"10"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"search"</span> <span class="attr">results</span>=<span class="string">"10"</span> <span class="attr">placeholder</span>=<span class="string">"Search..."</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"tel"</span> <span class="attr">placeholder</span>=<span class="string">"(555) 555-5555"</span> <span class="attr">pattern</span>=<span class="string">"^\(?\d&#123;3&#125;\)?[-\s]\d&#123;3&#125;[-\s]\d&#123;4&#125;.*?$"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"color"</span> <span class="attr">placeholder</span>=<span class="string">"e.g. #bbbbbb"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"number"</span> <span class="attr">step</span>=<span class="string">"1"</span> <span class="attr">min</span>=<span class="string">"-5"</span> <span class="attr">max</span>=<span class="string">"10"</span> <span class="attr">value</span>=<span class="string">"0"</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E6%99%BA%E8%83%BD%E8%A1%A8%E5%8D%95.PNG" alt="智能表单"></p>
+<h4 id="虚拟键盘适配"><a href="#虚拟键盘适配" class="headerlink" title="虚拟键盘适配"></a>虚拟键盘适配</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"txt_text"</span> <span class="attr">id</span>=<span class="string">"txt_text"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"number"</span> <span class="attr">name</span>=<span class="string">"txt_number"</span> <span class="attr">id</span>=<span class="string">"txt_number"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"email"</span> <span class="attr">name</span>=<span class="string">"txt_email"</span> <span class="attr">id</span>=<span class="string">"txt_email"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"tel"</span> <span class="attr">name</span>=<span class="string">"txt_tel"</span> <span class="attr">id</span>=<span class="string">"txt_tel"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"url"</span> <span class="attr">name</span>=<span class="string">"txt_url"</span> <span class="attr">id</span>=<span class="string">"txt_url"</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E8%99%9A%E6%8B%9F%E9%94%AE%E7%9B%98%E9%80%82%E9%85%8D.PNG" alt="虚拟键盘适配"></p>
+<h3 id="网页多媒体"><a href="#网页多媒体" class="headerlink" title="网页多媒体"></a>网页多媒体</h3><blockquote>
+<p>在此之前需要依赖于第三方插件（e.g. flash）</p>
+<p>兼容方案：<a href="https://html5media.info/" target="_blank" rel="external">https://html5media.info/</a></p>
+<blockquote>
+<p>目标</p>
+<p>掌握网页多媒体的意义</p>
+<p>对Video标签和Audio标签熟练使用</p>
+<p>了解字幕标签</p>
+</blockquote>
+</blockquote>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E5%A4%9A%E5%AA%92%E4%BD%93%E5%B1%9E%E6%80%A7.png" alt="多媒体属性"></p>
+<h4 id="音频"><a href="#音频" class="headerlink" title="音频"></a>音频</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">controls</span>=<span class="string">"controls"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"img/music.mp3"</span> <span class="attr">type</span>=<span class="string">"audio/mpeg"</span>/&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E9%9F%B3%E9%A2%91.PNG" alt="音频"></p>
+<h4 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">controls</span>=<span class="string">"controls"</span>&gt;</span></div><div class="line">  <span class="comment">&lt;!-- 不同浏览器支持格式不一样 --&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"fun.ogg"</span> <span class="attr">type</span>=<span class="string">"video/ogg"</span> /&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"fun.mp4"</span> <span class="attr">type</span>=<span class="string">"video/mp4"</span> /&gt;</span></div><div class="line">  <span class="comment">&lt;!-- 当浏览器不兼容video标签，就会将他以div方式解析 --&gt;</span></div><div class="line">  SHIT 你的浏览器不支持！</div><div class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E8%A7%86%E9%A2%91.PNG" alt="视频"></p>
+<h4 id="字幕"><a href="#字幕" class="headerlink" title="字幕"></a>字幕</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">id</span>=<span class="string">"clip"</span> <span class="attr">controls</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"fun.mp4"</span> <span class="attr">type</span>=<span class="string">"video/mp4"</span> /&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">track</span> <span class="attr">label</span>=<span class="string">"English subtitles"</span> <span class="attr">kind</span>=<span class="string">"subtitles"</span></span></div><div class="line">  <span class="attr">srclang</span>=<span class="string">"en"</span> <span class="attr">src</span>=<span class="string">"video-subtitles-en.vtt"</span> <span class="attr">default</span> /&gt;</div><div class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E5%AD%97%E5%B9%95.PNG" alt="字幕"></p>
+<h3 id="SVG-Scalable-Vector-Graphics-可缩放矢量图形"><a href="#SVG-Scalable-Vector-Graphics-可缩放矢量图形" class="headerlink" title="SVG(Scalable Vector Graphics 可缩放矢量图形)"></a>SVG(Scalable Vector Graphics 可缩放矢量图形)</h3><blockquote>
+<p>基于可扩展标记语言</p>
+<p>优势：体积小，质量高，效果好，可控程度高</p>
+<blockquote>
+<p>目标</p>
+<p>了解SVG是什么东西</p>
+<p>可以在网页中使用别人做好的SVG</p>
+<p>并可以对SVG文件作出基本调整</p>
+<p>会用样式修饰SVG</p>
+</blockquote>
+</blockquote>
+<h4 id="使用-SVG-File-的方式"><a href="#使用-SVG-File-的方式" class="headerlink" title="使用 SVG File 的方式"></a>使用 SVG File 的方式</h4><ul>
+<li>使用 <embed> 标签</li>
+<li>使用 <object> 标签</object></li>
+<li>使用 <iframe> 标签</iframe></li>
+<li>Ajax方式加载</li>
+</ul>
+<h3 id="Canvas-提供网页级画布（GDI-）的实现"><a href="#Canvas-提供网页级画布（GDI-）的实现" class="headerlink" title="Canvas(提供网页级画布（GDI+）的实现)"></a>Canvas(提供网页级画布（GDI+）的实现)</h3><h2 id="JavaScriptAPI"><a href="#JavaScriptAPI" class="headerlink" title="JavaScriptAPI"></a>JavaScriptAPI</h2><h3 id="基础API-提升"><a href="#基础API-提升" class="headerlink" title="基础API 提升"></a>基础API 提升</h3><h4 id="新选择器"><a href="#新选择器" class="headerlink" title="新选择器"></a>新选择器</h4><ul>
+<li><p>document.querySelector(selector)</p>
+<p>可以通过CSS选择器的语法找到DOM元素</p>
+</li>
+<li><p>document.querySelectorAll(‘.item’);</p>
+<p>返回所有满足该条件的元素 一个元素类型是dom类型的数组</p>
+</li>
+<li><p>$(‘.item’)</p>
+<p>返回一个jQuery对象（dom元素的数组）</p>
+<p>本质上jquery方式和qs方式都是获取DOM数组， 只不过jquery会多一些其他成员</p>
+<p>DOM数组的每一个成员注册事件不能像jquery一样直接注册， 必须分别给每个元素注册</p>
+<p>h5就是将我们经常需要的操作又包装一层</p>
+</li>
+</ul>
+<h4 id="元素-classList"><a href="#元素-classList" class="headerlink" title="元素.classList"></a>元素.classList</h4><p>新H5中DOM对象多了一个classList属性，是一个数组</p>
+<ul>
+<li>add 添加一个新的类名</li>
+<li>remove 删除一个的类名</li>
+<li>contains 判断是否包含一个指定的类名 </li>
+<li>toggle 切换一个class element.toggle(‘class-name’,[add_or_remove])</li>
+<li>toggle函数的第二个参数true为添加 false删除</li>
+</ul>
+<h4 id="访问历史-API"><a href="#访问历史-API" class="headerlink" title="访问历史 API"></a>访问历史 API</h4><p>界面上的所有JS操作不会被浏览器记住，就无法回到之前的状态<br>在HTML5中可以通过window.history操作访问历史状态，让一个页面可以有多个历史状态</p>
+<ol>
+<li>window.history.forward(); // 前进</li>
+<li>window.history.back(); // 后退</li>
+<li>window.history.go(); // 刷新</li>
+<li>通过JS可以加入一个访问状态</li>
+<li>history.pushState(放入历史中的状态数据, 设置title(现在浏览器不支持)， 改变历史状态)</li>
+</ol>
+<h4 id="全屏-API"><a href="#全屏-API" class="headerlink" title="全屏 API"></a>全屏 API</h4><p>JavaScript中可以通过调用requestFullScreen()方式实现指定元素的全屏显示<br>var element = document.querySelector(‘…’);<br>element.requestFullScreen();</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">     <span class="comment">// var img = document.querySelector('#img_full');</span></div><div class="line">     <span class="comment">// img.addEventListener('click', function(e) &#123;</span></div><div class="line">     <span class="comment">//   if (document.body.webkitRequestFullScreen)</span></div><div class="line">     <span class="comment">//     document.body.webkitRequestFullScreen();</span></div><div class="line">     <span class="comment">//   else</span></div><div class="line">     <span class="comment">//     console.log('不支持');</span></div><div class="line">     <span class="comment">//   e.preventDefault();</span></div><div class="line">     <span class="comment">// &#125;);</span></div><div class="line">     <span class="comment">//</span></div><div class="line">     <span class="comment">// 注册点击时间</span></div><div class="line">     <span class="keyword">var</span> h3 = <span class="built_in">document</span>.querySelector(<span class="string">'#title_1'</span>);</div><div class="line">     <span class="keyword">var</span> p = <span class="built_in">document</span>.querySelector(<span class="string">'#content_1'</span>);</div><div class="line">     h3.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">       <span class="keyword">if</span> (p.webkitRequestFullScreen)</div><div class="line">         p.webkitRequestFullScreen();</div><div class="line">       <span class="keyword">else</span></div><div class="line">         <span class="built_in">console</span>.log(<span class="string">'不支持'</span>);</div><div class="line">       e.preventDefault();</div><div class="line">     &#125;);</div><div class="line">   &#125;)()</div></pre></td></tr></table></figure>
+<h3 id="网页存储"><a href="#网页存储" class="headerlink" title="网页存储"></a>网页存储</h3><h4 id="Web-Storage"><a href="#Web-Storage" class="headerlink" title="Web Storage"></a>Web Storage</h4><ol>
+<li>getItem方式获取一个不存在的键 返回空字符串</li>
+<li>[]返回 undefined</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&lt;script&gt;</div><div class="line">  <span class="keyword">var</span> btnSet = <span class="built_in">document</span>.querySelector(<span class="string">'#btn_set'</span>);</div><div class="line">  <span class="keyword">var</span> btnGet = <span class="built_in">document</span>.querySelector(<span class="string">'#btn_get'</span>);</div><div class="line">  <span class="keyword">var</span> txtValue = <span class="built_in">document</span>.querySelector(<span class="string">'#txt_value'</span>);</div><div class="line">  btnGet.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="comment">// txtValue.value = sessionStorage.getItem('key1');</span></div><div class="line">    <span class="keyword">if</span> (<span class="built_in">window</span>.sessionStorage)</div><div class="line">      txtValue.value = sessionStorage.getItem(<span class="string">'key1'</span>)</div><div class="line">      <span class="comment">// txtValue.value = sessionStorage['key1'];</span></div><div class="line">  &#125;);</div><div class="line">  btnSet.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="comment">// sessionStorage.setItem('key1', txtValue.value);</span></div><div class="line">    sessionStorage[<span class="string">'key1'</span>] = txtValue.value;</div><div class="line">  &#125;);</div><div class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure>
+<h4 id="Web-SQL"><a href="#Web-SQL" class="headerlink" title="Web SQL"></a>Web SQL</h4><h4 id="IndexedDB"><a href="#IndexedDB" class="headerlink" title="IndexedDB"></a>IndexedDB</h4><h3 id="文件系统"><a href="#文件系统" class="headerlink" title="文件系统"></a>文件系统</h3><h4 id="File-API"><a href="#File-API" class="headerlink" title="File API"></a>File API</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div></pre></td><td class="code"><pre><div class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"container"</span>&gt;</div><div class="line">  &lt;form action=""&gt;</div><div class="line">    &lt;!-- 对于表单里的input来说：可以直接通过name找到</div><div class="line">  document.form[0].input_file</div><div class="line">  multiple让文件域可以多选 --&gt;</div><div class="line">    &lt;input id="input_file" class="form-control hidden" type="file" name="input_file" multiple&gt;</div><div class="line">    &lt;input id="btn_select" class="btn btn-info" type="button" value="选择文件"&gt;</div><div class="line">    &lt;!--  &lt;input id="btn_read" class="btn btn-warning" type="button" value="读取文件列表"&gt; --&gt;</div><div class="line">    &lt;ul id="file_list" class="list-group"&gt;</div><div class="line">    &lt;/ul&gt;</div><div class="line">  &lt;/form&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">&lt;script&gt;</div><div class="line">  (function() &#123;</div><div class="line">    var inputFile = document.querySelector('#input_file');</div><div class="line">    var btnRead = document.querySelector('#btn_read');</div><div class="line">    var fileList = document.querySelector('#file_list');</div><div class="line">    var btnSelect = document.querySelector('#btn_select');</div><div class="line"></div><div class="line">    btnSelect.addEventListener('click', function() &#123;</div><div class="line">      // 在按钮点击时调用input的点击</div><div class="line">      inputFile.click();</div><div class="line">    &#125;);</div><div class="line"></div><div class="line">    // 点击过后</div><div class="line">    // btnRead.addEventListener('click', function() &#123;</div><div class="line">    //   var files = inputFile.files;</div><div class="line">    //   for (var i = 0; i &lt; files.length; i++) &#123;</div><div class="line">    //     var li = document.createElement('li');</div><div class="line">    //     li.setAttribute('class', 'list-group-item');</div><div class="line">    //     // 创建信息的子节点</div><div class="line">    //     li.innerHTML = '&lt;h5 class="list-group-item-heading"&gt;' + files[i].name + '&lt;/h5&gt;&lt;p class="list-group-item-text"&gt;' + files[i].lastModifiedDate.toLocaleDateString() + ' ' + files[i].lastModifiedDate.toLocaleTimeString() + ' ' + (files[i].size / 1024).toFixed(2) + 'KB&lt;/p&gt;';</div><div class="line">    //     fileList.appendChild(li);</div><div class="line">    //   &#125;</div><div class="line">    // &#125;);</div><div class="line">    // 选择完成后</div><div class="line">    inputFile.addEventListener('change', function() &#123;</div><div class="line">      var files = inputFile.files;</div><div class="line">      for (var i = 0; i &lt; files.length; i++) &#123;</div><div class="line">        var li = document.createElement('li');</div><div class="line">        li.setAttribute('class', 'list-group-item');</div><div class="line">        // 创建信息的子节点</div><div class="line">        li.innerHTML = '&lt;h5 class="list-group-item-heading"&gt;' + files[i].name + '&lt;/h5&gt;&lt;p class="list-group-item-text"&gt;' + files[i].lastModifiedDate.toLocaleDateString() + ' ' + files[i].lastModifiedDate.toLocaleTimeString() + ' ' + (files[i].size / 1024).toFixed(2) + 'KB&lt;/p&gt;';</div><div class="line">        fileList.appendChild(li);</div><div class="line">      &#125;</div><div class="line">    &#125;);</div><div class="line">  &#125;)();</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
+<h4 id="FileReader"><a href="#FileReader" class="headerlink" title="FileReader"></a>FileReader</h4><h3 id="拖放操作"><a href="#拖放操作" class="headerlink" title="拖放操作"></a>拖放操作</h3><h4 id="网页内拖放"><a href="#网页内拖放" class="headerlink" title="网页内拖放"></a>网页内拖放</h4><h4 id="文件拖入"><a href="#文件拖入" class="headerlink" title="文件拖入"></a>文件拖入</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div></pre></td><td class="code"><pre><div class="line">&lt;script&gt;</div><div class="line">    (<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">      <span class="comment">// 找到目标位置框框</span></div><div class="line">      <span class="keyword">var</span> target = <span class="built_in">document</span>.querySelector(<span class="string">'#target'</span>);</div><div class="line">      <span class="keyword">var</span> fileList = <span class="built_in">document</span>.querySelector(<span class="string">'#result'</span>);</div><div class="line">      <span class="comment">// 注册拖拽进入</span></div><div class="line">      target.addEventListener(<span class="string">'dragenter'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">this</span>.classList.add(<span class="string">'actived'</span>);</div><div class="line">      &#125;);</div><div class="line">      <span class="comment">// 离开</span></div><div class="line">      target.addEventListener(<span class="string">'dragleave'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">this</span>.classList.remove(<span class="string">'actived'</span>);</div><div class="line">      &#125;);</div><div class="line"></div><div class="line">      <span class="comment">// 如果想要捕获drop事件 就一定得在该事件中阻止默认事件</span></div><div class="line">      target.addEventListener(<span class="string">'dragover'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">        e.preventDefault();</div><div class="line">        e.stopPropagation();</div><div class="line">      &#125;);</div><div class="line"></div><div class="line">      <span class="comment">// 当元素放到该对象上</span></div><div class="line">      target.addEventListener(<span class="string">'drop'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line"></div><div class="line">        <span class="keyword">if</span> (e.dataTransfer.files.length) &#123;</div><div class="line">          <span class="keyword">var</span> files = e.dataTransfer.files;</div><div class="line">          <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; files.length; i++) &#123;</div><div class="line">            <span class="keyword">var</span> li = <span class="built_in">document</span>.createElement(<span class="string">'li'</span>);</div><div class="line">            li.setAttribute(<span class="string">'class'</span>, <span class="string">'list-group-item'</span>);</div><div class="line">            <span class="comment">// 创建信息的子节点</span></div><div class="line">            li.innerHTML = <span class="string">'&lt;h5 class="list-group-item-heading"&gt;'</span> + files[i].name + <span class="string">'&lt;/h5&gt;&lt;p class="list-group-item-text"&gt;'</span> + files[i].lastModifiedDate.toLocaleDateString() + <span class="string">' '</span> + files[i].lastModifiedDate.toLocaleTimeString() + <span class="string">' '</span> + (files[i].size / <span class="number">1024</span>).toFixed(<span class="number">2</span>) + <span class="string">'KB&lt;/p&gt;'</span>;</div><div class="line">            fileList.appendChild(li);</div><div class="line">          &#125;</div><div class="line">        &#125; <span class="keyword">else</span> &#123;</div><div class="line">          <span class="comment">// 短路运算</span></div><div class="line">          <span class="comment">// var data = e.dataTransfer.getData('text/plain') || e.dataTransfer.getData('text/uri-list');</span></div><div class="line">          <span class="keyword">var</span> data = e.dataTransfer.getData(<span class="string">'text/plain'</span>);</div><div class="line">          <span class="keyword">if</span> (data) &#123;</div><div class="line">            <span class="comment">// 拖入的是文本</span></div><div class="line">            target.innerHTML = data;</div><div class="line">          &#125; <span class="keyword">else</span> &#123;</div><div class="line">            <span class="keyword">var</span> img = <span class="built_in">document</span>.createElement(<span class="string">'img'</span>);</div><div class="line">            img.src = e.dataTransfer.getData(<span class="string">'text/uri-list'</span>);</div><div class="line">            target.appendChild(img);</div><div class="line">          &#125;</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="keyword">this</span>.classList.remove(<span class="string">'actived'</span>);</div><div class="line"></div><div class="line">        e.preventDefault();</div><div class="line">        e.stopPropagation();</div><div class="line">      &#125;);</div><div class="line"></div><div class="line">    &#125;)();</div><div class="line">  <span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure>
+<h2 id="Moderizer-一个JavaScript针对H5特性兼容的探针"><a href="#Moderizer-一个JavaScript针对H5特性兼容的探针" class="headerlink" title="Moderizer(一个JavaScript针对H5特性兼容的探针)"></a>Moderizer(一个JavaScript针对H5特性兼容的探针)</h2><p>为了尽可能让IE更好地支持HTML5，你可以使用以下两种方式</p>
+<p>Client side:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"chrome=1"</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>Server side:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">X-UA-Compatible: chrome=1</div></pre></td></tr></table></figure>
+<h2 id="HTML5-的能力已经覆盖"><a href="#HTML5-的能力已经覆盖" class="headerlink" title="HTML5 的能力已经覆盖"></a>HTML5 的能力已经覆盖</h2><ul>
+<li>Offline / Storage</li>
+<li>Realtime / Communication</li>
+<li>File / Hardware Access</li>
+<li>Semantics &amp; Markup</li>
+<li>Graphics / Multimedia</li>
+<li>CSS3</li>
+<li>Nuts &amp; Bolts</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;HTML5&quot;&gt;&lt;a href=&quot;#HTML5&quot; class=&quot;headerlink&quot; title=&quot;HTML5&quot;&gt;&lt;/a&gt;HTML5&lt;/h1&gt;&lt;p&gt;HTML5 ≈ HTML↑ + CSS↑ + JavaScript API↑&lt;/p&gt;
+&lt;p&gt;广义上：新一代开发Web
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HTML常见单词</title>
+    <link href="http://zhaotian.info/2016/09/27/HTML/HTML%E5%B8%B8%E8%A7%81%E5%8D%95%E8%AF%8D/"/>
+    <id>http://zhaotian.info/2016/09/27/HTML/HTML常见单词/</id>
+    <published>2016-09-27T09:01:17.349Z</published>
+    <updated>2016-09-27T09:01:17.402Z</updated>
+    
+    <content type="html"><![CDATA[<p>Internet                 互联网<br>WWW（World Wide Web）            万维网<br>HTTP(Hypertext Transfer Protocol)    超文本传输协议，WWW服务程序所用协议<br>HTML(Hyper Text Markup Language)    超文本标签标示语言<br>URL(Uniform Resource Locator)        全球资源定位器，在Internet的WWW服务程序上用于定位信息位置的标示方法<br>Website                    网站<br>web                    网页<br>static web                静态网页<br>dynamic web                动态网页<br>local website                本地站点<br>remote website                远程站点<br>root folder                根目录（根文件夹）<br>designer                设计模式<br>coder                    代码模式<br>titile                    标题模式<br>index                    首页（索引）<br>anchor                    锚（标记）</p>
+<p>Table                    表格，表<br>row                    行<br>column                    列<br>image                    图片<br>template                模板<br>EditRegion                可编辑区域</p>
+<p>form                    表单<br>action                    动作<br>method                    方法<br>target                    目标<br>textfield                文本框(单号)<br>textArea                文本域(多行)<br>password                密码<br>hiden                    隐藏的<br>file                    文件<br>radiobutton                单选按钮<br>checkbox                复选按钮<br>select                    列表/菜单<br>submit                    提交按钮<br>reset                    重置按钮<br>button                    普通按钮<br>onClick                    鼠标袋点击事件<br>onMouseDown                鼠标左键按下消息<br>onMouseUp                鼠标弹起消息<br>onMouseOver                鼠标左键移动到指定区域范围内<br>onMouseOut                鼠标移出指定区域<br>onFocus                    控件得到焦点<br>onBlur                    控制失去焦点<br>onLoad                    页面加载事件<br>layer                    层</p>
+<p>bgcolor                    background color,背景颜色<br>head                    (文档)头<br>titile                    (文档)标题<br>body                    (文档)主题<br>META                    位与<head></head> 之间的一个特殊标签,用于表示网页的一些特殊环信息<br>content                    内容<br>expires                    (网页)过期<br>refresh                    (网页)刷新<br>align                    排列,对齐方式<br>left                    左对齐<br>center                    居中对齐<br>right                    右对齐<br>bold                    加粗<br>italic                    粗体<br>underline                下划线<br>superscript                上标<br>subscript                下标<br>ordered list                有序列表<br>unordered list                无序列表<br>font                    字体<br>color                    颜色<br>size                    字体大小<br>hr                    换行<br>width                    宽度<br>height                    高度<br>shade                    阴影<br>top                    顶部对齐<br>middle                    居中对齐<br>bottom                    底部对齐</p>
+<p>table                    表格<br>row                    行<br>column                      列<br>tr                    table row<br>td                    table data<br>th                    table header<br>caption                    单元格标题<br>border                    边框<br>align                    对齐方式<br>span                    (单元格合并)跨度<br>bgcolor                    background  color 背景颜色<br>width                    宽度<br>height                    高度<br>form                    表单<br>action                    动作<br>method                    方法<br>target                    目标<br>input                    输入控件<br>name                    名称<br>id                    标示 类似name<br>value                    值<br>size                    大小<br>maxlength                允许输入最多字符<br>checked                    选中的<br>submit                    提交按钮<br>reset                    重置按钮<br>button                    普通按钮<br>radiobutton                单选按钮<br>checkbox                复选按钮<br>select                    列表/菜单<br>option                    可选项<br>frameset                框架<br>DHTML(dyanmic HTML)            动态网页技术<br>CSS                    样式层叠表<br>JavaScript                网页脚本语言<br>style                    样式<br>color                    颜色<br>font-size                字体大小<br>font-family                字体名称<br>font-weight                字体粗细<br>text-align                文字对齐方向<br>text-decoration                文本修饰,是否有下划线<br>border-style                边框样式<br>solid                    (边框样式)实线<br>border-width                边框宽度<br>border-color                边框颜色<br>top                    上方(位置)<br>left                    左方<br>width                    高度<br>height                    宽度<br>z-index                    z方向序号<br>link                     链接<br>import                    导入</p>
+<p>script                  脚本<br>Language                   语言<br>prompt                    提示<br>alert                    警告<br>document                文档<br>write                    写<br>function                函数<br>var                     变量<br>true                    真<br>false                    假<br>parse                    解析 转换<br>calculate                计算<br>number                    数字<br>result                    结果<br>total                    总共<br>bug                    错误 程序有问题的地方<br>discount                折扣<br>money                    钱 金额</p>
+<p>array                    数组<br>math                    数学<br>date                    日期<br>string                    字符串<br>join                    连接<br>reverse                    颠倒<br>sort                    排序<br>splice                    evaluation,评价 鉴定<br>computer                计算器<br>object                    对象<br>property                属性<br>method                    方法<br>get                    得到<br>set                    设置<br>length                    长度<br>big                    增大文本<br>blink                    文本闪烁<br>fontcolor                确认字体颜色<br>italics                    用斜体显示字符串<br>indexOf                    查找子字符串的位置<br>strike                    显示加删除线的文本<br>sub                    将文本显示为下标<br>toLowerCase                将字符串转换为小写<br>toUpperCase                将字符串转换为大写<br>check                    检查<br>random                    随机<br>round                    四舍五入取整<br>ceil                    天花板<br>floor                    地板<br>seconds                    秒<br>minuters                分<br>hours                    小时<br>Day                    天<br>Date                    日期<br>Month                    月份<br>GMT                    格林尼治标准时间<br>UTC                    协调世界时 coordinated universal time</p>
+<p>windwos                    窗体<br>document                文档内容<br>histroy                    历史<br>onClick                    鼠标单击<br>onChange                文本内容或下拉菜单的选项发生改变<br>onFocus                    获得焦点 , 表示文本框等获得鼠标光标<br>onBlur                    失去焦点,表示文本框等失去光标<br>onMouseOver                鼠标悬停,既鼠标停留在图片等的地方<br>onMouseOut                鼠标移出 既离开图片等所在的区域<br>onMouseMove                鼠标移动 表示在<div>层等上方移动<br>onLoad                    网页文档加载事件<br>onSubmit                表单提交事件<br>onMouseDown                鼠标按下<br>onMouseUp                鼠标弹起<br>object                    对象<br>windwos object                窗体对象<br>location object                地址栏对象<br>document object                文档对象<br>form object                表单对象<br>document                表示給定浏览器窗口中的HMTL文档<br>history                  包含有关客户访问过的URL的信息<br>location                包含有关当前URL的信息<br>name                    设置或检索窗口或框架的名称<br>status                    设置或检索窗口底部的状态栏中的信息<br>screen                    包含有关客户端的屏幕和显示性能的信息<br>timeout                    超时<br>toolbar                 工具栏<br>scrollbars                滚动条<br>location                地址栏<br>statusbars                状态栏<br>menubars                菜单栏<br>resizable                可变窗口大小<br>clear                    清除<br>close                    关闭<br>write                    写<br>red                    红<br>blue                    蓝<br>yellow                    黄<br>green                    绿<br>black                    黑<br>white                    白<br>pink                    粉红<br>back                    后退<br>forward                    前进<br>host                    主机<br>hostname                主机名<br>href                    超链接地址<br>assign                    分配<br>reload                    重新加载<br>replace                    替换</div></p>
+<p>onBlur                    文本框失去焦点<br>onChange                文本框的值被修改<br>onFocus                    光标进入文本框中<br>focus                    获得焦点 既获得鼠标光标<br>select                    选中文本内容 ,突出显示区域<br>readonly                只读,文本框中的内容不能修改<br>card                    卡号<br>price                    价格<br>number                    数量<br>total                    总价<br>return                    返回值</p>
+<p>​                    </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Internet                 互联网&lt;br&gt;WWW（World Wide Web）            万维网&lt;br&gt;HTTP(Hypertext Transfer Protocol)    超文本传输协议，WWW服务程序所用协议&lt;br&gt;HTML(Hy
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CSS  基本用法</title>
+    <link href="http://zhaotian.info/2016/09/09/CSS/CSSbase/"/>
+    <id>http://zhaotian.info/2016/09/09/CSS/CSSbase/</id>
+    <published>2016-09-09T07:03:56.424Z</published>
+    <updated>2016-09-29T14:37:51.991Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="CSS-高级选择器"><a href="#CSS-高级选择器" class="headerlink" title="CSS 高级选择器"></a>CSS 高级选择器</h2><h3 id="后代选择器"><a href="#后代选择器" class="headerlink" title="后代选择器"></a>后代选择器</h3><p>.类 标签{</p>
+<p>}</p>
+<h3 id="交集选择器"><a href="#交集选择器" class="headerlink" title="交集选择器"></a>交集选择器</h3><p>标签.类{</p>
+<p>}</p>
+<h3 id="并集选择器"><a href="#并集选择器" class="headerlink" title="并集选择器"></a>并集选择器</h3><p>标签,标签{</p>
+<p>}</p>
+<h3 id="通配符选择器"><a href="#通配符选择器" class="headerlink" title="通配符选择器"></a>通配符选择器</h3><p>*{</p>
+<p>}</p>
+<h2 id="CSS3选择器"><a href="#CSS3选择器" class="headerlink" title="CSS3选择器"></a>CSS3选择器</h2><h3 id="儿子选择器-只能选择儿子不能选择后代"><a href="#儿子选择器-只能选择儿子不能选择后代" class="headerlink" title="儿子选择器(只能选择儿子不能选择后代)"></a>儿子选择器(只能选择儿子不能选择后代)</h3><p>标签&gt;标签{</p>
+<p>}</p>
+<h3 id="序选择器"><a href="#序选择器" class="headerlink" title="序选择器"></a>序选择器</h3><p>标签:first-child{</p>
+<p>}</p>
+<p>标签:last-child{</p>
+<p>}</p>
+<h3 id="兄弟选择器"><a href="#兄弟选择器" class="headerlink" title="兄弟选择器"></a>兄弟选择器</h3><p>标签+标签{</p>
+<p>}</p>
+<h2 id="CSS特性"><a href="#CSS特性" class="headerlink" title="CSS特性"></a>CSS特性</h2><h3 id="继承性"><a href="#继承性" class="headerlink" title="继承性"></a>继承性</h3><h3 id="层叠性"><a href="#层叠性" class="headerlink" title="层叠性"></a>层叠性</h3><h3 id="权重"><a href="#权重" class="headerlink" title="权重"></a>权重</h3><p><img src="http://bimg.zhaotian.info/css/css3/%E6%9D%83%E9%87%8D%E5%9B%BE.png" alt="权重"></p>
+<h4 id="权重问题大总结："><a href="#权重问题大总结：" class="headerlink" title="权重问题大总结："></a>权重问题大总结：</h4><p>id的数量,类的数量,标签的数量</p>
+<p>1） 先看有没有选中，如果选中了，那么以（id数，类数，标签数）来计权重。谁大听谁的。如果都一样，听后写的为准。<br>2） 如果没有选中，那么权重是0。如果大家都是0，就近原则。</p>
+<h2 id="行内元素-amp-块级元素"><a href="#行内元素-amp-块级元素" class="headerlink" title="行内元素&amp;块级元素"></a>行内元素&amp;块级元素</h2><p><img src="http://bimg.zhaotian.info/css/css3/%E5%9D%97%E8%A1%8C%E5%85%83%E7%B4%A0.png" alt="行块元素"></p>
+<h3 id="块级元素"><a href="#块级元素" class="headerlink" title="块级元素"></a>块级元素</h3><ul>
+<li>霸占一行，不能与其他任何元素并列</li>
+<li>能接受宽、高</li>
+<li>如果不设置宽度，那么宽度将默认变为父亲的100%</li>
+</ul>
+<h3 id="行内元素"><a href="#行内元素" class="headerlink" title="行内元素"></a>行内元素</h3><ul>
+<li>与其他行内元素并排</li>
+<li>不能设置宽、高。默认的宽度，就是文字的宽度。</li>
+</ul>
+<h2 id="HTML分类-amp-CSS分类"><a href="#HTML分类-amp-CSS分类" class="headerlink" title="HTML分类&amp;CSS分类"></a>HTML分类&amp;CSS分类</h2><h3 id="在HTML中，我们已经将标签分过类，当时分为了：文本级、容器级。"><a href="#在HTML中，我们已经将标签分过类，当时分为了：文本级、容器级。" class="headerlink" title="在HTML中，我们已经将标签分过类，当时分为了：文本级、容器级。"></a>在HTML中，我们已经将标签分过类，当时分为了：文本级、容器级。</h3><ul>
+<li>文本级：p、span、a、b、i、u、em</li>
+<li>容器级：div、h系列、li、dt、dd</li>
+</ul>
+<h3 id="CSS的分类和上面的很像，就p不一样："><a href="#CSS的分类和上面的很像，就p不一样：" class="headerlink" title="CSS的分类和上面的很像，就p不一样："></a>CSS的分类和上面的很像，就p不一样：</h3><ul>
+<li>所有的文本级标签，都是行内元素，除了p，p是个文本级，但是是个块级元素。</li>
+<li>所有的容器级标签都是块级元素。</li>
+</ul>
+<h2 id="脱离文档流"><a href="#脱离文档流" class="headerlink" title="脱离文档流"></a>脱离文档流</h2><h3 id="浮动-脱标、贴边、字围、收缩"><a href="#浮动-脱标、贴边、字围、收缩" class="headerlink" title="浮动(脱标、贴边、字围、收缩)"></a>浮动(脱标、贴边、字围、收缩)</h3><p>浮动的元素脱标</p>
+<p>浮动的元素相互贴靠</p>
+<p>浮动元素有字围效果</p>
+<h4 id="清除浮动"><a href="#清除浮动" class="headerlink" title="清除浮动"></a>清除浮动</h4><p>清除浮动方法1：给浮动的元素的祖先元素加高度。</p>
+<p>清除浮动方法2：clear:both;</p>
+<p>清除浮动方法3：隔墙法</p>
+<p>清除浮动方法4：overflow:hidden;</p>
+<h3 id="marigin"><a href="#marigin" class="headerlink" title="marigin"></a>marigin</h3><p>标准文档流中，竖直方向的margin不叠加，以较大的为准。</p>
+<p>如果不在标准流，比如盒子都浮动了，那么两个盒子之间是没有塌陷现象的：</p>
+<p>盒子居中</p>
+<ol>
+<li>使用margin:0 auto; 的盒子，必须有width，有明确的width</li>
+<li>只有标准流的盒子，才能使用margin:0 auto; 居中。</li>
+<li>margin:0 auto;是在居中盒子，不是居中文本。</li>
+</ol>
+<h2 id="定位"><a href="#定位" class="headerlink" title="定位"></a>定位</h2><blockquote>
+<p>​    子绝父绝、子绝父相、子绝父固，都是可以给儿子定位的。但是，工程上子绝、父绝，没有一个盒子在标准流里面了，所以页面就不稳固，没有任何实战用途。工程上，“子绝父相”有意义，父亲没有脱标，儿子脱标在父亲的范围里面移动。</p>
+</blockquote>
+<h3 id="relative-相对定位"><a href="#relative-相对定位" class="headerlink" title="relative 相对定位"></a>relative 相对定位</h3><ul>
+<li>相对自己原来的位置，进行位置调整</li>
+<li>不脱标，老家留坑，形影分离</li>
+<li>作用<ul>
+<li>元素微调</li>
+<li>做绝对定位的参考，子绝父相</li>
+</ul>
+</li>
+</ul>
+<h3 id="absolute-绝对定位"><a href="#absolute-绝对定位" class="headerlink" title="absolute 绝对定位"></a>absolute 绝对定位</h3><ul>
+<li>绝对定位脱标</li>
+<li>参考点<ul>
+<li>如果用top描述，那么定位参考点就是页面的左上角，而不是浏览器的左上角</li>
+<li>如果用bottom描述，那么就是浏览器首屏窗口尺寸，对应的页面的左下角</li>
+<li>一个绝对定位的元素，如果父辈元素中出现了也定位了的元素，那么将以父辈这个元素，为参考点</li>
+</ul>
+</li>
+</ul>
+<p><img src="http://bimg.zhaotian.info/css/css3/absolute%20top.png" alt="absolute"></p>
+<p><img src="http://bimg.zhaotian.info/css/css3/absolute%20buttom.png" alt="absolute"></p>
+<h3 id="fixed-固定定位-IE6-不兼容。"><a href="#fixed-固定定位-IE6-不兼容。" class="headerlink" title="fixed 固定定位,IE6 不兼容。"></a>fixed 固定定位,IE6 不兼容。</h3><h2 id="z-index"><a href="#z-index" class="headerlink" title="z-index"></a>z-index</h2><ul>
+<li>z-index值表示谁压着谁。数值大的压盖住数值小的。</li>
+<li>只有定位了的元素，才能有z-index值。也就是说，不管相对定位、绝对定位、固定定位，都可以使用z-index值。而浮动的东西不能用。</li>
+<li>z-index值没有单位，就是一个正整数。默认的z-index值是0。</li>
+<li>如果大家都没有z-index值，或者z-index值一样，那么谁写在HTML后面，谁在上面能压住别人。定位了的元素，永远能够压住没有定位的元素。</li>
+<li>从父现象：父亲怂了，儿子再牛逼也没用。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;CSS-高级选择器&quot;&gt;&lt;a href=&quot;#CSS-高级选择器&quot; class=&quot;headerlink&quot; title=&quot;CSS 高级选择器&quot;&gt;&lt;/a&gt;CSS 高级选择器&lt;/h2&gt;&lt;h3 id=&quot;后代选择器&quot;&gt;&lt;a href=&quot;#后代选择器&quot; class=&quot;header
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Sass 基础</title>
+    <link href="http://zhaotian.info/2016/09/09/CSS/css%20tool/sassbase/"/>
+    <id>http://zhaotian.info/2016/09/09/CSS/css tool/sassbase/</id>
+    <published>2016-09-09T06:58:16.592Z</published>
+    <updated>2016-09-27T09:02:10.313Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">/*块注释</div><div class="line">*/</div><div class="line">//行注释</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/*块注释</span></div><div class="line">*/</div></pre></td></tr></table></figure>
+<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><p>method code</p>
+<p>$变量:值</p>
+<p>类{</p>
+<p>​    属性:$变量;</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$bgc: #5B83AD;</div><div class="line">body&#123;</div><div class="line">  background-color: $bgc;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">  <span class="attribute">background-color</span>: <span class="number">#5B83AD</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><p>method code</p>
+<p>$变量: 值;</p>
+<p>类{</p>
+<p>​    top: $var*10%;</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$var: 10;</div><div class="line">body&#123;</div><div class="line">	top:$var*10%;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">  <span class="attribute">top</span>: <span class="number">100%</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="嵌套"><a href="#嵌套" class="headerlink" title="嵌套"></a>嵌套</h2><p>method code</p>
+<p>类{</p>
+<p>​    类{</p>
+<p>​    属性:参数;    </p>
+<p>​    }</p>
+<p>​    类{</p>
+<p>​        &amp;:伪类{</p>
+<p>​            属性:参数</p>
+<p>​        }</p>
+<p>​    }</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">div&#123;</div><div class="line">	h1&#123;</div><div class="line">		color:red;</div><div class="line">	&#125;</div><div class="line">	a&#123;</div><div class="line">		&amp;:hover&#123;</div><div class="line">			color: green;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">div</span> <span class="selector-tag">h1</span> &#123;</div><div class="line">  <span class="attribute">color</span>: red;</div><div class="line">&#125;</div><div class="line"><span class="selector-tag">div</span> <span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</div><div class="line">  <span class="attribute">color</span>: green;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><p>method code</p>
+<p>类{</p>
+<p>​    属性:参数;</p>
+<p>}</p>
+<p>类2{</p>
+<p>​    @extend:类;</p>
+<p>​    属性:参数;</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">.class1&#123;</div><div class="line">	color:red;</div><div class="line">&#125;</div><div class="line">.calss2&#123;</div><div class="line">	@extend .class1;</div><div class="line">	font-size:120%;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.class1</span>, <span class="selector-class">.calss2</span> &#123;</div><div class="line">  <span class="attribute">color</span>: red;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.calss2</span> &#123;</div><div class="line">  <span class="attribute">font-size</span>: <span class="number">120%</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="Mixin"><a href="#Mixin" class="headerlink" title="Mixin"></a>Mixin</h2><p>method code</p>
+<p>@变量 名称{</p>
+<p>​    属性:参数;</p>
+<p>}</p>
+<p>@变量 名称($变量:默认值){</p>
+<p>​    属性:参数;</p>
+<p>​    属性:$变量;</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">@mixin top&#123;</div><div class="line">	margin-top:10px;</div><div class="line">&#125;</div><div class="line">@mixin left($value:10px)&#123;</div><div class="line">	float:left;</div><div class="line">	margin-left:$value;</div><div class="line">&#125;</div><div class="line">div&#123;</div><div class="line">	@include top;</div><div class="line">&#125;</div><div class="line">div&#123;</div><div class="line">	@include left(20px);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">div</span> &#123;</div><div class="line">  <span class="attribute">margin-top</span>: <span class="number">10px</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">div</span> &#123;</div><div class="line">  <span class="attribute">float</span>: left;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">20px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="插入文件"><a href="#插入文件" class="headerlink" title="插入文件"></a>插入文件</h2><p>method code</p>
+<p>@import “插入的文件.scss”;</p>
+<p>sass code</p>
+<p>_css.sass</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">@import &quot;_button.scss&quot;;</div><div class="line">div&#123;</div><div class="line">	float:right;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>_button.scss</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">button&#123;</div><div class="line">	background-color: #fff;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">button</span> &#123;</div><div class="line">  <span class="attribute">background-color</span>: <span class="number">#fff</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">div</span> &#123;</div><div class="line">  <span class="attribute">float</span>: right;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="逻辑运算"><a href="#逻辑运算" class="headerlink" title="逻辑运算"></a>逻辑运算</h2><h3 id="if"><a href="#if" class="headerlink" title="@if"></a>@if</h3><p>method code</p>
+<p>@if 逻辑判断 显示结果</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">p&#123;</div><div class="line"> @if 1+1==2&#123; border:1px solid;&#125;</div><div class="line"> @if 5&lt;3&#123; border:1px solid;&#125;</div><div class="line"> @if null&#123; border:3px solid;&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">p</span> &#123;</div><div class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid; &#125;</div></pre></td></tr></table></figure>
+<h3 id="for"><a href="#for" class="headerlink" title="@for"></a>@for</h3><p>method code</p>
+<p>@for 变量 form 开始值 through 结束值{</p>
+<p>​    循环显示内容 .类-变量</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">@for $i from 1 through 5&#123;</div><div class="line">	.item-#&#123;$i&#125; &#123;width: 2em * $i;&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.item-1</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">2em</span>; &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.item-2</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">4em</span>; &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.item-3</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">6em</span>; &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.item-4</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">8em</span>; &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.item-5</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">10em</span>; &#125;</div></pre></td></tr></table></figure>
+<h3 id="each"><a href="#each" class="headerlink" title="@each"></a>@each</h3><p>method code    </p>
+<p>@each 变量 in 值,值,值{</p>
+<p>​    .#{变量}-icon{ 变量}</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">@each $animal in puma, sea-slug, egret, salamander &#123;</div><div class="line">  .#&#123;$animal&#125;-icon &#123;</div><div class="line">    background-image: url(&apos;/images/#&#123;$animal&#125;.png&apos;);</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.puma-icon</span> &#123;</div><div class="line">  <span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">"/images/puma.png"</span>); &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.sea-slug-icon</span> &#123;</div><div class="line">  <span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">"/images/sea-slug.png"</span>); &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.egret-icon</span> &#123;</div><div class="line">  <span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">"/images/egret.png"</span>); &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.salamander-icon</span> &#123;</div><div class="line">  <span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">"/images/salamander.png"</span>); &#125;</div></pre></td></tr></table></figure>
+<h3 id="while"><a href="#while" class="headerlink" title="@while"></a>@while</h3><p>method code</p>
+<p>@while 判断{</p>
+<p>​    .item-#{$i} {属性}</p>
+<p>}</p>
+<p>sass code</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$i: 4;</div><div class="line">@while $i &gt; 0 &#123;</div><div class="line">  .item-#&#123;$i&#125; &#123; width: 2em * $i; &#125;</div><div class="line">  $i: $i - 2;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>css code</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.item-4</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">8em</span>; &#125;</div><div class="line"></div><div class="line"><span class="selector-class">.item-2</span> &#123;</div><div class="line">  <span class="attribute">width</span>: <span class="number">4em</span>; &#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;注释&quot;&gt;&lt;a href=&quot;#注释&quot; class=&quot;headerlink&quot; title=&quot;注释&quot;&gt;&lt;/a&gt;注释&lt;/h2&gt;&lt;p&gt;sass code&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gu
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CSS3 基本用法</title>
+    <link href="http://zhaotian.info/2016/09/07/CSS/CSS3/"/>
+    <id>http://zhaotian.info/2016/09/07/CSS/CSS3/</id>
+    <published>2016-09-07T11:18:38.250Z</published>
+    <updated>2016-09-29T14:34:25.325Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="css"><a href="#css" class="headerlink" title="css"></a>css</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><h3 id="css3现状"><a href="#css3现状" class="headerlink" title="css3现状"></a>css3现状</h3><ol>
+<li>浏览器支持程度差，需要添加私有前缀</li>
+<li>移动端支持优于PC端</li>
+<li>不断改进中</li>
+<li>应用相对广泛</li>
+</ol>
+<h3 id="如何对待"><a href="#如何对待" class="headerlink" title="如何对待"></a>如何对待</h3><ol>
+<li>坚持渐进增强原则</li>
+<li>考虑用户群体</li>
+<li>遵照产品的方案</li>
+<li>听Boss的</li>
+</ol>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="统一环境"><a href="#统一环境" class="headerlink" title="统一环境"></a>统一环境</h3><ol>
+<li>Chrome浏览器 version 46+</li>
+<li>Firefox浏览器 firefox 42+</li>
+</ol>
+<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h3><ol>
+<li>E[attr] 表示存在attr属性即可；</li>
+<li>E[attr=val] 表示属性值完全等于val</li>
+<li>E[attr~=val] 表示的一个单独的属性值 这个属性值是以空格分隔的</li>
+<li>E[attr|=val] 表示的要么一个单独的属性值 要么这个属性值是以“-”分隔的</li>
+<li>E[attr*=val] 表示的属性值里包含val字符并且在“任意”位置</li>
+<li>E[attr^=val] 表示的属性值里包含val字符并且在“开始”位置</li>
+</ol>
+<ol>
+<li>E[attr$=val] 表示的属性值里包含val字符并且在“结束”位置</li>
+</ol>
+<h3 id="伪类选择器"><a href="#伪类选择器" class="headerlink" title="伪类选择器"></a>伪类选择器</h3><blockquote>
+<p>重点理解E是用来参考确定其父元素的，nth-child(n) 对应根据E元素确定的父元素的所有子元素，nth-of-type(n) 的不同之处在于其对应的是只有E元素，会忽略其子元素。（此处要配合案例加强理解）</p>
+</blockquote>
+<ol>
+<li><p>E:nth-child(n) 第n个子元素，计算方法是E元素的全部兄弟元素</p>
+</li>
+<li><p>E:nth-of-type(n) 第n个子元素，计算方法只是E元素，会忽略其子元素的存在</p>
+</li>
+<li><p>E:nth-last-child(n) 同E:nth-child(n) 计算顺序相反。</p>
+</li>
+<li><p>E:nth-last-of-type(n) 同E:nth-of-type(n) 计算顺序相反。</p>
+<blockquote>
+<p>关于n的取值范围：</p>
+<ul>
+<li>n遵循线性变化，其取值1、2、3、4、… </li>
+</ul>
+<ul>
+<li>当n做为一个独立值时，n取值为n&gt;=1，例如nth-child(n)</li>
+<li>当n做一个系数时，n取值为n&gt;=0者n&lt;0，例如nth-child(2n+1)、nth-child(-n+5) 处需要理解2n+1或者-n+5做为一个整体不能小于1；</li>
+</ul>
+</blockquote>
+</li>
+<li><p>E:only-child 表示当前以E确定的父元素，除E之外并无其它子元素（独生子）；</p>
+</li>
+<li><p>E:only-of-type 表示当前以E确定的父元素， 除E之外不能包含其它和E同类型的子元素；</p>
+</li>
+<li><p>E:target 结合锚点进行使用，处于当前锚点的元素会被选中；</p>
+</li>
+<li><p>E:empty 选中没有任何子节点的E元素；</p>
+</li>
+</ol>
+<h3 id="伪元素选择器"><a href="#伪元素选择器" class="headerlink" title="伪元素选择器"></a>伪元素选择器</h3><blockquote>
+<p>“:” 与 “::” 区别在于区分伪类和伪元素    </p>
+</blockquote>
+<ol>
+<li>E::selection 可改变选中文本的样式</li>
+<li>E::placeholder 可改变placeholder默认样式，这个存在明显的兼容问题，比如::-webkit-input-placeholder，具体参考手册进行对比。</li>
+<li>E:after、E:before 在旧版本里是伪类，在新版本里是伪元素，新版本下E:after、E:before会被自动识别为E::after、E::before，按伪元素来对待。</li>
+</ol>
+<h3 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h3><blockquote>
+<p>新增了RGBA、HSLA模式，其中的A 表示透明度通道，即可以设置颜色值的透明度，相较opacity，不具有继承性，即不会影响子元素的透明度。</p>
+<p>Red、Green、Blue、Alpha即RGBA</p>
+<p>Hue、Saturation、Lightness、Alpha即HSLA</p>
+</blockquote>
+<ul>
+<li>R、G、B 取值范围0~255</li>
+<li>H 取值范围0~360，0/360表示黑色、120表示绿色、240表示蓝色</li>
+<li>S 取值范围0%~100%</li>
+<li>L 取值范围0%~100%</li>
+<li>A 取值范围0~1</li>
+</ul>
+<p>关于透明度</p>
+<ol>
+<li>opacity子元素会继承父元素的透明度，在实际开发中会带来干扰；</li>
+<li>transparent 设置透明度时完全类似于“玻璃”一样的透明；</li>
+</ol>
+<h3 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h3><h4 id="文字阴影"><a href="#文字阴影" class="headerlink" title="文字阴影"></a>文字阴影</h4><p>偏移量、模糊度、颜色（可设透明度）</p>
+<p>text-shadow:左右 上下 模糊度 颜色</p>
+<h4 id="文本换行"><a href="#文本换行" class="headerlink" title="文本换行"></a>文本换行</h4><ul>
+<li>normal    默认。空白会被浏览器忽略。<ul>
+<li>pre空白会被浏览器保留。其行为方式类似 HTML 中的 <pre> 标签。</pre></li>
+<li>nowrap文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。</li>
+<li>pre-wrap保留空白符序列，但是正常地进行换行。</li>
+<li>pre-line合并空白符序列，但是保留换行符。</li>
+<li>inherit规定应该从父元素继承 white-space 属性的值。</li>
+</ul>
+</li>
+</ul>
+<h3 id="边框"><a href="#边框" class="headerlink" title="边框"></a>边框</h3><h4 id="边框圆角"><a href="#边框圆角" class="headerlink" title="边框圆角"></a>边框圆角</h4><blockquote>
+<p>可分别设置长、短半径，以“/”进行分隔，遵循“1，2，3，4”规则，“/”前面的1~4个用来设置横轴半径（分别对应横轴1、2、3、4位置 ），“/”后面1~4个参数用来设置纵轴半径（分别对应纵轴1、2、3、4位置 ）</p>
+</blockquote>
+<ul>
+<li>表格运用圆角需要要 border-collapse: separate;</li>
+<li>当圆角半径小于或等于边框宽度时，元素内角是直角</li>
+</ul>
+<p><img src="http://bimg.zhaotian.info/css/css3/%E5%9C%86%E8%A7%92.jpg" alt="圆角"></p>
+<h4 id="边框阴影"><a href="#边框阴影" class="headerlink" title="边框阴影"></a>边框阴影</h4><blockquote>
+<p>可以设置多重边框阴影，实现更好的效果，增强立体感</p>
+</blockquote>
+<ul>
+<li>水平偏移量正值向右 负值向左 垂直正值向下 负值向上。模糊度是不能为负</li>
+<li>关于模糊度：从一个颜色值在一定距离内进行一个渐变至透明的过程。</li>
+<li>移量和扩展也是数学运算的，即正负会相互抵消。</li>
+<li>偏移量和模糊度是可以相加计算，偏移量负号只代表方向。</li>
+<li>设置边框阴影不会影响盒子的布局，即不会影响其兄弟元素的布局。</li>
+<li>spread可以与blur、h-shadow、v-shadow相互抵消，blur不可为负值</li>
+</ul>
+<h4 id="盒模型"><a href="#盒模型" class="headerlink" title="盒模型"></a>盒模型</h4><blockquote>
+<p>IE盒模型只会出现在IE5版本和IE6+的怪异模式中。</p>
+<p>CSS3中可以通过box-sizing 来指定盒模型，即可指定为content-box、border-box;</p>
+</blockquote>
+<ol>
+<li>IE模型下 width = padding + content + border;</li>
+<li>W3C盒模型下 width = content</li>
+<li>box-sizing: border-box  width = border + padding + content</li>
+<li>box-sizing: content-box  width = content</li>
+</ol>
+<p><img src="http://bimg.zhaotian.info/css/css3/%E7%9B%92%E6%A8%A1%E5%9E%8B.png" alt="盒子模型"></p>
+<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><blockquote>
+<p>背景在CSS3中也得到很大程度的增强，比如背景图片尺寸、背景裁切区域、背景定位参照点、多重背景等。</p>
+</blockquote>
+<p>cover会使“最大”边，进行缩放，另一边同比缩放，铺满容器，超出部分会溢出。</p>
+<p>contain 会使“最小”边，进行缩放，另一边同比缩放，不一定铺满容器，会完整显示图片。</p>
+<p>background-size 与 background-clip无关</p>
+<p>background-size 与 background-origin 保持一致</p>
+<h3 id="渐变"><a href="#渐变" class="headerlink" title="渐变"></a>渐变</h3><blockquote>
+<p>渐变是CSS3当中比较丰富多彩的一个特性，通过渐变我们可以实现许多炫丽的效果，有效的减少图片的使用数量，并且具有很强的适应性和可扩展性</p>
+</blockquote>
+<h4 id="线性渐变"><a href="#线性渐变" class="headerlink" title="线性渐变"></a>线性渐变</h4><p>线性渐变指沿着某条直线朝一个方向产生渐变效果。</p>
+<p>关于颜色起止，可以设置多个色值的渐变，并且可以分别设置渐变的距离</p>
+<p>方向、起始颜色、终止色；</p>
+<p><img src="http://bimg.zhaotian.info/css/css3/%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98.png" alt="线性渐变"></p>
+<h4 id="径向渐变"><a href="#径向渐变" class="headerlink" title="径向渐变"></a>径向渐变</h4><p>径向渐变指从一个中心点开始沿着四周产生渐变效果</p>
+<ul>
+<li>辐射范围:其半径可以不等即可以是椭圆</li>
+<li>中心点:中心位置参照的是盒子的左上角</li>
+</ul>
+<ul>
+<li>颜色起止</li>
+</ul>
+<h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h3><h4 id="伸缩布局"><a href="#伸缩布局" class="headerlink" title="伸缩布局"></a>伸缩布局</h4><h5 id="主轴方向-flex-direction"><a href="#主轴方向-flex-direction" class="headerlink" title="主轴方向  flex-direction"></a>主轴方向  flex-direction</h5><p>正水平:flex-direction</p>
+<p>正竖直:column</p>
+<p>倒水平:row-reverse</p>
+<p>倒竖直:column-reverse</p>
+<h5 id="主轴方向对齐-justify-content"><a href="#主轴方向对齐-justify-content" class="headerlink" title="主轴方向对齐 justify-content"></a>主轴方向对齐 justify-content</h5><p>开始收缩:flex-start</p>
+<p>结尾收缩:flex-end</p>
+<p>中心搜索:center</p>
+<p>均匀收缩:space-around</p>
+<p>对齐收缩:space-between</p>
+<h5 id="侧轴方向对齐-align-items"><a href="#侧轴方向对齐-align-items" class="headerlink" title="侧轴方向对齐 align-items"></a>侧轴方向对齐 align-items</h5><p>上对齐:flex-start</p>
+<p>居中:center</p>
+<p>下对齐:flex-end</p>
+<p>基线对齐:baseline</p>
+<p>张开对齐:stretch</p>
+<h5 id="换行-flex-wrap"><a href="#换行-flex-wrap" class="headerlink" title="换行 flex-wrap"></a>换行 flex-wrap</h5><p>换行 wrap</p>
+<p>不换行 nowrap</p>
+<h5 id="堆栈排列-flex-wrap-wrap-设置-align-content"><a href="#堆栈排列-flex-wrap-wrap-设置-align-content" class="headerlink" title="堆栈排列  flex-wrap: wrap 设置  align-content"></a>堆栈排列  flex-wrap: wrap 设置  align-content</h5><p>顶部对齐:flex-start</p>
+<p>底部对齐:flex-end</p>
+<p>居中对齐:center</p>
+<p>均匀对齐:space-around</p>
+<p>对齐搜索:space-between</p>
+<p>张开对齐:stretch</p>
+<h5 id="flex-flow-flex-direction和flex-wrap的简写形式"><a href="#flex-flow-flex-direction和flex-wrap的简写形式" class="headerlink" title="flex-flow flex-direction和flex-wrap的简写形式"></a>flex-flow flex-direction和flex-wrap的简写形式</h5><h5 id="控制子元素伸缩比例-定义flex-值"><a href="#控制子元素伸缩比例-定义flex-值" class="headerlink" title="控制子元素伸缩比例  定义flex 值"></a>控制子元素伸缩比例  定义flex 值</h5><p>display: flex;</p>
+<p>flex:$;</p>
+<h5 id="修改自身align-self-覆盖父元素设置的algin-items"><a href="#修改自身align-self-覆盖父元素设置的algin-items" class="headerlink" title="修改自身align-self 覆盖父元素设置的algin-items"></a>修改自身align-self 覆盖父元素设置的algin-items</h5><p>上对齐:flex-start</p>
+<p>居中:center</p>
+<p>下对齐:flex-end</p>
+<p>基线对齐:baseline</p>
+<p>张开对齐:stretch</p>
+<h5 id="排序规则-order"><a href="#排序规则-order" class="headerlink" title="排序规则 order"></a>排序规则 order</h5><p>指定order值 从小&gt;&gt;大;</p>
+<h3 id="过渡"><a href="#过渡" class="headerlink" title="过渡"></a>过渡</h3><blockquote>
+<p>​    过渡是CSS3中具有颠覆性的特征之一，可以实现元素不同状态间的平滑过渡（补间动画），经常用来制作动画效果。</p>
+<p>贝塞尔曲线限定了过渡的轨迹。</p>
+<p>帧动画：通过一帧一帧的关键画面按照固定顺序和速度播放。如电影胶片</p>
+<p>补间动画：自动完成从起始状到终止状的的过度。</p>
+</blockquote>
+<p>设置过渡属性 :transition-property</p>
+<p>设置过渡时间:transition-duration</p>
+<p>设置过渡速度:transition-timing-function</p>
+<p>设置过渡延时:transition-delay</p>
+<h3 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h3><p>动画名称</p>
+<p>​    animation-name:名字</p>
+<p>动画持续时间</p>
+<p>​    animation-duration:1s</p>
+<p>动画结束后的状态</p>
+<p>​    animation-fill-mode:forwards</p>
+<p>无限次播放</p>
+<p>​    animation-iteration-count: infinite;</p>
+<p>动画延时</p>
+<p>​    animation-delay: 1s</p>
+<p>动画暂停</p>
+<p>​    animation-play-state: paused;</p>
+<p>动画反方向</p>
+<p>​    animation-direction: alternate;</p>
+<p>动画速度</p>
+<p>​    animation-timing-function: linear;</p>
+<h3 id="转换"><a href="#转换" class="headerlink" title="转换"></a>转换</h3><h4 id="旋转-rotate"><a href="#旋转-rotate" class="headerlink" title="旋转(rotate)"></a>旋转(rotate)</h4><h5 id="基础旋转"><a href="#基础旋转" class="headerlink" title="基础旋转"></a>基础旋转</h5><p>通过 rotate() 方法，元素可以实现旋转效果，允许负值，元素将逆时针旋转。</p>
+<p>transform: rotate(45deg)、transform: rotate(-90deg)</p>
+<h5 id="沿轴旋转"><a href="#沿轴旋转" class="headerlink" title="沿轴旋转"></a>沿轴旋转</h5><p>通过 rotateX()、rotateY()、 rotateZ()可以实现X、Y、Z轴上的旋转</p>
+<p>transform: rotateX(45deg)、</p>
+<p>transform: rotateY(90deg)、</p>
+<p>transform: rotateX(45deg)</p>
+<h4 id="缩放-scale"><a href="#缩放-scale" class="headerlink" title="缩放(scale)"></a>缩放(scale)</h4><p>通过 scale() 方法，可以更改元素的尺寸，可以分别调整x和y两个方向的大小</p>
+<p>transform: scale(x, y) x或y可以是小数</p>
+<h4 id="倾斜-skew"><a href="#倾斜-skew" class="headerlink" title="倾斜 (skew)"></a>倾斜 (skew)</h4><p>transform: skew(45deg);</p>
+<h4 id="移动-translate"><a href="#移动-translate" class="headerlink" title="移动 (translate )"></a>移动 (translate )</h4><p>通过 translate() 方法，可以使元素从其当前位置移动，通过设置水平(x轴)和垂直(y轴)距离实现</p>
+<p>transform: translate(x, y)</p>
+<h4 id="转换位置"><a href="#转换位置" class="headerlink" title="转换位置"></a>转换位置</h4><p>指定origin的位置进行旋转</p>
+<p>transform-origin:left  left/right  top/bottom;</p>
+<h3 id="媒体查询"><a href="#媒体查询" class="headerlink" title="媒体查询"></a>媒体查询</h3><h4 id="link-方式"><a href="#link-方式" class="headerlink" title="link 方式"></a>link 方式</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;link rel="stylesheet" media="screen and (max-width:600px)" href="./css/blue.css"&gt;</div><div class="line">&lt;link rel="stylesheet" media="screen and (min-width:900px)" href="./css/red.css"&gt;</div><div class="line">&lt;link rel="stylesheet" media="screen and (min-width:1200px)" href="./css/yellow.css"&gt;</div></pre></td></tr></table></figure>
+<h4 id="css方式"><a href="#css方式" class="headerlink" title="css方式"></a>css方式</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">&lt;style&gt;</div><div class="line">	@media screen and (max-width:600px) &#123;</div><div class="line">		body &#123;</div><div class="line">			background-color: blue;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	@media screen and (min-width:900px) &#123;</div><div class="line">		body &#123;</div><div class="line">			background-color: red;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	@media screen and (min-width:1200px) &#123;</div><div class="line">		body &#123;</div><div class="line">			background-color: yellow;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure>
+<h2 id="web字体"><a href="#web字体" class="headerlink" title="web字体"></a>web字体</h2><blockquote>
+<p>​    开发人员可以为自已的网页指定特殊的字体，无需考虑用户电脑上是否安装了此特殊字体，从此把特殊字体处理成图片的时代便成为了过去。</p>
+<p>​    支持程度比较好，甚至IE低版本浏览器也能支持。</p>
+</blockquote>
+<h3 id="字体格式"><a href="#字体格式" class="headerlink" title="字体格式"></a>字体格式</h3><h4 id="TureTpe-ttf-格式"><a href="#TureTpe-ttf-格式" class="headerlink" title="TureTpe(.ttf)格式"></a>TureTpe(.ttf)格式</h4><p>​    .ttf字体是Windows和Mac的最常见的字体，是一种RAW格式，支持这种字体的浏览器有IE9+、Firefox3.5+、Chrome4+、Safari3+、Opera10+、iOS Mobile、Safari4.2+；</p>
+<h4 id="OpenType-otf-格式"><a href="#OpenType-otf-格式" class="headerlink" title="OpenType(.otf)格式"></a>OpenType(.otf)格式</h4><p>​    .otf字体被认为是一种原始的字体格式，其内置在TureType的基础上，支持这种字体的浏览器有Firefox3.5+、Chrome4.0+、Safari3.1+、Opera10.0+、iOS Mobile、Safari4.2+；</p>
+<h4 id="Web-Open-Font-Format-woff-格式"><a href="#Web-Open-Font-Format-woff-格式" class="headerlink" title="Web Open Font Format(.woff)格式"></a>Web Open Font Format(.woff)格式</h4><p>​    woff字体是Web字体中最佳格式，他是一个开放的TrueType/OpenType的压缩版本，同时也支持元数据包的分离，支持这种字体的浏览器有IE9+、Firefox3.5+、Chrome6+、Safari3.6+、Opera11.1+；</p>
+<h4 id="Embedded-OpenType-eot-格式"><a href="#Embedded-OpenType-eot-格式" class="headerlink" title="Embedded OpenType(.eot)格式"></a>Embedded OpenType(.eot)格式</h4><p>​    .eot字体是IE专用字体，可以从TrueType创建此格式字体，支持这种字体的浏览器有IE4+；</p>
+<h4 id="SVG-svg-格式"><a href="#SVG-svg-格式" class="headerlink" title="SVG(.svg)格式"></a>SVG(.svg)格式</h4><p>​    .svg字体是基于SVG字体渲染的一种格式，支持这种字体的浏览器有Chrome4+、Safari3.1+、Opera10.0+、iOS Mobile Safari3.2+；</p>
+<h3 id="web图标"><a href="#web图标" class="headerlink" title="web图标"></a>web图标</h3><blockquote>
+<p>常见的是把网页常用的一些小的图标，借助工具帮我们生成一个字体库，然后就可以像使用文字一样使用图标了。</p>
+</blockquote>
+<p>优点</p>
+<ol>
+<li>将所有图标打包成字体库，减少请求</li>
+<li>具有矢量性，可保证清晰度</li>
+<li>使用灵活，便于维护</li>
+</ol>
+<p>拓展</p>
+<p>Font Awesome 使用介绍</p>
+<p>​    <a href="http://fontawesome.dashgame.com/" target="_blank" rel="external">http://fontawesome.dashgame.com/</a></p>
+<p>定制自已的字体图标库</p>
+<p>​    <a href="http://iconfont.cn/" target="_blank" rel="external">http://iconfont.cn/</a></p>
+<p>​    <a href="https://icomoon.io/" target="_blank" rel="external">https://icomoon.io/</a></p>
+<p>SVG</p>
+<p>​    <a href="http://www.iconsvg.com/" target="_blank" rel="external">http://www.iconsvg.com/</a></p>
+<h2 id="兼容性"><a href="#兼容性" class="headerlink" title="兼容性"></a>兼容性</h2><p>通过<a href="http://caniuse.com/" target="_blank" rel="external">http://caniuse.com/</a> 可查询CSS3各特性的支持程度，一般兼容性处理的常见方法是为属性添加私有前缀，如不能解决，应避免使用，无需刻意去处理CSS3的兼容性问题。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;css&quot;&gt;&lt;a href=&quot;#css&quot; class=&quot;headerlink&quot; title=&quot;css&quot;&gt;&lt;/a&gt;css&lt;/h1&gt;&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;h
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Less 基础</title>
+    <link href="http://zhaotian.info/2016/09/05/CSS/css%20tool/lessbase/"/>
+    <id>http://zhaotian.info/2016/09/05/CSS/css tool/lessbase/</id>
     <published>2016-09-05T03:01:34.219Z</published>
-    <updated>2016-09-05T03:01:34.280Z</updated>
+    <updated>2016-09-27T09:02:09.201Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Variables"><a href="#Variables" class="headerlink" title="Variables"></a>Variables</h3><p>method  code</p>
 <p>@ Variables=value;</p>
@@ -227,7 +1074,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;p&gt;&lt;a href=&quot;http://zhaotian.info/&quot;&gt;http://zhaotian.info/&lt;/a&gt;&lt;/p&gt;</div><div class="line">&lt;p&gt;This is &lt;a href=&quot;http://zhaotian.info/&quot; title=&quot;blog&quot;&gt;zhaotian.info&lt;/a&gt; inline link.&lt;/p&gt;</div><div class="line">&lt;p&gt;This is &lt;a href=&quot;/about/&quot;&gt;About&lt;/a&gt; inline link.&lt;/p&gt;</div><div class="line">&lt;p&gt;This is &lt;a href=&quot;(http://zhaotian.info/)&quot; title=&quot;blog&quot;&gt;zhaotian info&lt;/a&gt; reference-style link.&lt;/p&gt;</div><div class="line">&lt;p&gt;&lt;a href=&quot;http://google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;</div><div class="line">&lt;p&gt;I get 10 times more traffic from &lt;a href=&quot;http://google.com/&quot; title=&quot;Google&quot;&gt;Google&lt;/a&gt; than from</div><div class="line">&lt;a href=&quot;http://search.yahoo.com/&quot; title=&quot;Yahoo Search&quot;&gt;Yahoo&lt;/a&gt; or &lt;a href=&quot;http://search.msn.com/&quot; title=&quot;MSN Search&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;</div></pre></td></tr></table></figure>
 <p>##邮箱</p>
 <p>style code</p>
-<p><a href="&#109;&#97;&#x69;&#108;&#x74;&#x6f;&#x3a;&#x6b;&#97;&#x73;&#116;&#114;&#99;&#x6e;&#64;&#111;&#x75;&#x74;&#x6c;&#111;&#x6f;&#107;&#46;&#x63;&#111;&#109;">&#x6b;&#97;&#x73;&#116;&#114;&#99;&#x6e;&#64;&#111;&#x75;&#x74;&#x6c;&#111;&#x6f;&#107;&#46;&#x63;&#111;&#109;</a></p>
+<p><a href="&#x6d;&#x61;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#x6b;&#x61;&#x73;&#116;&#114;&#x63;&#110;&#x40;&#111;&#x75;&#116;&#108;&#x6f;&#111;&#107;&#x2e;&#99;&#x6f;&#109;">&#x6b;&#x61;&#x73;&#116;&#114;&#x63;&#110;&#x40;&#111;&#x75;&#116;&#108;&#x6f;&#111;&#107;&#x2e;&#99;&#x6f;&#109;</a></p>
 <p>.md code</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;kastrcn@outlook.com&gt;</div></pre></td></tr></table></figure>
 <p>html code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;a href=&quot;mailto:kastrcn@outlook.com&quot;&gt;&amp;#x6b;&amp;#97;&amp;#115;&amp;#x74;&amp;#114;&amp;#99;&amp;#110;&amp;#x40;&amp;#x6f;&amp;#117;&amp;#x74;&amp;#x6c;&amp;#x6f;&amp;#111;&amp;#107;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;</div></pre></td></tr></table></figure></p>
@@ -282,29 +1129,10 @@
   </entry>
   
   <entry>
-    <title>CSS  Alphabet</title>
-    <link href="http://zhaotian.info/2016/09/01/CSS/%E5%B8%B8%E7%94%A8%E8%AF%8D%E6%B1%87/"/>
-    <id>http://zhaotian.info/2016/09/01/CSS/常用词汇/</id>
-    <published>2016-09-01T13:25:07.282Z</published>
-    <updated>2016-09-01T13:56:30.504Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="A"><a href="#A" class="headerlink" title="A"></a>A</h2><h3 id="absolute-‘aebsəlu-t-绝对的，完全的"><a href="#absolute-‘aebsəlu-t-绝对的，完全的" class="headerlink" title="absolute   [‘æbsəlu:t]       绝对的，完全的"></a>absolute   [‘æbsəlu:t]       绝对的，完全的</h3><h3 id="active-‘aektiv-活动的，激活的，标记的一个伪类"><a href="#active-‘aektiv-活动的，激活的，标记的一个伪类" class="headerlink" title="active     [‘æktiv]          活动的，激活的，标记的一个伪类"></a>active     [‘æktiv]          活动的，激活的，<a>标记的一个伪类</a></h3><h3 id="align-ə’lain-对齐"><a href="#align-ə’lain-对齐" class="headerlink" title="align      [ə’lain]          对齐"></a>align      [ə’lain]          对齐</h3><h3 id="alpha-‘aelfə-透明度，半透明"><a href="#alpha-‘aelfə-透明度，半透明" class="headerlink" title="alpha      [‘ælfə]           透明度，半透明"></a>alpha      [‘ælfə]           透明度，半透明</h3><h3 id="anchor-‘aeŋkə-锚记标记是这个单词的缩写"><a href="#anchor-‘aeŋkə-锚记标记是这个单词的缩写" class="headerlink" title="anchor     [‘æŋkə]           锚记标记是这个单词的缩写"></a>anchor     [‘æŋkə]           锚记<a>标记是这个单词的缩写</a></h3><h3 id="arrow-‘aerəu-箭头"><a href="#arrow-‘aerəu-箭头" class="headerlink" title="arrow      [‘ærəu]           箭头"></a>arrow      [‘ærəu]           箭头</h3><h3 id="auto-‘o-təu-自动的"><a href="#auto-‘o-təu-自动的" class="headerlink" title="auto       [‘ɔ:təu]          自动的"></a>auto       [‘ɔ:təu]          自动的</h3><h2 id="B"><a href="#B" class="headerlink" title="B"></a>B</h2><h3 id="background-‘baekgraund-背景"><a href="#background-‘baekgraund-背景" class="headerlink" title="background [‘bækgraund]    背景"></a>background [‘bækgraund]    背景</h3><h3 id="banner-‘baenə-网幅广告-旗帜广告-横幅广告-网络广告的主要形式-一般使用GIF格式的图像文件-可以使用静态图形-也可用多帧图像拼接为动画图像"><a href="#banner-‘baenə-网幅广告-旗帜广告-横幅广告-网络广告的主要形式-一般使用GIF格式的图像文件-可以使用静态图形-也可用多帧图像拼接为动画图像" class="headerlink" title="banner     [‘bænə]         网幅广告, 旗帜广告, 横幅广告 (网络广告的主要形式, 一般使用GIF格式的图像文件, 可以使用静态图形, 也可用多帧图像拼接为动画图像)"></a>banner     [‘bænə]         网幅广告, 旗帜广告, 横幅广告 (网络广告的主要形式, 一般使用GIF格式的图像文件, 可以使用静态图形, 也可用多帧图像拼接为动画图像)</h3><h3 id="black-blaek-黑色"><a href="#black-blaek-黑色" class="headerlink" title="black      [blæk]          黑色"></a>black      [blæk]          黑色</h3><h3 id="blink：-bliŋk-闪亮-闪烁"><a href="#blink：-bliŋk-闪亮-闪烁" class="headerlink" title="blink：    [bliŋk]         闪亮,闪烁"></a>blink：    [bliŋk]         闪亮,闪烁</h3><h3 id="block-blok-块"><a href="#block-blok-块" class="headerlink" title="block      [blɔk]          块"></a>block      [blɔk]          块</h3><h3 id="blue-blu-蓝色"><a href="#blue-blu-蓝色" class="headerlink" title="blue       [blu:]          蓝色"></a>blue       [blu:]          蓝色</h3><h3 id="body-‘bodi-主体，一个HTML标记"><a href="#body-‘bodi-主体，一个HTML标记" class="headerlink" title="body       [‘bɔdi]         主体，一个HTML标记"></a>body       [‘bɔdi]         主体，一个HTML标记</h3><h3 id="bold-bəuld-加粗"><a href="#bold-bəuld-加粗" class="headerlink" title="bold       [bəuld]         加粗"></a>bold       [bəuld]         加粗</h3><h3 id="border-‘bo-də-边框、框线-边框"><a href="#border-‘bo-də-边框、框线-边框" class="headerlink" title="border     [‘bɔ:də]        边框、框线 边框"></a>border     [‘bɔ:də]        边框、框线 边框</h3><h3 id="both-bəuθ-两者-都-两个-都-是clear属性的一个属性值"><a href="#both-bəuθ-两者-都-两个-都-是clear属性的一个属性值" class="headerlink" title="both       [bəuθ]          两者(都);两个(都);是clear属性的一个属性值"></a>both       [bəuθ]          两者(都);两个(都);是clear属性的一个属性值</h3><h3 id="bottom-‘botəm-底-底部，是一个CSS属性"><a href="#bottom-‘botəm-底-底部，是一个CSS属性" class="headerlink" title="bottom     [‘bɔtəm]        底;底部，是一个CSS属性"></a>bottom     [‘bɔtəm]        底;底部，是一个CSS属性</h3><h3 id="box-boks-箱-盒-匣"><a href="#box-boks-箱-盒-匣" class="headerlink" title="box        [bɔks]          箱;盒;匣"></a>box        [bɔks]          箱;盒;匣</h3><h3 id="br-换行标记"><a href="#br-换行标记" class="headerlink" title="br                         换行标记"></a>br                         换行标记</h3><h3 id="bug-bvg-程序设计上的错误，漏洞等"><a href="#bug-bvg-程序设计上的错误，漏洞等" class="headerlink" title="bug        [bʌg]           程序设计上的错误，漏洞等"></a>bug        [bʌg]           程序设计上的错误，漏洞等</h3><h3 id="building-‘bildiŋ-建筑"><a href="#building-‘bildiŋ-建筑" class="headerlink" title="building   [‘bildiŋ]       建筑"></a>building   [‘bildiŋ]       建筑</h3><h3 id="button-‘bvtn-按钮"><a href="#button-‘bvtn-按钮" class="headerlink" title="button     [‘bʌtn]         按钮"></a>button     [‘bʌtn]         按钮</h3><h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><h3 id="cell-sel-表格中的单元格"><a href="#cell-sel-表格中的单元格" class="headerlink" title="cell       [sel]           表格中的单元格"></a>cell       [sel]           表格中的单元格</h3><h3 id="center-‘sentə-居中"><a href="#center-‘sentə-居中" class="headerlink" title="center     [‘sentə]        居中"></a>center     [‘sentə]        居中</h3><h3 id="centimeter-‘senti-mi-tə-厘米"><a href="#centimeter-‘senti-mi-tə-厘米" class="headerlink" title="centimeter [‘senti,mi:tə]  厘米"></a>centimeter [‘senti,mi:tə]  厘米</h3><h3 id="child-tʃaild-孩子"><a href="#child-tʃaild-孩子" class="headerlink" title="child      [tʃaild]        孩子"></a>child      [tʃaild]        孩子</h3><h3 id="circle-‘sə-kl-圆圈"><a href="#circle-‘sə-kl-圆圈" class="headerlink" title="circle     [‘sə:kl]        圆圈"></a>circle     [‘sə:kl]        圆圈</h3><h3 id="class-klɑ-s-类别"><a href="#class-klɑ-s-类别" class="headerlink" title="class      [klɑ:s]         类别"></a>class      [klɑ:s]         类别</h3><h3 id="clear-kliə-清除"><a href="#clear-kliə-清除" class="headerlink" title="clear      [kliə]          清除"></a>clear      [kliə]          清除</h3><h3 id="cm-厘米"><a href="#cm-厘米" class="headerlink" title="cm                         厘米"></a>cm                         厘米</h3><h3 id="color-‘kvlə-颜色"><a href="#color-‘kvlə-颜色" class="headerlink" title="color      [‘kʌlə]         颜色"></a>color      [‘kʌlə]         颜色</h3><h3 id="connected-kə’nektid-连结的"><a href="#connected-kə’nektid-连结的" class="headerlink" title="connected  [kə’nektid]     连结的"></a>connected  [kə’nektid]     连结的</h3><h3 id="contact-‘kontaekt-联系"><a href="#contact-‘kontaekt-联系" class="headerlink" title="contact    [‘kɔntækt]      联系"></a>contact    [‘kɔntækt]      联系</h3><h3 id="content-kən’tent-内容"><a href="#content-kən’tent-内容" class="headerlink" title="content    [kən’tent]      内容"></a>content    [kən’tent]      内容</h3><h3 id="crosshair-十字准线"><a href="#crosshair-十字准线" class="headerlink" title="crosshair                  十字准线"></a>crosshair                  十字准线</h3><h3 id="css-层叠样式表"><a href="#css-层叠样式表" class="headerlink" title="css                        层叠样式表"></a>css                        层叠样式表</h3><h3 id="cursor-‘kə-sə-鼠标指针"><a href="#cursor-‘kə-sə-鼠标指针" class="headerlink" title="cursor     [‘kə:sə]        鼠标指针"></a>cursor     [‘kə:sə]        鼠标指针</h3><h2 id="D"><a href="#D" class="headerlink" title="D"></a>D</h2><h3 id="dashed-daeʃt-虚线CSS边框常用的一种"><a href="#dashed-daeʃt-虚线CSS边框常用的一种" class="headerlink" title="dashed     [dæʃt]          虚线CSS边框常用的一种"></a>dashed     [dæʃt]          虚线CSS边框常用的一种</h3><h3 id="decimal-‘desiməl-十进制"><a href="#decimal-‘desiməl-十进制" class="headerlink" title="decimal    [‘desiməl]      十进制"></a>decimal    [‘desiməl]      十进制</h3><h3 id="decoration-dekə’reiʃən-装饰"><a href="#decoration-dekə’reiʃən-装饰" class="headerlink" title="decoration [,dekə’reiʃən]  装饰"></a>decoration [,dekə’reiʃən]  装饰</h3><h3 id="default-di’fo-lt-默认的"><a href="#default-di’fo-lt-默认的" class="headerlink" title="default    [di’fɔ:lt]      默认的"></a>default    [di’fɔ:lt]      默认的</h3><h3 id="definition-defi’niʃən-定义"><a href="#definition-defi’niʃən-定义" class="headerlink" title="definition [,defi’niʃən]   定义"></a>definition [,defi’niʃən]   定义</h3><h3 id="design-di’zain-设计"><a href="#design-di’zain-设计" class="headerlink" title="design     [di’zain]       设计"></a>design     [di’zain]       设计</h3><h3 id="display-di’splei-显示，CSS的一个属性"><a href="#display-di’splei-显示，CSS的一个属性" class="headerlink" title="display    [di’splei ]     显示，CSS的一个属性"></a>display    [di’splei ]     显示，CSS的一个属性</h3><h3 id="division-di’viʒən-分区，div就是这个单词的缩写"><a href="#division-di’viʒən-分区，div就是这个单词的缩写" class="headerlink" title="division   [di’viʒən]      分区，div就是这个单词的缩写"></a>division   [di’viʒən]      分区，div就是这个单词的缩写</h3><h3 id="document-‘dokjumənt-文件文档"><a href="#document-‘dokjumənt-文件文档" class="headerlink" title="document   [‘dɔkjumənt]    文件文档"></a>document   [‘dɔkjumənt]    文件文档</h3><h3 id="dotted-‘dotid-点线"><a href="#dotted-‘dotid-点线" class="headerlink" title="dotted     [‘dɔtid]        点线"></a>dotted     [‘dɔtid]        点线</h3><h3 id="double-‘dvbl-双线"><a href="#double-‘dvbl-双线" class="headerlink" title="double     [‘dʌbl]         双线"></a>double     [‘dʌbl]         双线</h3><h2 id="E"><a href="#E" class="headerlink" title="E"></a>E</h2><h3 id="element-‘elimənt-元素"><a href="#element-‘elimənt-元素" class="headerlink" title="element     [‘elimənt]      元素"></a>element     [‘elimənt]      元素</h3><h2 id="F"><a href="#F" class="headerlink" title="F"></a>F</h2><h3 id="father-‘fɑ-ðə-父亲-父"><a href="#father-‘fɑ-ðə-父亲-父" class="headerlink" title="father     [‘fɑ:ðə]        父亲,父"></a>father     [‘fɑ:ðə]        父亲,父</h3><h3 id="filter-‘filtə-过滤层；滤器"><a href="#filter-‘filtə-过滤层；滤器" class="headerlink" title="filter     [‘filtə]        过滤层；滤器"></a>filter     [‘filtə]        过滤层；滤器</h3><h3 id="first-fə-st-第一个"><a href="#first-fə-st-第一个" class="headerlink" title="first      [fə:st]         第一个"></a>first      [fə:st]         第一个</h3><h3 id="fixed-fikst-固定的，不变的"><a href="#fixed-fikst-固定的，不变的" class="headerlink" title="fixed      [fikst]         固定的，不变的"></a>fixed      [fikst]         固定的，不变的</h3><h3 id="float-fləut-浮动"><a href="#float-fləut-浮动" class="headerlink" title="float      [fləut]         浮动"></a>float      [fləut]         浮动</h3><h3 id="font-font-字体"><a href="#font-font-字体" class="headerlink" title="font       [fɔnt]          字体"></a>font       [fɔnt]          字体</h3><h3 id="for-在循环语句中的一个保留字"><a href="#for-在循环语句中的一个保留字" class="headerlink" title="for                        在循环语句中的一个保留字"></a>for                        在循环语句中的一个保留字</h3><h3 id="four-4个"><a href="#four-4个" class="headerlink" title="four                       4个"></a>four                       4个</h3><p>##G</p>
-<h3 id="gif-一种图像格式"><a href="#gif-一种图像格式" class="headerlink" title="gif                        一种图像格式"></a>gif                        一种图像格式</h3><h3 id="gray-grei-灰色"><a href="#gray-grei-灰色" class="headerlink" title="gray       [grei]          灰色"></a>gray       [grei]          灰色</h3><h3 id="green-gri-n-绿色"><a href="#green-gri-n-绿色" class="headerlink" title="green      [gri:n]         绿色"></a>green      [gri:n]         绿色</h3><h2 id="H"><a href="#H" class="headerlink" title="H"></a>H</h2><h3 id="hack-haek-常用于CSS中的一些招数，或者类似于偏方的技巧"><a href="#hack-haek-常用于CSS中的一些招数，或者类似于偏方的技巧" class="headerlink" title="hack       [hæk]           常用于CSS中的一些招数，或者类似于偏方的技巧"></a>hack       [hæk]           常用于CSS中的一些招数，或者类似于偏方的技巧</h3><h3 id="hand-haend-手"><a href="#hand-haend-手" class="headerlink" title="hand       [hænd]          手"></a>hand       [hænd]          手</h3><h3 id="head-hed-头部"><a href="#head-hed-头部" class="headerlink" title="head       [hed]           头部"></a>head       [hed]           头部</h3><h3 id="height-hait-高度"><a href="#height-hait-高度" class="headerlink" title="height     [hait]          高度"></a>height     [hait]          高度</h3><h3 id="help-help-帮助"><a href="#help-help-帮助" class="headerlink" title="help       [help]          帮助"></a>help       [help]          帮助</h3><h3 id="here-hiə-这里"><a href="#here-hiə-这里" class="headerlink" title="here       [hiə]           这里"></a>here       [hiə]           这里</h3><h3 id="hidden-‘hidn-被隐藏"><a href="#hidden-‘hidn-被隐藏" class="headerlink" title="hidden     [‘hidn]         被隐藏"></a>hidden     [‘hidn]         被隐藏</h3><h3 id="home-həum-首页"><a href="#home-həum-首页" class="headerlink" title="home       [həum]          首页"></a>home       [həum]          首页</h3><h3 id="horizontal-hori’zontl-水平的"><a href="#horizontal-hori’zontl-水平的" class="headerlink" title="horizontal [,hɔri’zɔntl]   水平的"></a>horizontal [,hɔri’zɔntl]   水平的</h3><h3 id="hover-‘hvvə-鼠标指针经过或称为悬浮状态"><a href="#hover-‘hvvə-鼠标指针经过或称为悬浮状态" class="headerlink" title="hover      [‘hʌvə]         鼠标指针经过或称为悬浮状态"></a>hover      [‘hʌvə]         鼠标指针经过或称为悬浮状态</h3><h2 id="I"><a href="#I" class="headerlink" title="I"></a>I</h2><h3 id="image-‘imidʒ-图像"><a href="#image-‘imidʒ-图像" class="headerlink" title="image      [‘imidʒ]        图像"></a>image      [‘imidʒ]        图像</h3><h3 id="important-im’po-tənt-重要的"><a href="#important-im’po-tənt-重要的" class="headerlink" title="important  [im’pɔ:tənt]    重要的"></a>important  [im’pɔ:tənt]    重要的</h3><h3 id="indent-in’dent-缩进"><a href="#indent-in’dent-缩进" class="headerlink" title="indent     [in’dent]       缩进"></a>indent     [in’dent]       缩进</h3><h3 id="index-‘indeks-索引"><a href="#index-‘indeks-索引" class="headerlink" title="index      [‘indeks]       索引"></a>index      [‘indeks]       索引</h3><h3 id="inline-行内"><a href="#inline-行内" class="headerlink" title="inline                     行内"></a>inline                     行内</h3><h3 id="inner-内部的"><a href="#inner-内部的" class="headerlink" title="inner                      内部的"></a>inner                      内部的</h3><h3 id="italic-i’taelik-意大利体，斜体"><a href="#italic-i’taelik-意大利体，斜体" class="headerlink" title="italic     [i’tælik]       意大利体，斜体"></a>italic     [i’tælik]       意大利体，斜体</h3><h2 id="J"><a href="#J" class="headerlink" title="J"></a>J</h2><h3 id="jpg-一种图像格式"><a href="#jpg-一种图像格式" class="headerlink" title="jpg                        一种图像格式"></a>jpg                        一种图像格式</h3><h3 id="justify-‘dʒvstifai-两端对齐"><a href="#justify-‘dʒvstifai-两端对齐" class="headerlink" title="justify    [‘dʒʌstifai]    两端对齐"></a>justify    [‘dʒʌstifai]    两端对齐</h3><h2 id="L"><a href="#L" class="headerlink" title="L"></a>L</h2><h3 id="language-‘laeŋgwidʒ-语言"><a href="#language-‘laeŋgwidʒ-语言" class="headerlink" title="language   [‘læŋgwidʒ]     语言"></a>language   [‘læŋgwidʒ]     语言</h3><h3 id="last-lɑ-st-最后一个"><a href="#last-lɑ-st-最后一个" class="headerlink" title="last       [lɑ:st]         最后一个"></a>last       [lɑ:st]         最后一个</h3><h3 id="left-left-左边"><a href="#left-left-左边" class="headerlink" title="left       [left]          左边"></a>left       [left]          左边</h3><h3 id="length-leŋθ-长度"><a href="#length-leŋθ-长度" class="headerlink" title="length     [leŋθ]          长度"></a>length     [leŋθ]          长度</h3><h3 id="level-‘levl-级别，例如block-level就是块级"><a href="#level-‘levl-级别，例如block-level就是块级" class="headerlink" title="level      [‘levl]         级别，例如block-level就是块级"></a>level      [‘levl]         级别，例如block-level就是块级</h3><h3 id="line-lain-线"><a href="#line-lain-线" class="headerlink" title="line       [lain]          线"></a>line       [lain]          线</h3><h3 id="link-liŋk-链接"><a href="#link-liŋk-链接" class="headerlink" title="link       [liŋk]          链接"></a>link       [liŋk]          链接</h3><h3 id="list-list-列表"><a href="#list-list-列表" class="headerlink" title="list       [list]          列表"></a>list       [list]          列表</h3><h3 id="lowercase-‘ləuə-keis-小写"><a href="#lowercase-‘ləuə-keis-小写" class="headerlink" title="lowercase  [‘ləuə,keis]    小写"></a>lowercase  [‘ləuə,keis]    小写</h3><h2 id="M"><a href="#M" class="headerlink" title="M"></a>M</h2><h3 id="margin-‘mɑ-dʒin-外边距"><a href="#margin-‘mɑ-dʒin-外边距" class="headerlink" title="margin     [‘mɑ:dʒin]      外边距"></a>margin     [‘mɑ:dʒin]      外边距</h3><h3 id="max-最大的"><a href="#max-最大的" class="headerlink" title="max                        最大的"></a>max                        最大的</h3><h3 id="medium-‘mi-diəm-中间"><a href="#medium-‘mi-diəm-中间" class="headerlink" title="medium     [‘mi:diəm]      中间"></a>medium     [‘mi:diəm]      中间</h3><h3 id="menu-‘menju-菜单"><a href="#menu-‘menju-菜单" class="headerlink" title="menu       [‘menju:]       菜单"></a>menu       [‘menju:]       菜单</h3><h3 id="middle-‘midl-中间"><a href="#middle-‘midl-中间" class="headerlink" title="middle     [‘midl]         中间"></a>middle     [‘midl]         中间</h3><h3 id="millimeter-‘mili-mi-tə-毫米"><a href="#millimeter-‘mili-mi-tə-毫米" class="headerlink" title="millimeter [‘mili,mi:tə]   毫米"></a>millimeter [‘mili,mi:tə]   毫米</h3><h3 id="min-最小的"><a href="#min-最小的" class="headerlink" title="min                        最小的"></a>min                        最小的</h3><h3 id="model-‘modl-模型"><a href="#model-‘modl-模型" class="headerlink" title="model      [‘mɔdl]         模型"></a>model      [‘mɔdl]         模型</h3><h3 id="move-mu-v-移动"><a href="#move-mu-v-移动" class="headerlink" title="move       [mu:v]          移动"></a>move       [mu:v]          移动</h3><h2 id="N"><a href="#N" class="headerlink" title="N"></a>N</h2><h3 id="navigation-naevi’geiʃən-导航"><a href="#navigation-naevi’geiʃən-导航" class="headerlink" title="navigation [,nævi’geiʃən]  导航"></a>navigation [,nævi’geiʃən]  导航</h3><h3 id="new-nju-新的"><a href="#new-nju-新的" class="headerlink" title="new        [nju:]          新的"></a>new        [nju:]          新的</h3><h3 id="none-nvn-无，没有"><a href="#none-nvn-无，没有" class="headerlink" title="none       [nʌn]           无，没有"></a>none       [nʌn]           无，没有</h3><h3 id="normal-‘no-məl-标准"><a href="#normal-‘no-məl-标准" class="headerlink" title="normal     [‘nɔ:məl]       标准"></a>normal     [‘nɔ:məl]       标准</h3><h2 id="O"><a href="#O" class="headerlink" title="O"></a>O</h2><h3 id="object-‘obdʒikt-对象"><a href="#object-‘obdʒikt-对象" class="headerlink" title="object     [‘ɔbdʒikt]      对象"></a>object     [‘ɔbdʒikt]      对象</h3><h3 id="oblique-əb’li-k-一种斜体"><a href="#oblique-əb’li-k-一种斜体" class="headerlink" title="oblique    [əb’li:k]       一种斜体"></a>oblique    [əb’li:k]       一种斜体</h3><h3 id="one-一个"><a href="#one-一个" class="headerlink" title="one                        一个"></a>one                        一个</h3><h3 id="only-‘əunli-仅仅"><a href="#only-‘əunli-仅仅" class="headerlink" title="only       [‘əunli]        仅仅"></a>only       [‘əunli]        仅仅</h3><h3 id="open-‘əupən-打开"><a href="#open-‘əupən-打开" class="headerlink" title="open       [‘əupən]        打开"></a>open       [‘əupən]        打开</h3><h3 id="optional-‘opʃənəl-可选的"><a href="#optional-‘opʃənəl-可选的" class="headerlink" title="optional   [‘ɔpʃənəl]      可选的"></a>optional   [‘ɔpʃənəl]      可选的</h3><h3 id="orange-‘o-rindʒ-橙色"><a href="#orange-‘o-rindʒ-橙色" class="headerlink" title="orange     [‘ɔ:rindʒ]      橙色"></a>orange     [‘ɔ:rindʒ]      橙色</h3><h3 id="outer-‘autə-外面的"><a href="#outer-‘autə-外面的" class="headerlink" title="outer      [‘autə]         外面的"></a>outer      [‘autə]         外面的</h3><h3 id="overflow-əuvə’fləu-溢出"><a href="#overflow-əuvə’fləu-溢出" class="headerlink" title="overflow   [,əuvə’fləu]    溢出"></a>overflow   [,əuvə’fləu]    溢出</h3><h2 id="P"><a href="#P" class="headerlink" title="P"></a>P</h2><h3 id="padding-‘paediŋ-内边距"><a href="#padding-‘paediŋ-内边距" class="headerlink" title="padding    [‘pædiŋ]        内边距"></a>padding    [‘pædiŋ]        内边距</h3><h3 id="point-point-点"><a href="#point-point-点" class="headerlink" title="point      [pɔint]         点"></a>point      [pɔint]         点</h3><h3 id="pointer-‘pointə-指针，指示器"><a href="#pointer-‘pointə-指针，指示器" class="headerlink" title="pointer    [‘pɔintə]       指针，指示器"></a>pointer    [‘pɔintə]       指针，指示器</h3><h3 id="position-pə’ziʃən-定位，位置"><a href="#position-pə’ziʃən-定位，位置" class="headerlink" title="position   [pə’ziʃən]      定位，位置"></a>position   [pə’ziʃən]      定位，位置</h3><h3 id="progress-‘prəugres-进度"><a href="#progress-‘prəugres-进度" class="headerlink" title="progress   [‘prəugres]     进度"></a>progress   [‘prəugres]     进度</h3><h3 id="public-‘pvblik-公开的"><a href="#public-‘pvblik-公开的" class="headerlink" title="public     [‘pʌblik]       公开的"></a>public     [‘pʌblik]       公开的</h3><h3 id="purple-‘pə-pl-紫色"><a href="#purple-‘pə-pl-紫色" class="headerlink" title="purple     [‘pə:pl]        紫色"></a>purple     [‘pə:pl]        紫色</h3><h2 id="R"><a href="#R" class="headerlink" title="R"></a>R</h2><h3 id="red-red-红色"><a href="#red-red-红色" class="headerlink" title="red        [red]                红色"></a>red        [red]                红色</h3><h3 id="relative-‘relətiv-相对的"><a href="#relative-‘relətiv-相对的" class="headerlink" title="relative   [‘relətiv]           相对的"></a>relative   [‘relətiv]           相对的</h3><h3 id="repeat-ri’pi-t-重复，平铺"><a href="#repeat-ri’pi-t-重复，平铺" class="headerlink" title="repeat     [ri’pi:t]            重复，平铺"></a>repeat     [ri’pi:t]            重复，平铺</h3><h3 id="replacement-ri’pleismənt-替换"><a href="#replacement-ri’pleismənt-替换" class="headerlink" title="replacement[ri’pleismənt]       替换"></a>replacement[ri’pleismənt]       替换</h3><h3 id="resize-重新设置大小"><a href="#resize-重新设置大小" class="headerlink" title="resize                            重新设置大小"></a>resize                            重新设置大小</h3><h3 id="right-rait-右边"><a href="#right-rait-右边" class="headerlink" title="right      [rait]               右边"></a>right      [rait]               右边</h3><h3 id="row-rəu-行"><a href="#row-rəu-行" class="headerlink" title="row        [rəu]                行"></a>row        [rəu]                行</h3><h2 id="S"><a href="#S" class="headerlink" title="S"></a>S</h2><h3 id="scroll-skrəul-滚动"><a href="#scroll-skrəul-滚动" class="headerlink" title="scroll     [skrəul]             滚动"></a>scroll     [skrəul]             滚动</h3><h3 id="shadow-‘ʃaedəu-阴影"><a href="#shadow-‘ʃaedəu-阴影" class="headerlink" title="shadow     [‘ʃædəu]             阴影"></a>shadow     [‘ʃædəu]             阴影</h3><h3 id="silver-‘silvə-银色"><a href="#silver-‘silvə-银色" class="headerlink" title="silver     [‘silvə]             银色"></a>silver     [‘silvə]             银色</h3><h3 id="size-saiz-尺寸"><a href="#size-saiz-尺寸" class="headerlink" title="size       [saiz]               尺寸"></a>size       [saiz]               尺寸</h3><h3 id="solid-‘solid-固体，实线"><a href="#solid-‘solid-固体，实线" class="headerlink" title="solid      [‘sɔlid]             固体，实线"></a>solid      [‘sɔlid]             固体，实线</h3><h3 id="solution-sə’lu-ʃən-方案"><a href="#solution-sə’lu-ʃən-方案" class="headerlink" title="solution   [sə’lu:ʃən]          方案"></a>solution   [sə’lu:ʃən]          方案</h3><h3 id="son-svn-儿子"><a href="#son-svn-儿子" class="headerlink" title="son        [sʌn]                儿子"></a>son        [sʌn]                儿子</h3><h3 id="span-spaen-一个HTML标记"><a href="#span-spaen-一个HTML标记" class="headerlink" title="span       [spæn]               一个HTML标记"></a>span       [spæn]               一个HTML标记</h3><h3 id="special-‘speʃəl-特殊的"><a href="#special-‘speʃəl-特殊的" class="headerlink" title="special    [‘speʃəl]            特殊的"></a>special    [‘speʃəl]            特殊的</h3><h3 id="square-skweə-方块"><a href="#square-skweə-方块" class="headerlink" title="square     [skwɛə]              方块"></a>square     [skwɛə]              方块</h3><h3 id="static-‘staetik-静态的"><a href="#static-‘staetik-静态的" class="headerlink" title="static     [‘stætik]            静态的"></a>static     [‘stætik]            静态的</h3><h3 id="strong-stroŋ-强壮，加粗的"><a href="#strong-stroŋ-强壮，加粗的" class="headerlink" title="strong     [strɔŋ]              强壮，加粗的"></a>strong     [strɔŋ]              强壮，加粗的</h3><h3 id="style-stail-样式"><a href="#style-stail-样式" class="headerlink" title="style      [stail]              样式"></a>style      [stail]              样式</h3><h2 id="T"><a href="#T" class="headerlink" title="T"></a>T</h2><h3 id="table-‘teibl-表格"><a href="#table-‘teibl-表格" class="headerlink" title="table             [‘teibl]             表格"></a>table             [‘teibl]             表格</h3><h3 id="td-单元格的HTML标记"><a href="#td-单元格的HTML标记" class="headerlink" title="td                                     单元格的HTML标记"></a>td                                     单元格的HTML标记</h3><h3 id="text-tekst-文本"><a href="#text-tekst-文本" class="headerlink" title="text              [tekst]              文本"></a>text              [tekst]              文本</h3><h3 id="thick-θik-粗的"><a href="#thick-θik-粗的" class="headerlink" title="thick             [θik]                粗的"></a>thick             [θik]                粗的</h3><h3 id="thin-θin-细的"><a href="#thin-θin-细的" class="headerlink" title="thin              [θin]                细的"></a>thin              [θin]                细的</h3><h3 id="three-θi-三个"><a href="#three-θi-三个" class="headerlink" title="three             [θi:]                三个"></a>three             [θi:]                三个</h3><h3 id="through-θru-穿过"><a href="#through-θru-穿过" class="headerlink" title="through           [θru:]               穿过"></a>through           [θru:]               穿过</h3><h3 id="title-‘taitl-标题"><a href="#title-‘taitl-标题" class="headerlink" title="title             [‘taitl]             标题"></a>title             [‘taitl]             标题</h3><h3 id="top-top-顶部"><a href="#top-top-顶部" class="headerlink" title="top               [tɔp]                顶部"></a>top               [tɔp]                顶部</h3><h3 id="tr-表格中“行”的HTML标记"><a href="#tr-表格中“行”的HTML标记" class="headerlink" title="tr                                     表格中“行”的HTML标记"></a>tr                                     表格中“行”的HTML标记</h3><h3 id="transitional-traen’ziʃənəl-过渡的"><a href="#transitional-traen’ziʃənəl-过渡的" class="headerlink" title="transitional      [træn’ziʃənəl]       过渡的"></a>transitional      [træn’ziʃənəl]       过渡的</h3><h3 id="two-两个"><a href="#two-两个" class="headerlink" title="two                                    两个"></a>two                                    两个</h3><h3 id="type-taip-类型"><a href="#type-taip-类型" class="headerlink" title="type              [taip]               类型"></a>type              [taip]               类型</h3><h2 id="U"><a href="#U" class="headerlink" title="U"></a>U</h2><h3 id="underline-vndə’lain-下划线"><a href="#underline-vndə’lain-下划线" class="headerlink" title="underline         [,ʌndə’lain]         下划线"></a>underline         [,ʌndə’lain]         下划线</h3><h3 id="upper-‘vpə-上面的"><a href="#upper-‘vpə-上面的" class="headerlink" title="upper             [‘ʌpə]               上面的"></a>upper             [‘ʌpə]               上面的</h3><h3 id="uppercase-‘vpə-keis-大写"><a href="#uppercase-‘vpə-keis-大写" class="headerlink" title="uppercase         [‘ʌpə,keis]          大写"></a>uppercase         [‘ʌpə,keis]          大写</h3><h3 id="url-网址"><a href="#url-网址" class="headerlink" title="url                                    网址"></a>url                                    网址</h3><h2 id="v"><a href="#v" class="headerlink" title="v"></a>v</h2><h3 id="vertical-‘və-tikəl-竖直的"><a href="#vertical-‘və-tikəl-竖直的" class="headerlink" title="vertical          [‘və:tikəl]          竖直的"></a>vertical          [‘və:tikəl]          竖直的</h3><h3 id="visited-‘vizit-访问过的"><a href="#visited-‘vizit-访问过的" class="headerlink" title="visited           [‘vizit]             访问过的"></a>visited           [‘vizit]             访问过的</h3><h2 id="w"><a href="#w" class="headerlink" title="w"></a>w</h2><h3 id="while-hwail-白色的"><a href="#while-hwail-白色的" class="headerlink" title="while             [hwail]              白色的"></a>while             [hwail]              白色的</h3><h3 id="width-widθ-宽度"><a href="#width-widθ-宽度" class="headerlink" title="width             [widθ]               宽度"></a>width             [widθ]               宽度</h3><h2 id="Y"><a href="#Y" class="headerlink" title="Y"></a>Y</h2><h3 id="yellow-‘jeləu-黄色"><a href="#yellow-‘jeləu-黄色" class="headerlink" title="yellow            [‘jeləu]             黄色"></a>yellow            [‘jeləu]             黄色</h3>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;A&quot;&gt;&lt;a href=&quot;#A&quot; class=&quot;headerlink&quot; title=&quot;A&quot;&gt;&lt;/a&gt;A&lt;/h2&gt;&lt;h3 id=&quot;absolute-‘aebsəlu-t-绝对的，完全的&quot;&gt;&lt;a href=&quot;#absolute-‘aebsəlu-t-绝对的，完全的&quot; c
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>GIT Basics</title>
-    <link href="http://zhaotian.info/2016/08/31/GIT/gitbase/"/>
-    <id>http://zhaotian.info/2016/08/31/GIT/gitbase/</id>
-    <published>2016-08-31T04:57:34.370Z</published>
+    <link href="http://zhaotian.info/2016/09/04/GIT/gitbase/"/>
+    <id>http://zhaotian.info/2016/09/04/GIT/gitbase/</id>
+    <published>2016-09-04T04:59:08.081Z</published>
     <updated>2016-09-01T03:01:55.791Z</updated>
     
     <content type="html"><![CDATA[<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd  项目目录</div><div class="line">$ git init</div></pre></td></tr></table></figure>
@@ -340,10 +1168,29 @@
   </entry>
   
   <entry>
+    <title>CSS  Alphabet</title>
+    <link href="http://zhaotian.info/2016/09/04/CSS/%E5%B8%B8%E7%94%A8%E8%AF%8D%E6%B1%87/"/>
+    <id>http://zhaotian.info/2016/09/04/CSS/常用词汇/</id>
+    <published>2016-09-04T04:59:08.080Z</published>
+    <updated>2016-09-01T13:56:30.504Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="A"><a href="#A" class="headerlink" title="A"></a>A</h2><h3 id="absolute-‘aebsəlu-t-绝对的，完全的"><a href="#absolute-‘aebsəlu-t-绝对的，完全的" class="headerlink" title="absolute   [‘æbsəlu:t]       绝对的，完全的"></a>absolute   [‘æbsəlu:t]       绝对的，完全的</h3><h3 id="active-‘aektiv-活动的，激活的，标记的一个伪类"><a href="#active-‘aektiv-活动的，激活的，标记的一个伪类" class="headerlink" title="active     [‘æktiv]          活动的，激活的，标记的一个伪类"></a>active     [‘æktiv]          活动的，激活的，<a>标记的一个伪类</a></h3><h3 id="align-ə’lain-对齐"><a href="#align-ə’lain-对齐" class="headerlink" title="align      [ə’lain]          对齐"></a>align      [ə’lain]          对齐</h3><h3 id="alpha-‘aelfə-透明度，半透明"><a href="#alpha-‘aelfə-透明度，半透明" class="headerlink" title="alpha      [‘ælfə]           透明度，半透明"></a>alpha      [‘ælfə]           透明度，半透明</h3><h3 id="anchor-‘aeŋkə-锚记标记是这个单词的缩写"><a href="#anchor-‘aeŋkə-锚记标记是这个单词的缩写" class="headerlink" title="anchor     [‘æŋkə]           锚记标记是这个单词的缩写"></a>anchor     [‘æŋkə]           锚记<a>标记是这个单词的缩写</a></h3><h3 id="arrow-‘aerəu-箭头"><a href="#arrow-‘aerəu-箭头" class="headerlink" title="arrow      [‘ærəu]           箭头"></a>arrow      [‘ærəu]           箭头</h3><h3 id="auto-‘o-təu-自动的"><a href="#auto-‘o-təu-自动的" class="headerlink" title="auto       [‘ɔ:təu]          自动的"></a>auto       [‘ɔ:təu]          自动的</h3><h2 id="B"><a href="#B" class="headerlink" title="B"></a>B</h2><h3 id="background-‘baekgraund-背景"><a href="#background-‘baekgraund-背景" class="headerlink" title="background [‘bækgraund]    背景"></a>background [‘bækgraund]    背景</h3><h3 id="banner-‘baenə-网幅广告-旗帜广告-横幅广告-网络广告的主要形式-一般使用GIF格式的图像文件-可以使用静态图形-也可用多帧图像拼接为动画图像"><a href="#banner-‘baenə-网幅广告-旗帜广告-横幅广告-网络广告的主要形式-一般使用GIF格式的图像文件-可以使用静态图形-也可用多帧图像拼接为动画图像" class="headerlink" title="banner     [‘bænə]         网幅广告, 旗帜广告, 横幅广告 (网络广告的主要形式, 一般使用GIF格式的图像文件, 可以使用静态图形, 也可用多帧图像拼接为动画图像)"></a>banner     [‘bænə]         网幅广告, 旗帜广告, 横幅广告 (网络广告的主要形式, 一般使用GIF格式的图像文件, 可以使用静态图形, 也可用多帧图像拼接为动画图像)</h3><h3 id="black-blaek-黑色"><a href="#black-blaek-黑色" class="headerlink" title="black      [blæk]          黑色"></a>black      [blæk]          黑色</h3><h3 id="blink：-bliŋk-闪亮-闪烁"><a href="#blink：-bliŋk-闪亮-闪烁" class="headerlink" title="blink：    [bliŋk]         闪亮,闪烁"></a>blink：    [bliŋk]         闪亮,闪烁</h3><h3 id="block-blok-块"><a href="#block-blok-块" class="headerlink" title="block      [blɔk]          块"></a>block      [blɔk]          块</h3><h3 id="blue-blu-蓝色"><a href="#blue-blu-蓝色" class="headerlink" title="blue       [blu:]          蓝色"></a>blue       [blu:]          蓝色</h3><h3 id="body-‘bodi-主体，一个HTML标记"><a href="#body-‘bodi-主体，一个HTML标记" class="headerlink" title="body       [‘bɔdi]         主体，一个HTML标记"></a>body       [‘bɔdi]         主体，一个HTML标记</h3><h3 id="bold-bəuld-加粗"><a href="#bold-bəuld-加粗" class="headerlink" title="bold       [bəuld]         加粗"></a>bold       [bəuld]         加粗</h3><h3 id="border-‘bo-də-边框、框线-边框"><a href="#border-‘bo-də-边框、框线-边框" class="headerlink" title="border     [‘bɔ:də]        边框、框线 边框"></a>border     [‘bɔ:də]        边框、框线 边框</h3><h3 id="both-bəuθ-两者-都-两个-都-是clear属性的一个属性值"><a href="#both-bəuθ-两者-都-两个-都-是clear属性的一个属性值" class="headerlink" title="both       [bəuθ]          两者(都);两个(都);是clear属性的一个属性值"></a>both       [bəuθ]          两者(都);两个(都);是clear属性的一个属性值</h3><h3 id="bottom-‘botəm-底-底部，是一个CSS属性"><a href="#bottom-‘botəm-底-底部，是一个CSS属性" class="headerlink" title="bottom     [‘bɔtəm]        底;底部，是一个CSS属性"></a>bottom     [‘bɔtəm]        底;底部，是一个CSS属性</h3><h3 id="box-boks-箱-盒-匣"><a href="#box-boks-箱-盒-匣" class="headerlink" title="box        [bɔks]          箱;盒;匣"></a>box        [bɔks]          箱;盒;匣</h3><h3 id="br-换行标记"><a href="#br-换行标记" class="headerlink" title="br                         换行标记"></a>br                         换行标记</h3><h3 id="bug-bvg-程序设计上的错误，漏洞等"><a href="#bug-bvg-程序设计上的错误，漏洞等" class="headerlink" title="bug        [bʌg]           程序设计上的错误，漏洞等"></a>bug        [bʌg]           程序设计上的错误，漏洞等</h3><h3 id="building-‘bildiŋ-建筑"><a href="#building-‘bildiŋ-建筑" class="headerlink" title="building   [‘bildiŋ]       建筑"></a>building   [‘bildiŋ]       建筑</h3><h3 id="button-‘bvtn-按钮"><a href="#button-‘bvtn-按钮" class="headerlink" title="button     [‘bʌtn]         按钮"></a>button     [‘bʌtn]         按钮</h3><h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><h3 id="cell-sel-表格中的单元格"><a href="#cell-sel-表格中的单元格" class="headerlink" title="cell       [sel]           表格中的单元格"></a>cell       [sel]           表格中的单元格</h3><h3 id="center-‘sentə-居中"><a href="#center-‘sentə-居中" class="headerlink" title="center     [‘sentə]        居中"></a>center     [‘sentə]        居中</h3><h3 id="centimeter-‘senti-mi-tə-厘米"><a href="#centimeter-‘senti-mi-tə-厘米" class="headerlink" title="centimeter [‘senti,mi:tə]  厘米"></a>centimeter [‘senti,mi:tə]  厘米</h3><h3 id="child-tʃaild-孩子"><a href="#child-tʃaild-孩子" class="headerlink" title="child      [tʃaild]        孩子"></a>child      [tʃaild]        孩子</h3><h3 id="circle-‘sə-kl-圆圈"><a href="#circle-‘sə-kl-圆圈" class="headerlink" title="circle     [‘sə:kl]        圆圈"></a>circle     [‘sə:kl]        圆圈</h3><h3 id="class-klɑ-s-类别"><a href="#class-klɑ-s-类别" class="headerlink" title="class      [klɑ:s]         类别"></a>class      [klɑ:s]         类别</h3><h3 id="clear-kliə-清除"><a href="#clear-kliə-清除" class="headerlink" title="clear      [kliə]          清除"></a>clear      [kliə]          清除</h3><h3 id="cm-厘米"><a href="#cm-厘米" class="headerlink" title="cm                         厘米"></a>cm                         厘米</h3><h3 id="color-‘kvlə-颜色"><a href="#color-‘kvlə-颜色" class="headerlink" title="color      [‘kʌlə]         颜色"></a>color      [‘kʌlə]         颜色</h3><h3 id="connected-kə’nektid-连结的"><a href="#connected-kə’nektid-连结的" class="headerlink" title="connected  [kə’nektid]     连结的"></a>connected  [kə’nektid]     连结的</h3><h3 id="contact-‘kontaekt-联系"><a href="#contact-‘kontaekt-联系" class="headerlink" title="contact    [‘kɔntækt]      联系"></a>contact    [‘kɔntækt]      联系</h3><h3 id="content-kən’tent-内容"><a href="#content-kən’tent-内容" class="headerlink" title="content    [kən’tent]      内容"></a>content    [kən’tent]      内容</h3><h3 id="crosshair-十字准线"><a href="#crosshair-十字准线" class="headerlink" title="crosshair                  十字准线"></a>crosshair                  十字准线</h3><h3 id="css-层叠样式表"><a href="#css-层叠样式表" class="headerlink" title="css                        层叠样式表"></a>css                        层叠样式表</h3><h3 id="cursor-‘kə-sə-鼠标指针"><a href="#cursor-‘kə-sə-鼠标指针" class="headerlink" title="cursor     [‘kə:sə]        鼠标指针"></a>cursor     [‘kə:sə]        鼠标指针</h3><h2 id="D"><a href="#D" class="headerlink" title="D"></a>D</h2><h3 id="dashed-daeʃt-虚线CSS边框常用的一种"><a href="#dashed-daeʃt-虚线CSS边框常用的一种" class="headerlink" title="dashed     [dæʃt]          虚线CSS边框常用的一种"></a>dashed     [dæʃt]          虚线CSS边框常用的一种</h3><h3 id="decimal-‘desiməl-十进制"><a href="#decimal-‘desiməl-十进制" class="headerlink" title="decimal    [‘desiməl]      十进制"></a>decimal    [‘desiməl]      十进制</h3><h3 id="decoration-dekə’reiʃən-装饰"><a href="#decoration-dekə’reiʃən-装饰" class="headerlink" title="decoration [,dekə’reiʃən]  装饰"></a>decoration [,dekə’reiʃən]  装饰</h3><h3 id="default-di’fo-lt-默认的"><a href="#default-di’fo-lt-默认的" class="headerlink" title="default    [di’fɔ:lt]      默认的"></a>default    [di’fɔ:lt]      默认的</h3><h3 id="definition-defi’niʃən-定义"><a href="#definition-defi’niʃən-定义" class="headerlink" title="definition [,defi’niʃən]   定义"></a>definition [,defi’niʃən]   定义</h3><h3 id="design-di’zain-设计"><a href="#design-di’zain-设计" class="headerlink" title="design     [di’zain]       设计"></a>design     [di’zain]       设计</h3><h3 id="display-di’splei-显示，CSS的一个属性"><a href="#display-di’splei-显示，CSS的一个属性" class="headerlink" title="display    [di’splei ]     显示，CSS的一个属性"></a>display    [di’splei ]     显示，CSS的一个属性</h3><h3 id="division-di’viʒən-分区，div就是这个单词的缩写"><a href="#division-di’viʒən-分区，div就是这个单词的缩写" class="headerlink" title="division   [di’viʒən]      分区，div就是这个单词的缩写"></a>division   [di’viʒən]      分区，div就是这个单词的缩写</h3><h3 id="document-‘dokjumənt-文件文档"><a href="#document-‘dokjumənt-文件文档" class="headerlink" title="document   [‘dɔkjumənt]    文件文档"></a>document   [‘dɔkjumənt]    文件文档</h3><h3 id="dotted-‘dotid-点线"><a href="#dotted-‘dotid-点线" class="headerlink" title="dotted     [‘dɔtid]        点线"></a>dotted     [‘dɔtid]        点线</h3><h3 id="double-‘dvbl-双线"><a href="#double-‘dvbl-双线" class="headerlink" title="double     [‘dʌbl]         双线"></a>double     [‘dʌbl]         双线</h3><h2 id="E"><a href="#E" class="headerlink" title="E"></a>E</h2><h3 id="element-‘elimənt-元素"><a href="#element-‘elimənt-元素" class="headerlink" title="element     [‘elimənt]      元素"></a>element     [‘elimənt]      元素</h3><h2 id="F"><a href="#F" class="headerlink" title="F"></a>F</h2><h3 id="father-‘fɑ-ðə-父亲-父"><a href="#father-‘fɑ-ðə-父亲-父" class="headerlink" title="father     [‘fɑ:ðə]        父亲,父"></a>father     [‘fɑ:ðə]        父亲,父</h3><h3 id="filter-‘filtə-过滤层；滤器"><a href="#filter-‘filtə-过滤层；滤器" class="headerlink" title="filter     [‘filtə]        过滤层；滤器"></a>filter     [‘filtə]        过滤层；滤器</h3><h3 id="first-fə-st-第一个"><a href="#first-fə-st-第一个" class="headerlink" title="first      [fə:st]         第一个"></a>first      [fə:st]         第一个</h3><h3 id="fixed-fikst-固定的，不变的"><a href="#fixed-fikst-固定的，不变的" class="headerlink" title="fixed      [fikst]         固定的，不变的"></a>fixed      [fikst]         固定的，不变的</h3><h3 id="float-fləut-浮动"><a href="#float-fləut-浮动" class="headerlink" title="float      [fləut]         浮动"></a>float      [fləut]         浮动</h3><h3 id="font-font-字体"><a href="#font-font-字体" class="headerlink" title="font       [fɔnt]          字体"></a>font       [fɔnt]          字体</h3><h3 id="for-在循环语句中的一个保留字"><a href="#for-在循环语句中的一个保留字" class="headerlink" title="for                        在循环语句中的一个保留字"></a>for                        在循环语句中的一个保留字</h3><h3 id="four-4个"><a href="#four-4个" class="headerlink" title="four                       4个"></a>four                       4个</h3><p>##G</p>
+<h3 id="gif-一种图像格式"><a href="#gif-一种图像格式" class="headerlink" title="gif                        一种图像格式"></a>gif                        一种图像格式</h3><h3 id="gray-grei-灰色"><a href="#gray-grei-灰色" class="headerlink" title="gray       [grei]          灰色"></a>gray       [grei]          灰色</h3><h3 id="green-gri-n-绿色"><a href="#green-gri-n-绿色" class="headerlink" title="green      [gri:n]         绿色"></a>green      [gri:n]         绿色</h3><h2 id="H"><a href="#H" class="headerlink" title="H"></a>H</h2><h3 id="hack-haek-常用于CSS中的一些招数，或者类似于偏方的技巧"><a href="#hack-haek-常用于CSS中的一些招数，或者类似于偏方的技巧" class="headerlink" title="hack       [hæk]           常用于CSS中的一些招数，或者类似于偏方的技巧"></a>hack       [hæk]           常用于CSS中的一些招数，或者类似于偏方的技巧</h3><h3 id="hand-haend-手"><a href="#hand-haend-手" class="headerlink" title="hand       [hænd]          手"></a>hand       [hænd]          手</h3><h3 id="head-hed-头部"><a href="#head-hed-头部" class="headerlink" title="head       [hed]           头部"></a>head       [hed]           头部</h3><h3 id="height-hait-高度"><a href="#height-hait-高度" class="headerlink" title="height     [hait]          高度"></a>height     [hait]          高度</h3><h3 id="help-help-帮助"><a href="#help-help-帮助" class="headerlink" title="help       [help]          帮助"></a>help       [help]          帮助</h3><h3 id="here-hiə-这里"><a href="#here-hiə-这里" class="headerlink" title="here       [hiə]           这里"></a>here       [hiə]           这里</h3><h3 id="hidden-‘hidn-被隐藏"><a href="#hidden-‘hidn-被隐藏" class="headerlink" title="hidden     [‘hidn]         被隐藏"></a>hidden     [‘hidn]         被隐藏</h3><h3 id="home-həum-首页"><a href="#home-həum-首页" class="headerlink" title="home       [həum]          首页"></a>home       [həum]          首页</h3><h3 id="horizontal-hori’zontl-水平的"><a href="#horizontal-hori’zontl-水平的" class="headerlink" title="horizontal [,hɔri’zɔntl]   水平的"></a>horizontal [,hɔri’zɔntl]   水平的</h3><h3 id="hover-‘hvvə-鼠标指针经过或称为悬浮状态"><a href="#hover-‘hvvə-鼠标指针经过或称为悬浮状态" class="headerlink" title="hover      [‘hʌvə]         鼠标指针经过或称为悬浮状态"></a>hover      [‘hʌvə]         鼠标指针经过或称为悬浮状态</h3><h2 id="I"><a href="#I" class="headerlink" title="I"></a>I</h2><h3 id="image-‘imidʒ-图像"><a href="#image-‘imidʒ-图像" class="headerlink" title="image      [‘imidʒ]        图像"></a>image      [‘imidʒ]        图像</h3><h3 id="important-im’po-tənt-重要的"><a href="#important-im’po-tənt-重要的" class="headerlink" title="important  [im’pɔ:tənt]    重要的"></a>important  [im’pɔ:tənt]    重要的</h3><h3 id="indent-in’dent-缩进"><a href="#indent-in’dent-缩进" class="headerlink" title="indent     [in’dent]       缩进"></a>indent     [in’dent]       缩进</h3><h3 id="index-‘indeks-索引"><a href="#index-‘indeks-索引" class="headerlink" title="index      [‘indeks]       索引"></a>index      [‘indeks]       索引</h3><h3 id="inline-行内"><a href="#inline-行内" class="headerlink" title="inline                     行内"></a>inline                     行内</h3><h3 id="inner-内部的"><a href="#inner-内部的" class="headerlink" title="inner                      内部的"></a>inner                      内部的</h3><h3 id="italic-i’taelik-意大利体，斜体"><a href="#italic-i’taelik-意大利体，斜体" class="headerlink" title="italic     [i’tælik]       意大利体，斜体"></a>italic     [i’tælik]       意大利体，斜体</h3><h2 id="J"><a href="#J" class="headerlink" title="J"></a>J</h2><h3 id="jpg-一种图像格式"><a href="#jpg-一种图像格式" class="headerlink" title="jpg                        一种图像格式"></a>jpg                        一种图像格式</h3><h3 id="justify-‘dʒvstifai-两端对齐"><a href="#justify-‘dʒvstifai-两端对齐" class="headerlink" title="justify    [‘dʒʌstifai]    两端对齐"></a>justify    [‘dʒʌstifai]    两端对齐</h3><h2 id="L"><a href="#L" class="headerlink" title="L"></a>L</h2><h3 id="language-‘laeŋgwidʒ-语言"><a href="#language-‘laeŋgwidʒ-语言" class="headerlink" title="language   [‘læŋgwidʒ]     语言"></a>language   [‘læŋgwidʒ]     语言</h3><h3 id="last-lɑ-st-最后一个"><a href="#last-lɑ-st-最后一个" class="headerlink" title="last       [lɑ:st]         最后一个"></a>last       [lɑ:st]         最后一个</h3><h3 id="left-left-左边"><a href="#left-left-左边" class="headerlink" title="left       [left]          左边"></a>left       [left]          左边</h3><h3 id="length-leŋθ-长度"><a href="#length-leŋθ-长度" class="headerlink" title="length     [leŋθ]          长度"></a>length     [leŋθ]          长度</h3><h3 id="level-‘levl-级别，例如block-level就是块级"><a href="#level-‘levl-级别，例如block-level就是块级" class="headerlink" title="level      [‘levl]         级别，例如block-level就是块级"></a>level      [‘levl]         级别，例如block-level就是块级</h3><h3 id="line-lain-线"><a href="#line-lain-线" class="headerlink" title="line       [lain]          线"></a>line       [lain]          线</h3><h3 id="link-liŋk-链接"><a href="#link-liŋk-链接" class="headerlink" title="link       [liŋk]          链接"></a>link       [liŋk]          链接</h3><h3 id="list-list-列表"><a href="#list-list-列表" class="headerlink" title="list       [list]          列表"></a>list       [list]          列表</h3><h3 id="lowercase-‘ləuə-keis-小写"><a href="#lowercase-‘ləuə-keis-小写" class="headerlink" title="lowercase  [‘ləuə,keis]    小写"></a>lowercase  [‘ləuə,keis]    小写</h3><h2 id="M"><a href="#M" class="headerlink" title="M"></a>M</h2><h3 id="margin-‘mɑ-dʒin-外边距"><a href="#margin-‘mɑ-dʒin-外边距" class="headerlink" title="margin     [‘mɑ:dʒin]      外边距"></a>margin     [‘mɑ:dʒin]      外边距</h3><h3 id="max-最大的"><a href="#max-最大的" class="headerlink" title="max                        最大的"></a>max                        最大的</h3><h3 id="medium-‘mi-diəm-中间"><a href="#medium-‘mi-diəm-中间" class="headerlink" title="medium     [‘mi:diəm]      中间"></a>medium     [‘mi:diəm]      中间</h3><h3 id="menu-‘menju-菜单"><a href="#menu-‘menju-菜单" class="headerlink" title="menu       [‘menju:]       菜单"></a>menu       [‘menju:]       菜单</h3><h3 id="middle-‘midl-中间"><a href="#middle-‘midl-中间" class="headerlink" title="middle     [‘midl]         中间"></a>middle     [‘midl]         中间</h3><h3 id="millimeter-‘mili-mi-tə-毫米"><a href="#millimeter-‘mili-mi-tə-毫米" class="headerlink" title="millimeter [‘mili,mi:tə]   毫米"></a>millimeter [‘mili,mi:tə]   毫米</h3><h3 id="min-最小的"><a href="#min-最小的" class="headerlink" title="min                        最小的"></a>min                        最小的</h3><h3 id="model-‘modl-模型"><a href="#model-‘modl-模型" class="headerlink" title="model      [‘mɔdl]         模型"></a>model      [‘mɔdl]         模型</h3><h3 id="move-mu-v-移动"><a href="#move-mu-v-移动" class="headerlink" title="move       [mu:v]          移动"></a>move       [mu:v]          移动</h3><h2 id="N"><a href="#N" class="headerlink" title="N"></a>N</h2><h3 id="navigation-naevi’geiʃən-导航"><a href="#navigation-naevi’geiʃən-导航" class="headerlink" title="navigation [,nævi’geiʃən]  导航"></a>navigation [,nævi’geiʃən]  导航</h3><h3 id="new-nju-新的"><a href="#new-nju-新的" class="headerlink" title="new        [nju:]          新的"></a>new        [nju:]          新的</h3><h3 id="none-nvn-无，没有"><a href="#none-nvn-无，没有" class="headerlink" title="none       [nʌn]           无，没有"></a>none       [nʌn]           无，没有</h3><h3 id="normal-‘no-məl-标准"><a href="#normal-‘no-məl-标准" class="headerlink" title="normal     [‘nɔ:məl]       标准"></a>normal     [‘nɔ:məl]       标准</h3><h2 id="O"><a href="#O" class="headerlink" title="O"></a>O</h2><h3 id="object-‘obdʒikt-对象"><a href="#object-‘obdʒikt-对象" class="headerlink" title="object     [‘ɔbdʒikt]      对象"></a>object     [‘ɔbdʒikt]      对象</h3><h3 id="oblique-əb’li-k-一种斜体"><a href="#oblique-əb’li-k-一种斜体" class="headerlink" title="oblique    [əb’li:k]       一种斜体"></a>oblique    [əb’li:k]       一种斜体</h3><h3 id="one-一个"><a href="#one-一个" class="headerlink" title="one                        一个"></a>one                        一个</h3><h3 id="only-‘əunli-仅仅"><a href="#only-‘əunli-仅仅" class="headerlink" title="only       [‘əunli]        仅仅"></a>only       [‘əunli]        仅仅</h3><h3 id="open-‘əupən-打开"><a href="#open-‘əupən-打开" class="headerlink" title="open       [‘əupən]        打开"></a>open       [‘əupən]        打开</h3><h3 id="optional-‘opʃənəl-可选的"><a href="#optional-‘opʃənəl-可选的" class="headerlink" title="optional   [‘ɔpʃənəl]      可选的"></a>optional   [‘ɔpʃənəl]      可选的</h3><h3 id="orange-‘o-rindʒ-橙色"><a href="#orange-‘o-rindʒ-橙色" class="headerlink" title="orange     [‘ɔ:rindʒ]      橙色"></a>orange     [‘ɔ:rindʒ]      橙色</h3><h3 id="outer-‘autə-外面的"><a href="#outer-‘autə-外面的" class="headerlink" title="outer      [‘autə]         外面的"></a>outer      [‘autə]         外面的</h3><h3 id="overflow-əuvə’fləu-溢出"><a href="#overflow-əuvə’fləu-溢出" class="headerlink" title="overflow   [,əuvə’fləu]    溢出"></a>overflow   [,əuvə’fləu]    溢出</h3><h2 id="P"><a href="#P" class="headerlink" title="P"></a>P</h2><h3 id="padding-‘paediŋ-内边距"><a href="#padding-‘paediŋ-内边距" class="headerlink" title="padding    [‘pædiŋ]        内边距"></a>padding    [‘pædiŋ]        内边距</h3><h3 id="point-point-点"><a href="#point-point-点" class="headerlink" title="point      [pɔint]         点"></a>point      [pɔint]         点</h3><h3 id="pointer-‘pointə-指针，指示器"><a href="#pointer-‘pointə-指针，指示器" class="headerlink" title="pointer    [‘pɔintə]       指针，指示器"></a>pointer    [‘pɔintə]       指针，指示器</h3><h3 id="position-pə’ziʃən-定位，位置"><a href="#position-pə’ziʃən-定位，位置" class="headerlink" title="position   [pə’ziʃən]      定位，位置"></a>position   [pə’ziʃən]      定位，位置</h3><h3 id="progress-‘prəugres-进度"><a href="#progress-‘prəugres-进度" class="headerlink" title="progress   [‘prəugres]     进度"></a>progress   [‘prəugres]     进度</h3><h3 id="public-‘pvblik-公开的"><a href="#public-‘pvblik-公开的" class="headerlink" title="public     [‘pʌblik]       公开的"></a>public     [‘pʌblik]       公开的</h3><h3 id="purple-‘pə-pl-紫色"><a href="#purple-‘pə-pl-紫色" class="headerlink" title="purple     [‘pə:pl]        紫色"></a>purple     [‘pə:pl]        紫色</h3><h2 id="R"><a href="#R" class="headerlink" title="R"></a>R</h2><h3 id="red-red-红色"><a href="#red-red-红色" class="headerlink" title="red        [red]                红色"></a>red        [red]                红色</h3><h3 id="relative-‘relətiv-相对的"><a href="#relative-‘relətiv-相对的" class="headerlink" title="relative   [‘relətiv]           相对的"></a>relative   [‘relətiv]           相对的</h3><h3 id="repeat-ri’pi-t-重复，平铺"><a href="#repeat-ri’pi-t-重复，平铺" class="headerlink" title="repeat     [ri’pi:t]            重复，平铺"></a>repeat     [ri’pi:t]            重复，平铺</h3><h3 id="replacement-ri’pleismənt-替换"><a href="#replacement-ri’pleismənt-替换" class="headerlink" title="replacement[ri’pleismənt]       替换"></a>replacement[ri’pleismənt]       替换</h3><h3 id="resize-重新设置大小"><a href="#resize-重新设置大小" class="headerlink" title="resize                            重新设置大小"></a>resize                            重新设置大小</h3><h3 id="right-rait-右边"><a href="#right-rait-右边" class="headerlink" title="right      [rait]               右边"></a>right      [rait]               右边</h3><h3 id="row-rəu-行"><a href="#row-rəu-行" class="headerlink" title="row        [rəu]                行"></a>row        [rəu]                行</h3><h2 id="S"><a href="#S" class="headerlink" title="S"></a>S</h2><h3 id="scroll-skrəul-滚动"><a href="#scroll-skrəul-滚动" class="headerlink" title="scroll     [skrəul]             滚动"></a>scroll     [skrəul]             滚动</h3><h3 id="shadow-‘ʃaedəu-阴影"><a href="#shadow-‘ʃaedəu-阴影" class="headerlink" title="shadow     [‘ʃædəu]             阴影"></a>shadow     [‘ʃædəu]             阴影</h3><h3 id="silver-‘silvə-银色"><a href="#silver-‘silvə-银色" class="headerlink" title="silver     [‘silvə]             银色"></a>silver     [‘silvə]             银色</h3><h3 id="size-saiz-尺寸"><a href="#size-saiz-尺寸" class="headerlink" title="size       [saiz]               尺寸"></a>size       [saiz]               尺寸</h3><h3 id="solid-‘solid-固体，实线"><a href="#solid-‘solid-固体，实线" class="headerlink" title="solid      [‘sɔlid]             固体，实线"></a>solid      [‘sɔlid]             固体，实线</h3><h3 id="solution-sə’lu-ʃən-方案"><a href="#solution-sə’lu-ʃən-方案" class="headerlink" title="solution   [sə’lu:ʃən]          方案"></a>solution   [sə’lu:ʃən]          方案</h3><h3 id="son-svn-儿子"><a href="#son-svn-儿子" class="headerlink" title="son        [sʌn]                儿子"></a>son        [sʌn]                儿子</h3><h3 id="span-spaen-一个HTML标记"><a href="#span-spaen-一个HTML标记" class="headerlink" title="span       [spæn]               一个HTML标记"></a>span       [spæn]               一个HTML标记</h3><h3 id="special-‘speʃəl-特殊的"><a href="#special-‘speʃəl-特殊的" class="headerlink" title="special    [‘speʃəl]            特殊的"></a>special    [‘speʃəl]            特殊的</h3><h3 id="square-skweə-方块"><a href="#square-skweə-方块" class="headerlink" title="square     [skwɛə]              方块"></a>square     [skwɛə]              方块</h3><h3 id="static-‘staetik-静态的"><a href="#static-‘staetik-静态的" class="headerlink" title="static     [‘stætik]            静态的"></a>static     [‘stætik]            静态的</h3><h3 id="strong-stroŋ-强壮，加粗的"><a href="#strong-stroŋ-强壮，加粗的" class="headerlink" title="strong     [strɔŋ]              强壮，加粗的"></a>strong     [strɔŋ]              强壮，加粗的</h3><h3 id="style-stail-样式"><a href="#style-stail-样式" class="headerlink" title="style      [stail]              样式"></a>style      [stail]              样式</h3><h2 id="T"><a href="#T" class="headerlink" title="T"></a>T</h2><h3 id="table-‘teibl-表格"><a href="#table-‘teibl-表格" class="headerlink" title="table             [‘teibl]             表格"></a>table             [‘teibl]             表格</h3><h3 id="td-单元格的HTML标记"><a href="#td-单元格的HTML标记" class="headerlink" title="td                                     单元格的HTML标记"></a>td                                     单元格的HTML标记</h3><h3 id="text-tekst-文本"><a href="#text-tekst-文本" class="headerlink" title="text              [tekst]              文本"></a>text              [tekst]              文本</h3><h3 id="thick-θik-粗的"><a href="#thick-θik-粗的" class="headerlink" title="thick             [θik]                粗的"></a>thick             [θik]                粗的</h3><h3 id="thin-θin-细的"><a href="#thin-θin-细的" class="headerlink" title="thin              [θin]                细的"></a>thin              [θin]                细的</h3><h3 id="three-θi-三个"><a href="#three-θi-三个" class="headerlink" title="three             [θi:]                三个"></a>three             [θi:]                三个</h3><h3 id="through-θru-穿过"><a href="#through-θru-穿过" class="headerlink" title="through           [θru:]               穿过"></a>through           [θru:]               穿过</h3><h3 id="title-‘taitl-标题"><a href="#title-‘taitl-标题" class="headerlink" title="title             [‘taitl]             标题"></a>title             [‘taitl]             标题</h3><h3 id="top-top-顶部"><a href="#top-top-顶部" class="headerlink" title="top               [tɔp]                顶部"></a>top               [tɔp]                顶部</h3><h3 id="tr-表格中“行”的HTML标记"><a href="#tr-表格中“行”的HTML标记" class="headerlink" title="tr                                     表格中“行”的HTML标记"></a>tr                                     表格中“行”的HTML标记</h3><h3 id="transitional-traen’ziʃənəl-过渡的"><a href="#transitional-traen’ziʃənəl-过渡的" class="headerlink" title="transitional      [træn’ziʃənəl]       过渡的"></a>transitional      [træn’ziʃənəl]       过渡的</h3><h3 id="two-两个"><a href="#two-两个" class="headerlink" title="two                                    两个"></a>two                                    两个</h3><h3 id="type-taip-类型"><a href="#type-taip-类型" class="headerlink" title="type              [taip]               类型"></a>type              [taip]               类型</h3><h2 id="U"><a href="#U" class="headerlink" title="U"></a>U</h2><h3 id="underline-vndə’lain-下划线"><a href="#underline-vndə’lain-下划线" class="headerlink" title="underline         [,ʌndə’lain]         下划线"></a>underline         [,ʌndə’lain]         下划线</h3><h3 id="upper-‘vpə-上面的"><a href="#upper-‘vpə-上面的" class="headerlink" title="upper             [‘ʌpə]               上面的"></a>upper             [‘ʌpə]               上面的</h3><h3 id="uppercase-‘vpə-keis-大写"><a href="#uppercase-‘vpə-keis-大写" class="headerlink" title="uppercase         [‘ʌpə,keis]          大写"></a>uppercase         [‘ʌpə,keis]          大写</h3><h3 id="url-网址"><a href="#url-网址" class="headerlink" title="url                                    网址"></a>url                                    网址</h3><h2 id="v"><a href="#v" class="headerlink" title="v"></a>v</h2><h3 id="vertical-‘və-tikəl-竖直的"><a href="#vertical-‘və-tikəl-竖直的" class="headerlink" title="vertical          [‘və:tikəl]          竖直的"></a>vertical          [‘və:tikəl]          竖直的</h3><h3 id="visited-‘vizit-访问过的"><a href="#visited-‘vizit-访问过的" class="headerlink" title="visited           [‘vizit]             访问过的"></a>visited           [‘vizit]             访问过的</h3><h2 id="w"><a href="#w" class="headerlink" title="w"></a>w</h2><h3 id="while-hwail-白色的"><a href="#while-hwail-白色的" class="headerlink" title="while             [hwail]              白色的"></a>while             [hwail]              白色的</h3><h3 id="width-widθ-宽度"><a href="#width-widθ-宽度" class="headerlink" title="width             [widθ]               宽度"></a>width             [widθ]               宽度</h3><h2 id="Y"><a href="#Y" class="headerlink" title="Y"></a>Y</h2><h3 id="yellow-‘jeləu-黄色"><a href="#yellow-‘jeləu-黄色" class="headerlink" title="yellow            [‘jeləu]             黄色"></a>yellow            [‘jeləu]             黄色</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;A&quot;&gt;&lt;a href=&quot;#A&quot; class=&quot;headerlink&quot; title=&quot;A&quot;&gt;&lt;/a&gt;A&lt;/h2&gt;&lt;h3 id=&quot;absolute-‘aebsəlu-t-绝对的，完全的&quot;&gt;&lt;a href=&quot;#absolute-‘aebsəlu-t-绝对的，完全的&quot; c
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>To start a day</title>
-    <link href="http://zhaotian.info/2016/08/30/oneday/"/>
-    <id>http://zhaotian.info/2016/08/30/oneday/</id>
-    <published>2016-08-30T13:56:07.597Z</published>
+    <link href="http://zhaotian.info/2016/09/04/oneday/"/>
+    <id>http://zhaotian.info/2016/09/04/oneday/</id>
+    <published>2016-09-04T04:59:08.078Z</published>
     <updated>2016-08-30T14:10:33.830Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="just-do-IT"><a href="#just-do-IT" class="headerlink" title="just do IT!"></a>just do IT!</h3>]]></content>

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>HTML5 | Kastrcn&#39;s blog | 　</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="theme-color" content="#3F51B5">
+  
+  
+  <meta name="keywords" content="">
+  <meta name="description" content="HTML5HTML5 ≈ HTML↑ + CSS↑ + JavaScript API↑
+广义上：新一代开发Web富客户端应用程序整体解决方案
+Structure → Style → Interactive
+之前交互用flash
+让Web开发重新回归富客户端的时代
+HTML5 的应用场景
+极具表现力的网页
+案例非常多
+
+
+网页应用程序
+PC端：iCloud、百度脑图、Office 365···
+AP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HTML5">
+<meta property="og:url" content="http://zhaotian.info/2016/09/28/HTML/HTML/HTML5/index.html">
+<meta property="og:site_name" content="Kastrcn's blog">
+<meta property="og:description" content="HTML5HTML5 ≈ HTML↑ + CSS↑ + JavaScript API↑
+广义上：新一代开发Web富客户端应用程序整体解决方案
+Structure → Style → Interactive
+之前交互用flash
+让Web开发重新回归富客户端的时代
+HTML5 的应用场景
+极具表现力的网页
+案例非常多
+
+
+网页应用程序
+PC端：iCloud、百度脑图、Office 365···
+AP">
+<meta property="og:image" content="http://bimg.zhaotian.info/html/html5/HTML%20before.png">
+<meta property="og:image" content="http://bimg.zhaotian.info/html/html5/HTML5Now.png">
+<meta property="og:image" content="http://bimg.zhaotian.info/html/html5/%E7%BB%93%E6%9E%84%E6%95%B0%E6%8D%AE%E6%A0%87%E8%AE%B0.png">
+<meta property="og:image" content="http://bimg.zhaotian.info/html/html5/%E6%99%BA%E8%83%BD%E8%A1%A8%E5%8D%95.PNG">
+<meta property="og:image" content="http://bimg.zhaotian.info/html/html5/%E8%99%9A%E6%8B%9F%E9%94%AE%E7%9B%98%E9%80%82%E9%85%8D.PNG">
+<meta property="og:image" content="http://bimg.zhaotian.info/html/html5/%E5%A4%9A%E5%AA%92%E4%BD%93%E5%B1%9E%E6%80%A7.png">
+<meta property="og:image" content="http://bimg.zhaotian.info/html/html5/%E9%9F%B3%E9%A2%91.PNG">
+<meta property="og:image" content="http://bimg.zhaotian.info/html/html5/%E8%A7%86%E9%A2%91.PNG">
+<meta property="og:image" content="http://bimg.zhaotian.info/html/html5/%E5%AD%97%E5%B9%95.PNG">
+<meta property="og:updated_time" content="2016-09-29T15:55:32.271Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="HTML5">
+<meta name="twitter:description" content="HTML5HTML5 ≈ HTML↑ + CSS↑ + JavaScript API↑
+广义上：新一代开发Web富客户端应用程序整体解决方案
+Structure → Style → Interactive
+之前交互用flash
+让Web开发重新回归富客户端的时代
+HTML5 的应用场景
+极具表现力的网页
+案例非常多
+
+
+网页应用程序
+PC端：iCloud、百度脑图、Office 365···
+AP">
+<meta name="twitter:image" content="http://bimg.zhaotian.info/html/html5/HTML%20before.png">
+  
+    <link rel="alternative" href="/atom.xml" title="Kastrcn&#39;s blog" type="application/atom+xml">
+  
+  <meta name="summary" content="programmer&#39;s blog">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="loading" class="active"></div>
+
+  <nav id="menu" class="hide" >
+   <div class="inner flex-row-vertical">
+  <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+      <i class="icon icon-lg icon-close"></i>
+  </a>
+  <div class="brand-wrap">
+    <div class="brand">
+      <a href="/" class="avatar"><img src="/img/logo.jpg"></a>
+      <hgroup class="introduce">
+        <h5 class="nickname">Kastrcn</h5>
+        <a href="mailto:kastrcn@outlook.com" title="kastrcn@outlook.com" class="mail">kastrcn@outlook.com</a>
+      </hgroup>
+    </div>
+  </div>
+  <ul class="nav flex-col">
+    
+        <li class="waves-block waves-effect">
+          <a href="/"  >
+            <i class="icon icon-lg icon-home"></i>
+            Home
+          </a>
+        </li>
+    
+        <li class="waves-block waves-effect">
+          <a href="/archives"  >
+            <i class="icon icon-lg icon-archives"></i>
+            Archives
+          </a>
+        </li>
+    
+        <li class="waves-block waves-effect">
+          <a href="https://github.com/kastrcn" target="_blank" >
+            <i class="icon icon-lg icon-github"></i>
+            Github
+          </a>
+        </li>
+    
+        <li class="waves-block waves-effect">
+          <a href="http://weibo.com/u/3829532705" target="_blank" >
+            <i class="icon icon-lg icon-weibo"></i>
+            Weibo
+          </a>
+        </li>
+    
+  </ul>
+
+  <footer class="footer">
+  <p><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a></p>
+  <p>Kastrcn&#39;s blog &copy; 2016</p>
+  <p>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme
+  <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></p>
+  <a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-2x icon-rss-square"></i></a>
+</footer>
+
+</div>
+
+  </nav>
+  <main id="main">
+    <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">HTML5</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input " autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-share">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header">
+  <div class="container">
+    <h1 class="author">HTML5</h1>
+    <h5 class="subtitle">
+        
+            <time datetime="2016-09-28T05:21:46.728Z" itemprop="datePublished" class="page-time">
+  2016-09-28
+</time>
+
+
+        
+    </h5>
+  </div>
+</header>
+
+    <div class="container body-wrap">
+      <article id="post-HTML/HTML/HTML5" 
+  class="article article-type-post" itemprop="blogPost">
+    <div class="post-meta flex-row">
+        
+    </div>
+    <div class="post-body">
+        <aside class="post-widget" id="post-widget">
+
+            
+            <div class="post-share" id="post-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+            
+
+            
+            <nav class="post-toc-wrap" id="post-toc">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#HTML5"><span class="post-toc-text">HTML5</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#HTML5-的应用场景"><span class="post-toc-text">HTML5 的应用场景</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#HTML-分类"><span class="post-toc-text">HTML 分类</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#HTML"><span class="post-toc-text">HTML</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#JavaScript-API"><span class="post-toc-text">JavaScript API</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#CSS"><span class="post-toc-text">CSS</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#HTML-1"><span class="post-toc-text">HTML</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#标签"><span class="post-toc-text">标签</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#应用程序标签"><span class="post-toc-text">应用程序标签</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#语义化标签"><span class="post-toc-text">语义化标签</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#为什么要有语义化标签"><span class="post-toc-text">为什么要有语义化标签?</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#用来描述指定链接与当前文档的关系，便于机器理解文档结构"><span class="post-toc-text">用来描述指定链接与当前文档的关系，便于机器理解文档结构</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#常见的链接关系表"><span class="post-toc-text">常见的链接关系表</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#结构数据标记-很高级的东西，只有Google支持"><span class="post-toc-text">结构数据标记(很高级的东西，只有Google支持)</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#ARIA-属性-Accessible-Rich-Internet-Application-无障碍富互联网应用程序"><span class="post-toc-text">ARIA 属性(Accessible Rich Internet Application (无障碍富互联网应用程序))</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#自定义属性-data"><span class="post-toc-text">自定义属性 data-*</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#智能表单"><span class="post-toc-text">智能表单</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#新加表单"><span class="post-toc-text">新加表单</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#虚拟键盘适配"><span class="post-toc-text">虚拟键盘适配</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#网页多媒体"><span class="post-toc-text">网页多媒体</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#音频"><span class="post-toc-text">音频</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#视频"><span class="post-toc-text">视频</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#字幕"><span class="post-toc-text">字幕</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#SVG-Scalable-Vector-Graphics-可缩放矢量图形"><span class="post-toc-text">SVG(Scalable Vector Graphics 可缩放矢量图形)</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#使用-SVG-File-的方式"><span class="post-toc-text">使用 SVG File 的方式</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Canvas-提供网页级画布（GDI-）的实现"><span class="post-toc-text">Canvas(提供网页级画布（GDI+）的实现)</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#JavaScriptAPI"><span class="post-toc-text">JavaScriptAPI</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#基础API-提升"><span class="post-toc-text">基础API 提升</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#新选择器"><span class="post-toc-text">新选择器</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#元素-classList"><span class="post-toc-text">元素.classList</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#访问历史-API"><span class="post-toc-text">访问历史 API</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#全屏-API"><span class="post-toc-text">全屏 API</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#网页存储"><span class="post-toc-text">网页存储</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Web-Storage"><span class="post-toc-text">Web Storage</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Web-SQL"><span class="post-toc-text">Web SQL</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#IndexedDB"><span class="post-toc-text">IndexedDB</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#文件系统"><span class="post-toc-text">文件系统</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#File-API"><span class="post-toc-text">File API</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#FileReader"><span class="post-toc-text">FileReader</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#拖放操作"><span class="post-toc-text">拖放操作</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#网页内拖放"><span class="post-toc-text">网页内拖放</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#文件拖入"><span class="post-toc-text">文件拖入</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Moderizer-一个JavaScript针对H5特性兼容的探针"><span class="post-toc-text">Moderizer(一个JavaScript针对H5特性兼容的探针)</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#HTML5-的能力已经覆盖"><span class="post-toc-text">HTML5 的能力已经覆盖</span></a></li></ol></li></ol>
+            </nav>
+            
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" id="post-content" itemprop="postContent">
+            <h1 id="HTML5"><a href="#HTML5" class="headerlink" title="HTML5"></a>HTML5</h1><p>HTML5 ≈ HTML↑ + CSS↑ + JavaScript API↑</p>
+<p>广义上：新一代开发Web富客户端应用程序整体解决方案</p>
+<p>Structure → Style → Interactive</p>
+<p>之前交互用flash</p>
+<p>让Web开发重新回归富客户端的时代</p>
+<h2 id="HTML5-的应用场景"><a href="#HTML5-的应用场景" class="headerlink" title="HTML5 的应用场景"></a>HTML5 的应用场景</h2><ul>
+<li>极具表现力的网页<ul>
+<li>案例非常多</li>
+</ul>
+</li>
+<li>网页应用程序<ul>
+<li>PC端：iCloud、百度脑图、Office 365···</li>
+<li>APP端：淘宝、京东、美团···</li>
+<li>WeChat端：淘宝、京东、美团···</li>
+</ul>
+</li>
+<li>混合式本地应用<ul>
+<li>PC端：网易云音乐、有道词典···</li>
+<li>APP端：淘宝、京东、美团···</li>
+</ul>
+</li>
+<li>简单的游戏</li>
+</ul>
+<h2 id="HTML-分类"><a href="#HTML-分类" class="headerlink" title="HTML 分类"></a>HTML 分类</h2><h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><ul>
+<li>标签<ul>
+<li>更语义化标签</li>
+<li>应用程序标签</li>
+</ul>
+</li>
+<li>属性<ul>
+<li>链接关系描述</li>
+<li>结构数据标记</li>
+<li>ARIA</li>
+<li>自定义属性</li>
+</ul>
+</li>
+<li>智能表单<ul>
+<li>新的表单类型</li>
+<li>虚拟键盘适配</li>
+</ul>
+</li>
+<li>网页多媒体<ul>
+<li>音频</li>
+<li>视频</li>
+<li>字幕</li>
+</ul>
+</li>
+<li>Canvas<ul>
+<li>2D</li>
+<li>3D (WebGL)</li>
+</ul>
+</li>
+<li>SVG</li>
+</ul>
+<h3 id="JavaScript-API"><a href="#JavaScript-API" class="headerlink" title="JavaScript API"></a>JavaScript API</h3><ul>
+<li>核心平台提升<ul>
+<li>新的选择器</li>
+<li>Element.classList</li>
+<li>访问历史API</li>
+<li>全屏API</li>
+</ul>
+</li>
+<li>网页存储<ul>
+<li>Application Cache</li>
+<li>localStorage</li>
+<li>sessionStorage</li>
+<li>WebSQL</li>
+<li>IndexedDB</li>
+</ul>
+</li>
+<li>设备信息访问<ul>
+<li>网络状态</li>
+<li>硬件访问</li>
+<li>设备方向</li>
+<li>地理围栏</li>
+</ul>
+</li>
+<li>拖放操作<ul>
+<li>网页内拖放</li>
+<li>桌面拖入</li>
+<li>桌面拖出</li>
+</ul>
+</li>
+<li>文件<ul>
+<li>文件系统API</li>
+<li>FileReader</li>
+</ul>
+</li>
+<li>网络访问<ul>
+<li>XMLHttpRequest</li>
+<li>fetch</li>
+<li>WebSocket</li>
+</ul>
+</li>
+<li>多线程</li>
+<li>桌面通知</li>
+</ul>
+<h3 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h3><ul>
+<li>New Selector</li>
+<li>Web Fonts</li>
+<li>Text Styles</li>
+<li>Opacity</li>
+<li>HSL Color</li>
+<li>Rounded Corners</li>
+<li>Gradients</li>
+<li>Shadows</li>
+<li>Background Enhancements</li>
+<li>Border Image</li>
+<li>Flexible Box Model</li>
+<li>Transforms</li>
+<li>Transitions</li>
+<li>Animations</li>
+</ul>
+<h2 id="HTML-1"><a href="#HTML-1" class="headerlink" title="HTML"></a>HTML</h2><blockquote>
+<p>HTML的职责是描述一块内容是什么（或其意义）</p>
+<p>而不是它长的什么样子，它的外观应该由CSS来决定。</p>
+</blockquote>
+<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><p>更具有语义化的标签</p>
+<p><img src="http://bimg.zhaotian.info/html/html5/HTML%20before.png" alt="before"></p>
+<p><img src="http://bimg.zhaotian.info/html/html5/HTML5Now.png" alt="now"></p>
+<h3 id="应用程序标签"><a href="#应用程序标签" class="headerlink" title="应用程序标签"></a>应用程序标签</h3><p>DataList(数据列表)</p>
+<p>Progress(进度条)</p>
+<p>Meter(数值显示器)</p>
+<p>Menu(右键菜单) （Firefox Only）</p>
+<p>Details(明细) （Opera, Chrome, and in Safari 6）</p>
+<p><a href="demo/html/02-application-tags.html">View Demo</a></p>
+<h3 id="语义化标签"><a href="#语义化标签" class="headerlink" title="语义化标签"></a>语义化标签</h3><blockquote>
+<h4 id="为什么要有语义化标签"><a href="#为什么要有语义化标签" class="headerlink" title="为什么要有语义化标签?"></a>为什么要有语义化标签?</h4><p>能够便于开发者阅读和写出更优雅的代码，代码如诗</p>
+<p>同时让浏览器或是网络爬虫可以很好地解析，从而更好分析其中的内容</p>
+<p>更好地搜索引擎优化</p>
+</blockquote>
+<h4 id="用来描述指定链接与当前文档的关系，便于机器理解文档结构"><a href="#用来描述指定链接与当前文档的关系，便于机器理解文档结构" class="headerlink" title="用来描述指定链接与当前文档的关系，便于机器理解文档结构"></a>用来描述指定链接与当前文档的关系，便于机器理解文档结构</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"alternate"</span> <span class="attr">type</span>=<span class="string">"application/rss+xml"</span> <span class="attr">href</span>=<span class="string">"http://myblog.com/feed"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"shortcut icon"</span> <span class="attr">href</span>=<span class="string">"favicon.ico"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"pingback"</span> <span class="attr">href</span>=<span class="string">"http://myblog.com/xmlrpc.php"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"prefetch"</span> <span class="attr">href</span>=<span class="string">"http://myblog.com/main.php"</span>&gt;</span></div><div class="line">...</div><div class="line"></div><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">rel</span>=<span class="string">"archives"</span> <span class="attr">href</span>=<span class="string">"http://myblog.com/archives"</span>&gt;</span>old posts<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">rel</span>=<span class="string">"external"</span> <span class="attr">href</span>=<span class="string">"http://notmysite.com"</span>&gt;</span>tutorial<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">rel</span>=<span class="string">"license"</span> <span class="attr">href</span>=<span class="string">"http://www.apache.org/licenses/LICENSE-2.0"</span>&gt;</span>license<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">rel</span>=<span class="string">"nofollow"</span> <span class="attr">href</span>=<span class="string">"http://notmysite.com/sample"</span>&gt;</span>wannabe<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">rel</span>=<span class="string">"tag"</span> <span class="attr">href</span>=<span class="string">"http://myblog.com/category/games"</span>&gt;</span>games posts<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">...</div></pre></td></tr></table></figure>
+<h4 id="常见的链接关系表"><a href="#常见的链接关系表" class="headerlink" title="常见的链接关系表"></a>常见的链接关系表</h4><table>
+<thead>
+<tr>
+<th>alternate</th>
+<th>文档的可选版本（例如打印页、翻译页或镜像）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stylesheet</td>
+<td>文档的外部样式表</td>
+</tr>
+<tr>
+<td>start</td>
+<td>集合中的第一个文档</td>
+</tr>
+<tr>
+<td>next</td>
+<td>集合中的下一个文档</td>
+</tr>
+<tr>
+<td>prev</td>
+<td>集合中的前一个文档</td>
+</tr>
+<tr>
+<td>contents</td>
+<td>文档目录</td>
+</tr>
+<tr>
+<td>index</td>
+<td>文档索引</td>
+</tr>
+<tr>
+<td>glossary</td>
+<td>文档中所用字词的术语表或解释</td>
+</tr>
+<tr>
+<td>copyright</td>
+<td>包含版权信息的文档</td>
+</tr>
+<tr>
+<td>chapter</td>
+<td>文档的章</td>
+</tr>
+<tr>
+<td>section</td>
+<td>文档的节</td>
+</tr>
+<tr>
+<td>subsection</td>
+<td>文档的子段</td>
+</tr>
+<tr>
+<td>appendix</td>
+<td>文档附录</td>
+</tr>
+<tr>
+<td>help</td>
+<td>帮助文档</td>
+</tr>
+<tr>
+<td>bookmark</td>
+<td>相关文档</td>
+</tr>
+<tr>
+<td>nofollow</td>
+<td>用于指定 Google 搜索引擎不要跟踪链接</td>
+</tr>
+<tr>
+<td>licence</td>
+<td>一般用于文献，表示许可证的含义</td>
+</tr>
+<tr>
+<td>tag</td>
+<td>标签集合</td>
+</tr>
+<tr>
+<td>friend</td>
+<td>友情链接</td>
+</tr>
+</tbody>
+</table>
+<h3 id="结构数据标记-很高级的东西，只有Google支持"><a href="#结构数据标记-很高级的东西，只有Google支持" class="headerlink" title="结构数据标记(很高级的东西，只有Google支持)"></a>结构数据标记(很高级的东西，只有Google支持)</h3><p><img src="http://bimg.zhaotian.info/html/html5/%E7%BB%93%E6%9E%84%E6%95%B0%E6%8D%AE%E6%A0%87%E8%AE%B0.png" alt="结构数据标记"></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">itemscope</span> <span class="attr">itemtype</span>=<span class="string">"http://example.com/hello"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>我叫<span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">"主人"</span>&gt;</span>汪磊<span class="tag">&lt;/<span class="name">span</span>&gt;</span>。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line">    我养了一条叫</div><div class="line">    <span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">"狗名"</span>&gt;</span>旺财<span class="tag">&lt;/<span class="name">span</span>&gt;</span>的</div><div class="line">    <span class="tag">&lt;<span class="name">span</span> <span class="attr">itemprop</span>=<span class="string">"品种"</span>&gt;</span>金毛<span class="tag">&lt;/<span class="name">span</span>&gt;</span>犬。</div><div class="line">  <span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="ARIA-属性-Accessible-Rich-Internet-Application-无障碍富互联网应用程序"><a href="#ARIA-属性-Accessible-Rich-Internet-Application-无障碍富互联网应用程序" class="headerlink" title="ARIA 属性(Accessible Rich Internet Application (无障碍富互联网应用程序))"></a>ARIA 属性(Accessible Rich Internet Application (无障碍富互联网应用程序))</h3><blockquote>
+<p>主要针对于屏幕阅读设备(e.g. NVDA)，更快更好地理解网页</p>
+<p>不仅仅是为了盲人用户，更多语义化</p>
+</blockquote>
+<h3 id="自定义属性-data"><a href="#自定义属性-data" class="headerlink" title="自定义属性 data-*"></a>自定义属性 data-*</h3><blockquote>
+<p>通过DOM存储与DOM对象强相关的数据</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">id</span>=<span class="string">"users"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-id</span>=<span class="string">"1"</span> <span class="attr">data-age</span>=<span class="string">"18"</span> <span class="attr">data-gender</span>=<span class="string">"true"</span>&gt;</span>张三<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-id</span>=<span class="string">"2"</span> <span class="attr">data-age</span>=<span class="string">"18"</span> <span class="attr">data-gender</span>=<span class="string">"false"</span>&gt;</span>李四<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-id</span>=<span class="string">"3"</span> <span class="attr">data-age</span>=<span class="string">"18"</span> <span class="attr">data-gender</span>=<span class="string">"true"</span>&gt;</span>王二<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div><div class="line"> <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="xml"></span></div><div class="line">    var ul = document.getElementById('users');</div><div class="line"></div><div class="line">    for (var i = 0; i <span class="tag">&lt; <span class="attr">ul.children.length</span>; <span class="attr">i</span>++) &#123;</span></div><div class="line">      <span class="attr">var</span> <span class="attr">li</span> = <span class="string">ul.children[i];</span></div><div class="line">      // <span class="attr">JS</span> 添加<span class="attr">data</span>属性</div><div class="line">      <span class="attr">li.setAttribute</span>('<span class="attr">data-name</span>', <span class="attr">li.innerText</span>);</div><div class="line">      <span class="attr">li.children</span>[<span class="attr">0</span>]<span class="attr">.innerText</span> = <span class="string">''</span>;</div><div class="line">      <span class="attr">for</span> (<span class="attr">var</span> <span class="attr">key</span> <span class="attr">in</span> <span class="attr">li.dataset</span>) &#123;</div><div class="line">        <span class="attr">li.children</span>[<span class="attr">0</span>]<span class="attr">.innerText</span> += <span class="string">key</span> + '<span class="attr">:</span>' + <span class="attr">li.dataset</span>[<span class="attr">key</span>] + '\<span class="attr">n</span>';</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="智能表单"><a href="#智能表单" class="headerlink" title="智能表单"></a>智能表单</h3><blockquote>
+<p>网页开发过程中可以针对需求使用特定的智能表单类型</p>
+</blockquote>
+<h4 id="新加表单"><a href="#新加表单" class="headerlink" title="新加表单"></a>新加表单</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">required</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"email"</span> <span class="attr">value</span>=<span class="string">"some@email.com"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"date"</span> <span class="attr">min</span>=<span class="string">"2010-08-14"</span> <span class="attr">max</span>=<span class="string">"2011-08-14"</span> <span class="attr">value</span>=<span class="string">"2010-08-14"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"range"</span> <span class="attr">min</span>=<span class="string">"0"</span> <span class="attr">max</span>=<span class="string">"50"</span> <span class="attr">value</span>=<span class="string">"10"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"search"</span> <span class="attr">results</span>=<span class="string">"10"</span> <span class="attr">placeholder</span>=<span class="string">"Search..."</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"tel"</span> <span class="attr">placeholder</span>=<span class="string">"(555) 555-5555"</span> <span class="attr">pattern</span>=<span class="string">"^\(?\d&#123;3&#125;\)?[-\s]\d&#123;3&#125;[-\s]\d&#123;4&#125;.*?$"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"color"</span> <span class="attr">placeholder</span>=<span class="string">"e.g. #bbbbbb"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"number"</span> <span class="attr">step</span>=<span class="string">"1"</span> <span class="attr">min</span>=<span class="string">"-5"</span> <span class="attr">max</span>=<span class="string">"10"</span> <span class="attr">value</span>=<span class="string">"0"</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E6%99%BA%E8%83%BD%E8%A1%A8%E5%8D%95.PNG" alt="智能表单"></p>
+<h4 id="虚拟键盘适配"><a href="#虚拟键盘适配" class="headerlink" title="虚拟键盘适配"></a>虚拟键盘适配</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"txt_text"</span> <span class="attr">id</span>=<span class="string">"txt_text"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"number"</span> <span class="attr">name</span>=<span class="string">"txt_number"</span> <span class="attr">id</span>=<span class="string">"txt_number"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"email"</span> <span class="attr">name</span>=<span class="string">"txt_email"</span> <span class="attr">id</span>=<span class="string">"txt_email"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"tel"</span> <span class="attr">name</span>=<span class="string">"txt_tel"</span> <span class="attr">id</span>=<span class="string">"txt_tel"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"url"</span> <span class="attr">name</span>=<span class="string">"txt_url"</span> <span class="attr">id</span>=<span class="string">"txt_url"</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E8%99%9A%E6%8B%9F%E9%94%AE%E7%9B%98%E9%80%82%E9%85%8D.PNG" alt="虚拟键盘适配"></p>
+<h3 id="网页多媒体"><a href="#网页多媒体" class="headerlink" title="网页多媒体"></a>网页多媒体</h3><blockquote>
+<p>在此之前需要依赖于第三方插件（e.g. flash）</p>
+<p>兼容方案：<a href="https://html5media.info/" target="_blank" rel="external">https://html5media.info/</a></p>
+<blockquote>
+<p>目标</p>
+<p>掌握网页多媒体的意义</p>
+<p>对Video标签和Audio标签熟练使用</p>
+<p>了解字幕标签</p>
+</blockquote>
+</blockquote>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E5%A4%9A%E5%AA%92%E4%BD%93%E5%B1%9E%E6%80%A7.png" alt="多媒体属性"></p>
+<h4 id="音频"><a href="#音频" class="headerlink" title="音频"></a>音频</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">controls</span>=<span class="string">"controls"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"img/music.mp3"</span> <span class="attr">type</span>=<span class="string">"audio/mpeg"</span>/&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E9%9F%B3%E9%A2%91.PNG" alt="音频"></p>
+<h4 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">controls</span>=<span class="string">"controls"</span>&gt;</span></div><div class="line">  <span class="comment">&lt;!-- 不同浏览器支持格式不一样 --&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"fun.ogg"</span> <span class="attr">type</span>=<span class="string">"video/ogg"</span> /&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"fun.mp4"</span> <span class="attr">type</span>=<span class="string">"video/mp4"</span> /&gt;</span></div><div class="line">  <span class="comment">&lt;!-- 当浏览器不兼容video标签，就会将他以div方式解析 --&gt;</span></div><div class="line">  SHIT 你的浏览器不支持！</div><div class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E8%A7%86%E9%A2%91.PNG" alt="视频"></p>
+<h4 id="字幕"><a href="#字幕" class="headerlink" title="字幕"></a>字幕</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">id</span>=<span class="string">"clip"</span> <span class="attr">controls</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"fun.mp4"</span> <span class="attr">type</span>=<span class="string">"video/mp4"</span> /&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">track</span> <span class="attr">label</span>=<span class="string">"English subtitles"</span> <span class="attr">kind</span>=<span class="string">"subtitles"</span></span></div><div class="line">  <span class="attr">srclang</span>=<span class="string">"en"</span> <span class="attr">src</span>=<span class="string">"video-subtitles-en.vtt"</span> <span class="attr">default</span> /&gt;</div><div class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><img src="http://bimg.zhaotian.info/html/html5/%E5%AD%97%E5%B9%95.PNG" alt="字幕"></p>
+<h3 id="SVG-Scalable-Vector-Graphics-可缩放矢量图形"><a href="#SVG-Scalable-Vector-Graphics-可缩放矢量图形" class="headerlink" title="SVG(Scalable Vector Graphics 可缩放矢量图形)"></a>SVG(Scalable Vector Graphics 可缩放矢量图形)</h3><blockquote>
+<p>基于可扩展标记语言</p>
+<p>优势：体积小，质量高，效果好，可控程度高</p>
+<blockquote>
+<p>目标</p>
+<p>了解SVG是什么东西</p>
+<p>可以在网页中使用别人做好的SVG</p>
+<p>并可以对SVG文件作出基本调整</p>
+<p>会用样式修饰SVG</p>
+</blockquote>
+</blockquote>
+<h4 id="使用-SVG-File-的方式"><a href="#使用-SVG-File-的方式" class="headerlink" title="使用 SVG File 的方式"></a>使用 SVG File 的方式</h4><ul>
+<li>使用 <embed> 标签</li>
+<li>使用 <object> 标签</object></li>
+<li>使用 <iframe> 标签</iframe></li>
+<li>Ajax方式加载</li>
+</ul>
+<h3 id="Canvas-提供网页级画布（GDI-）的实现"><a href="#Canvas-提供网页级画布（GDI-）的实现" class="headerlink" title="Canvas(提供网页级画布（GDI+）的实现)"></a>Canvas(提供网页级画布（GDI+）的实现)</h3><h2 id="JavaScriptAPI"><a href="#JavaScriptAPI" class="headerlink" title="JavaScriptAPI"></a>JavaScriptAPI</h2><h3 id="基础API-提升"><a href="#基础API-提升" class="headerlink" title="基础API 提升"></a>基础API 提升</h3><h4 id="新选择器"><a href="#新选择器" class="headerlink" title="新选择器"></a>新选择器</h4><ul>
+<li><p>document.querySelector(selector)</p>
+<p>可以通过CSS选择器的语法找到DOM元素</p>
+</li>
+<li><p>document.querySelectorAll(‘.item’);</p>
+<p>返回所有满足该条件的元素 一个元素类型是dom类型的数组</p>
+</li>
+<li><p>$(‘.item’)</p>
+<p>返回一个jQuery对象（dom元素的数组）</p>
+<p>本质上jquery方式和qs方式都是获取DOM数组， 只不过jquery会多一些其他成员</p>
+<p>DOM数组的每一个成员注册事件不能像jquery一样直接注册， 必须分别给每个元素注册</p>
+<p>h5就是将我们经常需要的操作又包装一层</p>
+</li>
+</ul>
+<h4 id="元素-classList"><a href="#元素-classList" class="headerlink" title="元素.classList"></a>元素.classList</h4><p>新H5中DOM对象多了一个classList属性，是一个数组</p>
+<ul>
+<li>add 添加一个新的类名</li>
+<li>remove 删除一个的类名</li>
+<li>contains 判断是否包含一个指定的类名 </li>
+<li>toggle 切换一个class element.toggle(‘class-name’,[add_or_remove])</li>
+<li>toggle函数的第二个参数true为添加 false删除</li>
+</ul>
+<h4 id="访问历史-API"><a href="#访问历史-API" class="headerlink" title="访问历史 API"></a>访问历史 API</h4><p>界面上的所有JS操作不会被浏览器记住，就无法回到之前的状态<br>在HTML5中可以通过window.history操作访问历史状态，让一个页面可以有多个历史状态</p>
+<ol>
+<li>window.history.forward(); // 前进</li>
+<li>window.history.back(); // 后退</li>
+<li>window.history.go(); // 刷新</li>
+<li>通过JS可以加入一个访问状态</li>
+<li>history.pushState(放入历史中的状态数据, 设置title(现在浏览器不支持)， 改变历史状态)</li>
+</ol>
+<h4 id="全屏-API"><a href="#全屏-API" class="headerlink" title="全屏 API"></a>全屏 API</h4><p>JavaScript中可以通过调用requestFullScreen()方式实现指定元素的全屏显示<br>var element = document.querySelector(‘…’);<br>element.requestFullScreen();</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">     <span class="comment">// var img = document.querySelector('#img_full');</span></div><div class="line">     <span class="comment">// img.addEventListener('click', function(e) &#123;</span></div><div class="line">     <span class="comment">//   if (document.body.webkitRequestFullScreen)</span></div><div class="line">     <span class="comment">//     document.body.webkitRequestFullScreen();</span></div><div class="line">     <span class="comment">//   else</span></div><div class="line">     <span class="comment">//     console.log('不支持');</span></div><div class="line">     <span class="comment">//   e.preventDefault();</span></div><div class="line">     <span class="comment">// &#125;);</span></div><div class="line">     <span class="comment">//</span></div><div class="line">     <span class="comment">// 注册点击时间</span></div><div class="line">     <span class="keyword">var</span> h3 = <span class="built_in">document</span>.querySelector(<span class="string">'#title_1'</span>);</div><div class="line">     <span class="keyword">var</span> p = <span class="built_in">document</span>.querySelector(<span class="string">'#content_1'</span>);</div><div class="line">     h3.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">       <span class="keyword">if</span> (p.webkitRequestFullScreen)</div><div class="line">         p.webkitRequestFullScreen();</div><div class="line">       <span class="keyword">else</span></div><div class="line">         <span class="built_in">console</span>.log(<span class="string">'不支持'</span>);</div><div class="line">       e.preventDefault();</div><div class="line">     &#125;);</div><div class="line">   &#125;)()</div></pre></td></tr></table></figure>
+<h3 id="网页存储"><a href="#网页存储" class="headerlink" title="网页存储"></a>网页存储</h3><h4 id="Web-Storage"><a href="#Web-Storage" class="headerlink" title="Web Storage"></a>Web Storage</h4><ol>
+<li>getItem方式获取一个不存在的键 返回空字符串</li>
+<li>[]返回 undefined</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&lt;script&gt;</div><div class="line">  <span class="keyword">var</span> btnSet = <span class="built_in">document</span>.querySelector(<span class="string">'#btn_set'</span>);</div><div class="line">  <span class="keyword">var</span> btnGet = <span class="built_in">document</span>.querySelector(<span class="string">'#btn_get'</span>);</div><div class="line">  <span class="keyword">var</span> txtValue = <span class="built_in">document</span>.querySelector(<span class="string">'#txt_value'</span>);</div><div class="line">  btnGet.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="comment">// txtValue.value = sessionStorage.getItem('key1');</span></div><div class="line">    <span class="keyword">if</span> (<span class="built_in">window</span>.sessionStorage)</div><div class="line">      txtValue.value = sessionStorage.getItem(<span class="string">'key1'</span>)</div><div class="line">      <span class="comment">// txtValue.value = sessionStorage['key1'];</span></div><div class="line">  &#125;);</div><div class="line">  btnSet.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="comment">// sessionStorage.setItem('key1', txtValue.value);</span></div><div class="line">    sessionStorage[<span class="string">'key1'</span>] = txtValue.value;</div><div class="line">  &#125;);</div><div class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure>
+<h4 id="Web-SQL"><a href="#Web-SQL" class="headerlink" title="Web SQL"></a>Web SQL</h4><h4 id="IndexedDB"><a href="#IndexedDB" class="headerlink" title="IndexedDB"></a>IndexedDB</h4><h3 id="文件系统"><a href="#文件系统" class="headerlink" title="文件系统"></a>文件系统</h3><h4 id="File-API"><a href="#File-API" class="headerlink" title="File API"></a>File API</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div></pre></td><td class="code"><pre><div class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"container"</span>&gt;</div><div class="line">  &lt;form action=""&gt;</div><div class="line">    &lt;!-- 对于表单里的input来说：可以直接通过name找到</div><div class="line">  document.form[0].input_file</div><div class="line">  multiple让文件域可以多选 --&gt;</div><div class="line">    &lt;input id="input_file" class="form-control hidden" type="file" name="input_file" multiple&gt;</div><div class="line">    &lt;input id="btn_select" class="btn btn-info" type="button" value="选择文件"&gt;</div><div class="line">    &lt;!--  &lt;input id="btn_read" class="btn btn-warning" type="button" value="读取文件列表"&gt; --&gt;</div><div class="line">    &lt;ul id="file_list" class="list-group"&gt;</div><div class="line">    &lt;/ul&gt;</div><div class="line">  &lt;/form&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">&lt;script&gt;</div><div class="line">  (function() &#123;</div><div class="line">    var inputFile = document.querySelector('#input_file');</div><div class="line">    var btnRead = document.querySelector('#btn_read');</div><div class="line">    var fileList = document.querySelector('#file_list');</div><div class="line">    var btnSelect = document.querySelector('#btn_select');</div><div class="line"></div><div class="line">    btnSelect.addEventListener('click', function() &#123;</div><div class="line">      // 在按钮点击时调用input的点击</div><div class="line">      inputFile.click();</div><div class="line">    &#125;);</div><div class="line"></div><div class="line">    // 点击过后</div><div class="line">    // btnRead.addEventListener('click', function() &#123;</div><div class="line">    //   var files = inputFile.files;</div><div class="line">    //   for (var i = 0; i &lt; files.length; i++) &#123;</div><div class="line">    //     var li = document.createElement('li');</div><div class="line">    //     li.setAttribute('class', 'list-group-item');</div><div class="line">    //     // 创建信息的子节点</div><div class="line">    //     li.innerHTML = '&lt;h5 class="list-group-item-heading"&gt;' + files[i].name + '&lt;/h5&gt;&lt;p class="list-group-item-text"&gt;' + files[i].lastModifiedDate.toLocaleDateString() + ' ' + files[i].lastModifiedDate.toLocaleTimeString() + ' ' + (files[i].size / 1024).toFixed(2) + 'KB&lt;/p&gt;';</div><div class="line">    //     fileList.appendChild(li);</div><div class="line">    //   &#125;</div><div class="line">    // &#125;);</div><div class="line">    // 选择完成后</div><div class="line">    inputFile.addEventListener('change', function() &#123;</div><div class="line">      var files = inputFile.files;</div><div class="line">      for (var i = 0; i &lt; files.length; i++) &#123;</div><div class="line">        var li = document.createElement('li');</div><div class="line">        li.setAttribute('class', 'list-group-item');</div><div class="line">        // 创建信息的子节点</div><div class="line">        li.innerHTML = '&lt;h5 class="list-group-item-heading"&gt;' + files[i].name + '&lt;/h5&gt;&lt;p class="list-group-item-text"&gt;' + files[i].lastModifiedDate.toLocaleDateString() + ' ' + files[i].lastModifiedDate.toLocaleTimeString() + ' ' + (files[i].size / 1024).toFixed(2) + 'KB&lt;/p&gt;';</div><div class="line">        fileList.appendChild(li);</div><div class="line">      &#125;</div><div class="line">    &#125;);</div><div class="line">  &#125;)();</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
+<h4 id="FileReader"><a href="#FileReader" class="headerlink" title="FileReader"></a>FileReader</h4><h3 id="拖放操作"><a href="#拖放操作" class="headerlink" title="拖放操作"></a>拖放操作</h3><h4 id="网页内拖放"><a href="#网页内拖放" class="headerlink" title="网页内拖放"></a>网页内拖放</h4><h4 id="文件拖入"><a href="#文件拖入" class="headerlink" title="文件拖入"></a>文件拖入</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div></pre></td><td class="code"><pre><div class="line">&lt;script&gt;</div><div class="line">    (<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">      <span class="comment">// 找到目标位置框框</span></div><div class="line">      <span class="keyword">var</span> target = <span class="built_in">document</span>.querySelector(<span class="string">'#target'</span>);</div><div class="line">      <span class="keyword">var</span> fileList = <span class="built_in">document</span>.querySelector(<span class="string">'#result'</span>);</div><div class="line">      <span class="comment">// 注册拖拽进入</span></div><div class="line">      target.addEventListener(<span class="string">'dragenter'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">this</span>.classList.add(<span class="string">'actived'</span>);</div><div class="line">      &#125;);</div><div class="line">      <span class="comment">// 离开</span></div><div class="line">      target.addEventListener(<span class="string">'dragleave'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">this</span>.classList.remove(<span class="string">'actived'</span>);</div><div class="line">      &#125;);</div><div class="line"></div><div class="line">      <span class="comment">// 如果想要捕获drop事件 就一定得在该事件中阻止默认事件</span></div><div class="line">      target.addEventListener(<span class="string">'dragover'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">        e.preventDefault();</div><div class="line">        e.stopPropagation();</div><div class="line">      &#125;);</div><div class="line"></div><div class="line">      <span class="comment">// 当元素放到该对象上</span></div><div class="line">      target.addEventListener(<span class="string">'drop'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line"></div><div class="line">        <span class="keyword">if</span> (e.dataTransfer.files.length) &#123;</div><div class="line">          <span class="keyword">var</span> files = e.dataTransfer.files;</div><div class="line">          <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; files.length; i++) &#123;</div><div class="line">            <span class="keyword">var</span> li = <span class="built_in">document</span>.createElement(<span class="string">'li'</span>);</div><div class="line">            li.setAttribute(<span class="string">'class'</span>, <span class="string">'list-group-item'</span>);</div><div class="line">            <span class="comment">// 创建信息的子节点</span></div><div class="line">            li.innerHTML = <span class="string">'&lt;h5 class="list-group-item-heading"&gt;'</span> + files[i].name + <span class="string">'&lt;/h5&gt;&lt;p class="list-group-item-text"&gt;'</span> + files[i].lastModifiedDate.toLocaleDateString() + <span class="string">' '</span> + files[i].lastModifiedDate.toLocaleTimeString() + <span class="string">' '</span> + (files[i].size / <span class="number">1024</span>).toFixed(<span class="number">2</span>) + <span class="string">'KB&lt;/p&gt;'</span>;</div><div class="line">            fileList.appendChild(li);</div><div class="line">          &#125;</div><div class="line">        &#125; <span class="keyword">else</span> &#123;</div><div class="line">          <span class="comment">// 短路运算</span></div><div class="line">          <span class="comment">// var data = e.dataTransfer.getData('text/plain') || e.dataTransfer.getData('text/uri-list');</span></div><div class="line">          <span class="keyword">var</span> data = e.dataTransfer.getData(<span class="string">'text/plain'</span>);</div><div class="line">          <span class="keyword">if</span> (data) &#123;</div><div class="line">            <span class="comment">// 拖入的是文本</span></div><div class="line">            target.innerHTML = data;</div><div class="line">          &#125; <span class="keyword">else</span> &#123;</div><div class="line">            <span class="keyword">var</span> img = <span class="built_in">document</span>.createElement(<span class="string">'img'</span>);</div><div class="line">            img.src = e.dataTransfer.getData(<span class="string">'text/uri-list'</span>);</div><div class="line">            target.appendChild(img);</div><div class="line">          &#125;</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="keyword">this</span>.classList.remove(<span class="string">'actived'</span>);</div><div class="line"></div><div class="line">        e.preventDefault();</div><div class="line">        e.stopPropagation();</div><div class="line">      &#125;);</div><div class="line"></div><div class="line">    &#125;)();</div><div class="line">  <span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure>
+<h2 id="Moderizer-一个JavaScript针对H5特性兼容的探针"><a href="#Moderizer-一个JavaScript针对H5特性兼容的探针" class="headerlink" title="Moderizer(一个JavaScript针对H5特性兼容的探针)"></a>Moderizer(一个JavaScript针对H5特性兼容的探针)</h2><p>为了尽可能让IE更好地支持HTML5，你可以使用以下两种方式</p>
+<p>Client side:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"chrome=1"</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>Server side:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">X-UA-Compatible: chrome=1</div></pre></td></tr></table></figure>
+<h2 id="HTML5-的能力已经覆盖"><a href="#HTML5-的能力已经覆盖" class="headerlink" title="HTML5 的能力已经覆盖"></a>HTML5 的能力已经覆盖</h2><ul>
+<li>Offline / Storage</li>
+<li>Realtime / Communication</li>
+<li>File / Hardware Access</li>
+<li>Semantics &amp; Markup</li>
+<li>Graphics / Multimedia</li>
+<li>CSS3</li>
+<li>Nuts &amp; Bolts</li>
+</ul>
+
+            <blockquote>
+                <p>
+                本文地址：
+                <a href="http://zhaotian.info/2016/09/28/HTML/HTML/HTML5/" target="_blank" rel="external">http://zhaotian.info/2016/09/28/HTML/HTML/HTML5/</a>
+                </p>
+                <footer><cite><a href="http://zhaotian.info">@Kastrcn's blog</a></cite></footer>
+            </blockquote>
+            </div>
+            
+<nav class="post-nav">
+  
+
+  
+    <div class="waves-block waves-effect next fr">
+      <a href="/2016/09/27/HTML/HTML常见单词/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">HTML常见单词</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+            
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="HTML/HTML/HTML5" data-title="HTML5" data-url="http://zhaotian.info/2016/09/28/HTML/HTML/HTML5/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"zhaotian"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+        </div>
+    </div>
+</article>
+    </div>
+  </main>
+<div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+<script>
+var BLOG_SHARE = {
+    title: "HTML5",
+    pic: "/img/logo.jpg",
+    summary: document.getElementsByName('summary')[0].content,
+    url: "http://zhaotian.info/2016/09/28/HTML/HTML/HTML5/index.html"
+};
+</script>
+<div class="global-share" id="global-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+<script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<script type="text/template" id="search-tpl">
+<li class="item">
+    <a href="/{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</script>
+
+<script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
